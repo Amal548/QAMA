@@ -1,6 +1,0 @@
-{
-    "cartridges_text":{
-        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSplitGroup[@AXIdentifier='_NS:11']/AXStaticText[@AXIdentifier='_NS:159']"}
-    }
-    
-}

@@ -1,7 +1,0 @@
-{
-  "redirect_me_link": {
-    "locator": {
-      "css selector": "#redirectme"
-    }
-  }
-}

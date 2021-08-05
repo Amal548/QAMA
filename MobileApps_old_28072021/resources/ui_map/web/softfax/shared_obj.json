@@ -1,5 +1,0 @@
-{
-  "_shared_back_btn": {
-    "locator": {"css selector": "a#backButton"}
-  }
-}

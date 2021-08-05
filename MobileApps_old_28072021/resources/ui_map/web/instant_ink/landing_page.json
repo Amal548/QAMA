@@ -1,6 +1,0 @@
-{
-
-    "sign_up_btn": {
-        "locator": {"css selector" : "a[data-testid='header-sign-up-button']"}
-    }
-}

@@ -1,5 +1,0 @@
-{
-    "connected_printing_services_continue_btn":{
-        "locator": {"id": ["consent-button", "consent-accept-all-button"]}
-    }
-}
