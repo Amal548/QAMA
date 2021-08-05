@@ -1,0 +1,166 @@
+{
+  "fax_settings_title": {
+    "locator": {"xpath":  "//h1[@id = 'pageTitle' and contains(text(), 'Mobile Fax Settings')]"}
+  },
+  "sending_item": {
+    "locator": {"css selector": "h2#sendingAccountTitle"}
+  },
+  "about_mobile_fax":{
+    "locator":{"css selector": "h2#aboutFaxAccountTitle"}
+  },
+  "cover_pages_opt": {
+    "locator": {"css selector": "li#coverTemplateButton"}
+  },
+  "sender_profiles_opt": {
+    "locator": {"css selector": "li#senderProfilesLink"}
+  },
+  "contacts_opt": {
+    "locator": {"css selector": "li#contactsLink"}
+  },
+  "terms_of_services_opt": {
+    "locator": {"css selector": "a#termsButton"}
+  },
+  "business_agreement_opt": {
+    "locator": {"css selector": "a#baaButton"}
+  },
+  "cover_pages_title":{
+    "locator":{"xpath": "//h1[@id = 'pageTitle' and contains(text(), 'Cover Pages')]"}
+  },
+  "empty_cover_page_message": {
+    "locator": {"css selector": "p#emptyCoverPageMessage"}
+  },
+  "cover_page_header": {
+    "locator": {"css selector": "div#coverTemplate"}
+  },
+  "cover_page_cell": {
+    "locator": {"css selector": "span.item__content__data__text"}
+  },
+  "cover_pages_name": {
+    "locator": {"xpath": "//span[@class = 'item__content__data__text']//span[contains(text(), '{}')]"}
+  },
+  "create_cover_page_btn": {
+    "locator": {"css selector": "button#createCoverPageTemplate"}
+  },
+  "add_cover_page_title":{
+    "locator":{"xpath": "//h1[@id = 'pageTitle' and contains(text(), 'Add Cover Page')]"}
+  },
+  "cover_page_page_name_tf":{
+    "locator":{"css selector": "input#coverPageTemplateNameInput"}
+  },
+  "subject_tf":{
+    "locator":{"css selector": "input#coverPageSubjectInput"}
+  },
+  "save_btn":{
+    "locator":{"css selector": "button#saveButton"}
+  },
+  "edit_cover_page_title":{
+    "locator":{"xpath": "//h1[@id = 'pageTitle' and contains(text(), 'Edit Cover Page')]"}
+  },
+  "cover_page_select_btn":{
+    "locator":{"css selector": "a#coverTemplateSelect"}
+  },
+  "cover_page_cancel_btn":{
+    "locator":{"css selector": "a#coverTemplateCancel"}
+  },
+  "cover_pages_delete_btn":{
+    "locator":{"css selector": "a#deleteButton"}
+  },
+  "are_you_sure_popup_title": {
+    "locator": {"xpath":  "//div[@id = 'titleContainer' and contains(text(), 'Are you sure?')]"}
+  },
+  "are_you_sure_popup_cancel_btn": {
+    "locator": {"css selector":  "button#cancelBtn"}
+  },
+  "are_you_sure_popup_delete_btn": {
+    "locator": {"css selector":  "button#deleteBtn"}
+  },
+  "edit_are_you_sure_popup_cancel_btn": {
+    "_comment": "use for popup after click on Delete button on Edit Contact screen",
+    "locator": {"css selector":  "button#cancelDeleteDialogButton"}
+  },
+  "edit_are_you_sure_popup_delete_btn": {
+    "_comment": "use for popup after click on Delete button on Edit Contact screen",
+    "locator": {"css selector":  "button#confirmDeleteDialogButton"}
+  },
+  "edit_cover_page_delete_btn": {
+    "locator": {"css selector":  "a#deleteTemplateBtn"}
+  },
+  "sender_profiles_title":{
+    "locator":{"xpath": "//h1[@id = 'pageTitle' and contains(text(), 'Sender Profiles')]"}
+  },
+  "create_new_sender_profiles_btn":{
+    "locator":{"css selector": "button#newSenderProfileButton"}
+  },
+  "empty_sender_profiles_message": {
+    "locator": {"css selector": "p#emptySenderProfileMessage"}
+  },
+  "new_sender_profile_title":{
+    "locator":{"xpath": "//h1[@id = 'pageTitle' and contains(text(), 'Add Sender Profile')]"}
+  },
+  "profile_title_tf":{
+    "locator":{"css selector": "input#profileNameInput"}
+  },
+  "name_tf":{
+    "locator":{"css selector": "input#nameInput"}
+  },
+  "phone_number_tf":{
+    "locator":{"css selector": "input#replyPhoneNumberInput"}
+  },
+  "edit_sender_profiles_title":{
+    "locator":{"xpath": "//h1[@id = 'pageTitle' and contains(text(), 'Edit Sender Profile')]"}
+  },
+  "profile_save_btn":{
+    "locator":{"css selector": "button#saveTemplateBtn"}
+  },
+  "sender_profile_name": {
+    "locator": {"xpath": "//span[@class = 'item__content__data__text']//span[contains(text(), '{}')]"}
+  },
+  "sender_profile_select_btn":{
+    "locator":{"css selector": "a#senderInfoTemplateSelect"}
+  },
+  "sender_profile_cancel_btn":{
+    "locator":{"css selector": "a#senderInfoTemplateCancel"}
+  },
+  "sender_profile_delete_btn":{
+    "locator":{"css selector": "a#deleteButton"}
+  },
+  "edit_sender_profile_delete_btn": {
+    "locator": {"css selector":  "a#deleteProfileBtn"}
+  },
+  "3_dots_menu_btn": {
+    "locator": {"css selector": "button#menuButton"}
+  },
+  "menu_compose_new_fax": {
+    "locator": {"css selector": "a#composeNewMenu"}
+  },
+  "menu_home": {
+    "locator": {"css selector": "a#goHomeMenu"}
+  },
+  "menu_fax_history": {
+    "locator": {"css selector": "a#goHistoryMenu"}
+  },
+  "empty_contact_message": {
+    "locator": {"css selector": "p#savedContactsEmpty"}
+  },
+  "contacts_title":{
+    "locator":{"xpath": "//h1[@id = 'pageTitle' and contains(text(), 'Contacts')]"}
+  },
+  "create_a_contact_btn":{
+    "locator":{"css selector": "button#createContact"}
+  },
+  "add_contact_title": {
+    "locator": {"xpath": "//h1[@id = 'pageTitle' and contains(text(), 'Add Contact')]" }
+  },
+  "edit_contact_title": {
+    "locator": {"xpath": "//h1[@id = 'pageTitle' and contains(text(), 'Edit Contact')]" }
+  },
+  "contact_delete_btn":{
+    "locator":{"css selector": "a#deleteButton"}
+  },
+  "contact_select_btn":{
+    "locator":{"css selector": "a#contactTemplateSelect"}
+  },
+  "contact_cancel_btn":{
+    "locator":{"css selector": "a#contactTemplateCancel"}
+  }
+}

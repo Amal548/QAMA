@@ -1,0 +1,63 @@
+{
+
+    "streetname_txt" :
+    {
+        "locator": { "css selector": "input[data-testid='street1']" }
+                    
+    },
+
+    "cityname_txt" :
+    {
+        "locator": { "css selector": "input[data-testid='city']" }
+                    
+    },
+
+    "statename_dropdown" :
+    {
+        "locator": { "css selector": "select[data-testid='state']" }
+                    
+    },
+
+    "zipcode_txt" :
+    {
+        "locator": { "css selector": "input[data-testid='zip-code']" }
+                    
+    },
+    
+    "phonenumber_txt" :
+    {
+        "locator": { "css selector": "input[data-testid='phoneNumberSmall']" }
+                    
+    },
+
+    "save_btn" :
+    {
+        "locator": { "css selector": "button[data-testid='save-shipping-button']" }
+                    
+    },
+
+    "quick_add_address_btn" :
+    {
+        "locator": { "css selector": "button[data-testid='quick-add-button']" }
+                    
+    },
+
+    "add_local_printer_btn" :
+    {
+        "locator": { "css selector": "div.addLocalPrinterButton-module_addLocalPrinter__yxaY9" }
+                    
+    },
+
+    "save_local_printer_btn" :
+    {
+        "locator": { "css selector": "input.gray-button" }
+                    
+    },
+    
+    "continue_printer_setup_btn" :
+    {
+        "locator": { "css selector": "button._1UoHl._JGkgU._1wXhW._1Tbf4" }
+                    
+    }
+
+}

@@ -1,0 +1,77 @@
+{
+  "tour_sign_in_btn": {
+    "locator": {"id": "com.dropbox.android:id/tour_sign_in" }
+  },
+  "credential_tf": {
+    "locator": {"class name":  "android.widget.EditText"}
+  },
+  "sign_in_btn": {
+    "locator": {"id":  "com.dropbox.android:id/login_submit"}
+  },
+  "progress_icon": {
+    "locator": {"id":  "android:id/progress"}
+  },
+  "nav_user_acc": {
+    "locator": {"xpath":  "//android.widget.TextView[@resource-id='com.dropbox.android:id/role' and @text='{}']"}
+  },
+  "menu_btn": {
+    "locator": {"str_id": "content_description_nav_menu",
+                "partial_text":  "{}"}
+  },
+  "nav_drawer_layout": {
+    "locator": {"id":  "com.dropbox.android:id/drawer_tabs"}
+  },
+  "nav_settings_btn": {
+    "locator": {"id":  "com.dropbox.android:id/settings_item"}
+  },
+  "dropbox_settings_title": {
+    "locator": {"str_id":  "settings_title"}
+  },
+  "sign_out_btn": {
+    "locator": {"str_id": "settings_signout_prompt"}
+  },
+  "confirm_popup_sign_out_btn": {
+    "locator": {"id":  "android:id/button1"}
+  },
+  "unlink_some_devices_btn": {
+    "locator": {"text_ci": "{}",
+                "str_id":  "paywall_manage_devices"}
+  },
+  "unlink_devices_cb": {
+    "locator": {"id":  "com.dropbox.android:id/unlink_checkbox"}
+  },
+  "unlink_devices_unlink_btn": {
+    "locator": {"id":  "com.dropbox.android:id/confirmButton"}
+  },
+  "unlink_confirmation_popup_confirm_btn": {
+    "locator": {"id":  "android:id/button1"}
+  },
+  "continue_btn": {
+    "_comment": "after unlink devices",
+    "locator": {"id":  "com.dropbox.android:id/positiveButton"}
+  },
+  "dropbox_title": {
+    "locator": {"str_id":  "app_name"}
+  },
+  "allow_access_btn": {
+    "locator": {"id":  "com.dropbox.android:id/dauth_one_account_allow_button"}
+  },
+  "allow_access_account": {
+    "locator": {"xpath":  "//android.widget.TextView[@resource-id='com.dropbox.android:id/dauth_one_account_email' and @text='{}']"}
+  },
+  "choose_plan_title": {
+    "locator": {"str_id":  "plus_trial_window_title"}
+  },
+  "connect_your_computer_title": {
+    "locator": {"str_id":  "qr_auth_title"}
+  },
+  "connect_your_computer_not_now_btn": {
+    "locator": {"id":  "com.dropbox.android:id/qr_finish_button"}
+  },
+  "backup_photos_screen_skip_btn": {
+    "locator": {"id":  "com.dropbox.android:id/negativeButton"}
+  },
+  "set_up_btn":{
+    "locator": {"id": "com.dropbox.android:id/desktop_link_cta"}
+  }
+}

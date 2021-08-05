@@ -1,0 +1,12 @@
+*.pyc
+__pycache__
+.idea
+.DS_Store
+.project
+.pydevproject
+results/*
+*.log
+*.prefs
+config/system_config.json
+results
+

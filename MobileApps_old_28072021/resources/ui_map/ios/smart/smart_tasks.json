@@ -1,0 +1,7 @@
+{
+    "smart_tasks_title":{
+        "locator":{
+            "str_id":"cSmartTasks"
+        }
+    }
+}

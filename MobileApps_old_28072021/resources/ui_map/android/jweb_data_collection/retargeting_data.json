@@ -1,0 +1,42 @@
+{
+  "get_client_advertising_id_availability_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/retargeting_data_check_client_ads_id_availability_button"
+    }
+  },
+  "request_client_advertising_id_access_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/retargeting_data_get_client_ads_id_button"
+    }
+  },
+  "open_ads_settings_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/retargeting_data_go_to_settings_button"
+    }
+  },
+  "opt_out_ads_personalization_switch": {
+    "locator": {
+      "id": "com.google.android.gms:id/toggle"
+    }
+  },
+  "reset_advertising_id_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='Reset advertising ID']"
+    }
+  },
+  "ok_pop_up_btn": {
+    "locator": {
+      "xpath": "//android.widget.Button[@text='OK']"
+    }
+  },
+  "navigate_up_btn": {
+    "locator": {
+      "xpath": "//android.widget.ImageButton[@content-desc='Navigate up']"
+    }
+  },
+  "client_id_availability_response": {
+    "locator": {
+      "id": "android:id/message"
+    }
+  }
+}

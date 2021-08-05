@@ -1,0 +1,93 @@
+{
+  "sign_in_later_button": {
+    "locator": {"id": "com.microsoft.office.excel:id/docsui_unifiedsigninview_skipsignin"}
+  },
+  
+  "sign_in_screen_after_open_file": {
+    "locator": {"id": "com.microsoft.office.excel:id/docsui_drillindialog_view_negativetitle_button"}
+  },
+
+  "add_to_home_screen_prompt": {
+    "locator": {"id": "com.microsoft.office.excel:id/docsui_pintohome_no_button"}
+  },
+
+  "enter_password_to_sign_in_screen": {
+    "locator": {"id": "com.microsoft.office.excel:id/idcrl_webView"}
+  },
+
+  "whats_new_in_excel_screen" : {
+    "locator": {"id": "android:id/button2"}
+  },
+
+  "maybe_later_button": {
+    "locator": {"id": "com.microsoft.office.excel:id/docsui_ftux_confirmation_start_button"}
+  },
+
+  "open_nav_bar_item": {
+    "locator": {"id": "com.microsoft.office.excel:id/landing_page_nav_bar_item_open"}
+  },
+
+  "this_device_option": {
+    "locator": {"xpath": "//android.widget.FrameLayout[4]"}
+  },
+
+  "storage_option": {
+    "locator": {"xpath": "//android.widget.FrameLayout[3]"}
+  },
+
+  "mobiauto_directory": {
+    "locator": {"text_ci": "mobiauto"}
+  },
+
+  "documents_directory": {
+    "locator": {"text_ci": "documents"}
+  },
+
+  "xls_directory": {
+    "locator": {"text_ci": "xls"}
+  },
+
+  "excel_file": {
+    "locator": {"text_ci": "1page.xls"}
+  },
+
+  "warning_message": {
+    "locator": {"id": "com.microsoft.office.excel:id/dialogMessageTextview"}
+  },
+
+  "yes_button": {
+    "locator": {"id": "android:id/button1"}
+  },
+
+  "3_dot_button": {
+    "locator": {"id": "com.microsoft.office.excel:id/strongAppQatFsMenuButton"}
+  },
+
+  "print_option_in_3_dot_menu": {
+    "locator": {"xpath": "//android.widget.Button[5]"}
+  },
+
+  "print_button_in_print_options": {
+    "locator": {"id": "com.microsoft.office.excel:id/proceedButton"}
+  },
+
+  "allow_button": {
+    "locator": {"id": "com.microsoft.office.excel:id/docsui_drillindialog_view_positive_button"}
+  },
+
+  "prepare_file_message": {
+    "locator": {"id": "com.microsoft.office.excel:id/docsui_print_convertingfileview_message_textview"}
+  },
+
+  "respect_your_privacy_screen": {
+    "locator": {"id": "com.microsoft.office.excel:id/next_button"}
+  },
+
+  "getting_better_together_screen": {
+    "locator": {"id": "com.microsoft.office.excel:id/accept_basic"}
+  },
+
+  "power_your_exp_screen": {
+    "locator": {"id": "com.microsoft.office.excel:id/close_button"}
+  }
+}

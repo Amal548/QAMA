@@ -1,0 +1,27 @@
+{
+    "sign_out_dialog_title":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:90' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:80']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:87' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:77']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[0]"]}
+    },
+    
+    "sign_out_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:90' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:97']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:87' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:94']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='1']"]}
+    },
+
+   "cancel_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:90' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:9']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:87' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:9']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='2']"]}
+    },
+
+   "sign_out_safari_dialog_we_are_logging_out_text":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='Safari']/AXWindow[@AXSubrole='AXStandardWindow']/AXSplitGroup[0]/AXTabGroup[0]/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXGroup[2]/AXStaticText[0]"}
+    },
+
+   "sign_out_safari_dialog_close_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='Safari']/AXWindow[@AXIdentifier='EDF5AAD3-55EE-49AE-903C-4B9A1CB337BF' and @AXSubrole='AXStandardWindow']/AXButton[@AXSubrole='AXCloseButton']"}
+    }
+}

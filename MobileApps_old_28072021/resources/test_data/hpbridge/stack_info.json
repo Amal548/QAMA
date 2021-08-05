@@ -1,0 +1,14 @@
+{
+  "default_stack": "stage",
+  "stacks":[
+    {
+      "stack": "dev",
+      "host": "https://iot-dev.eprintsw.com",
+      "client": "dmdscTZvODYyYzUzemZuajRwOmtlZXRlNjZydGgyZ3Z4NDNidmpwbzc3Z3U5eTA0eDFk"
+    },{
+      "stack": "stage",
+      "host": "https://iot-test.eprintsw.com",
+      "client": "dmdscTZvODYyYzUzemZuajRwOmtlZXRlNjZydGgyZ3Z4NDNidmpwbzc3Z3U5eTA0eDFk"
+    }
+  ]
+}

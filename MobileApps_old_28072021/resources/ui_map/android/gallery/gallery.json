@@ -1,0 +1,29 @@
+{
+  "share_btn": {
+    "locator": {"accessibility id": "Share, Button"}
+  },
+  "more_btn":{
+    "locator": {"accessibility id": "More options"}
+  },
+  "more_options_lv": {
+    "locator": {"xpath": "//android.widget.ListView"}
+  },
+  "print_btn": {
+    "locator": {"text": "Print"}
+  },
+  "share_lv":{
+    "locator": {"id": "com.google.android.apps.photos:id/application_grid"}
+  },
+  "samsung_share_popup_lv": {
+    "locator": {"id": "android:id/tw_resolver_pagemode_page_list"}
+  },
+  "samsung_share_popup_lv_nouget": {
+    "locator": {"id": "android:id/sem_resolver_pagemode_page_list"}
+  },
+  "share_popup_header_samsung":{
+    "locator": {"id": "android:id/tw_remote_share_recent_history_grid"}
+  },
+  "samsung_preview_screen": {
+    "locator": {"id": "com.sec.android.gallery3d:id/gl_root_view"}
+  }
+}

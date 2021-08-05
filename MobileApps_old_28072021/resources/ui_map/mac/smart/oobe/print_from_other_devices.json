@@ -1,0 +1,53 @@
+{
+    "print_from_other_devices_title":{
+    "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:36']"}
+	},
+
+    "print_from_other_devices_image":{
+    "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXImage[@AXIdentifier='_NS:38']"}
+	},
+
+    "print_from_other_devices_contents_1":{
+    "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:36']",
+                          "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:72']"]}
+	},
+
+    "print_from_other_devices_contents_2":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:78']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:63']"]}
+    },
+
+    "skip_sending_this_link_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:13']"}
+    },
+    
+    "send_link_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:47']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:49']"]}
+    },
+    
+    "send_link_menu_item_email":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXTitle='Send Link' and @AXIdentifier='_NS:49']/AXMenu[0]/AXMenuItem[0]"}
+    },
+    
+    "send_link_menu_item_messages":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXTitle='Send Link' and @AXIdentifier='_NS:49']/AXMenu[0]/AXMenuItem[1]"}
+    },
+    
+    "send_link_menu_item_notes":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXTitle='Send Link' and @AXIdentifier='_NS:49']/AXMenu[0]/AXMenuItem[2]"}
+    },
+    
+    "send_link_menu_item_reminders":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXTitle='Send Link' and @AXIdentifier='_NS:49']/AXMenu[0]/AXMenuItem[3]"}
+    },
+    
+    "send_link_menu_item_more":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXTitle='Send Link' and @AXIdentifier='_NS:49']/AXMenu[0]/AXMenuItem[4]"}
+    },
+    
+    "choose_a_mail_account_provider_dialog_quit_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='Mail']/AXWindow[@AXTitle='Inbox (Read Only)' and @AXIdentifier='_NS:15' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:39']"}
+    }
+   
+}

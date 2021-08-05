@@ -1,0 +1,26 @@
+{
+  "page_head":{
+      "description":"the title of supply purchase page",
+      "locator":{
+         "id":"android:id/text1"
+      }
+   },
+    "page_close_icon":{
+      "description":"the close icon of supply purchase page",
+      "locator":{
+         "id":"com.tencent.mm:id/m0"
+      }
+   },
+  "printer_list":{
+      "description":"the css locator for the items on purchase printer supply page",
+      "locator":{
+         "css":"a.weui-cell.weui-cell_access"
+      }
+   },
+  "hp_supply_club_app_head":{
+      "description":"the hp supply points club app title",
+      "locator":{
+         "id":"com.tencent.mm:id/q8"
+      }
+   }
+}

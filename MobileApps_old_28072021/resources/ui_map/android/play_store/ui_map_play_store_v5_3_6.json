@@ -1,0 +1,29 @@
+{
+  "_version": "3.2",
+  "_platform": "android",
+  "home":{
+    "search_box_idle_tf":{
+      "id": "com.android.vending:id/search_box_idle_text"
+    },
+    "search_box_tf":{
+      "id": "com.android.vending:id/search_box_text_input"
+    }
+  },
+  "app":{
+    "install_btn":{
+      "id": "com.android.vending:id/buy_button"
+    },
+    "install_agree_btn":{
+      "id": "com.android.vending:id/continue_button_label"
+    },
+    "uninstall_btn":{
+      "id": "com.android.vending:id/uninstall_button"
+    },
+    "uninstall_yes_btn":{
+      "id": "android:id/button1"
+    },
+    "open_btn":{
+      "id": "com.android.vending:id/launch_button"
+    }
+  }
+}

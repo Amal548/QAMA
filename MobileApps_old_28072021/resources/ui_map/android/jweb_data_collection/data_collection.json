@@ -1,0 +1,117 @@
+{
+  "send_ui_event_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/button_send_ui_event"
+    }
+  },
+  "send_sys_info_event_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/button_send_sys_info"
+    }
+  },
+  "action_name_spinner": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_action_spinner"
+    }
+  },
+  "screen_displayed_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='ScreenDisplayed']"
+    }
+  },
+  "control_btn_clicked_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='ControlButtonClicked']"
+    }
+  },
+  "control_tile_clicked_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='ControlTileClicked']"
+    }
+  },
+  "control_hyper_link_clicked_btn": {
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='ControlHyperLinkClicked']"
+    }
+  },
+  "screen_name_txt_bx": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_screenName_edit"
+    }
+  },
+  "activity_txt_bx": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_activity_edit"
+    }
+  },
+  "screenpath_txt_bx": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_screenPath_edit"
+    }
+  },
+  "screenmode_txt_bx": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_screenMode_edit"
+    }
+  },
+  "control_name_txt_bx": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_controlName_edit"
+    }
+  },
+  "control_detail_txt_bx": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_controlDetail_edit"
+    }
+  },
+  "activity_toggle_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_activity_checkbox"
+    }
+  },
+  "screenpath_toggle_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_screenPath_checkbox"
+    }
+  },
+  "screenmode_toggle_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_screenMode_checkbox"
+    }
+  },
+  "control_name_toggle_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_controlName_checkbox"
+    }
+  },
+  "control_detail_toggle_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/send_ui_event_controlDetail_checkbox"
+    }
+  },
+  "send_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/app_menu_send_item"
+    }
+  },
+  "share_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/share_button"
+    }
+  },
+  "data_collection_services_btn": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/data_collection_service_page"
+    }
+  },
+  "data_collection_send_ui_event_response": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/json_text"
+    }
+  },
+  "data_collection_send_sys_info_event_response": {
+    "locator": {
+      "id": "com.hp.jarvis.datacollectionexample:id/json_text"
+    }
+  }
+}

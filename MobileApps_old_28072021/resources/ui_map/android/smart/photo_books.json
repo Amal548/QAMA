@@ -1,0 +1,11 @@
+{
+    "create_photo_books_title": {
+      "locator": { "str_id": "tile_name_chat_books"}
+    },
+    "get_my_photo_book_btn":{
+      "locator": {"id": "chatBooksTryButton"}
+    },
+    "no_thanks_btn":{
+      "locator": {"id": "chatBooksNoThanksButton"}
+    }
+}

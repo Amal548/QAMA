@@ -1,0 +1,86 @@
+{
+  "first_binding_printer":{
+      "description":"the css locator for the first binding printer",
+      "locator":{
+         "css":"a[name='firstBindingPrinterGuidedTour']>p"
+      }
+   },
+  "page_function_intro":{
+      "description":"the css locator for the page function introduce",
+      "locator":{
+         "css":"a[name='pageFunctionsIntroduction']>p"
+      }
+   },
+  "printer_setting_tab":{
+      "description":"the printer setting tab in wechat print notice",
+      "locator":{
+         "xpath":"//div[contains(text(), '设置打印机')]"
+      }
+   },
+  "print_description_tab":{
+      "description":"the printer description tab in wechat print notice",
+      "locator":{
+         "xpath":"//div[contains(text(), '打印概述')]"
+      }
+   },
+  "faq_tab":{
+      "description":"the FAQ tab in wechat print notice",
+      "locator":{
+         "xpath":"//div[contains(text(), '常见问题')]"
+      }
+   },
+  "first_time_binding_printer_page_title":{
+      "description":"the printer setting tab in wechat print notice",
+      "locator":{
+         "css":"div.title>p"
+      }
+   },
+    "page_head_name":{
+      "description":"the page head of search help page",
+      "locator":{
+         "id":"android:id/text1"
+      }
+   },
+  "contact_support_page_texts":{
+      "description":"the list texts on contact support page",
+      "locator":{
+         "css":"div>span"
+      }
+   },
+  "contact_support_page_head":{
+      "description":"the list texts on contact support page",
+      "locator":{
+         "css":"div[class=title]"
+      }
+   },
+  "printer_selection_box":{
+      "description":"the printer selection menu on suggestion box page",
+      "locator":{
+         "css":"div.ownSelect>select"
+      }
+   },
+  "suggestion_box":{
+      "description":"the suggestion box on suggestion box page",
+      "locator":{
+         "css":"textarea[id=content]"
+      }
+   },
+  "select_printers_web":{
+      "description":"the printer selection in pop out dialog, web view",
+      "locator":{
+         "css":"select>option"
+      }
+   },
+  "select_printers_android":{
+      "description":"the printer selection in pop out dialog, android view",
+      "locator":{
+         "xpath":"//android.widget.LinearLayout/android.widget.ImageView"
+      }
+   },
+  "submit_button":{
+      "description":"the submit button on suggestion box page",
+      "locator":{
+         "id":"submitBtn"
+      }
+   }
+}

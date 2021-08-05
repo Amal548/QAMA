@@ -1,0 +1,212 @@
+{
+	"IcemanLowDn":{
+        "Missing_All_Cartridge_65537":{
+        	"title":"Ink cartridges Missing",
+        	"content":["The indicated cartridges appear to be missing or incorrectly installed. Make sure all of the cartridges are properly installed. Pull out the cartridges, check that the plastic tape covering the nozzles has been removed, and then re-insert the cartridges securely in the slots. If the problem persists, try restarting the printer.","To order genuine HP replacement cartridges online, click Get Supplies.","View HP Privacy Statement Online"],
+        	"link":"View HP Privacy Statement Online",
+        	"button":["Get More Help","Get Supplies"]
+        	},
+        "Paper_Jam_65563":{
+        	"title":"Paper Jam",
+        	"content":["Remove any obstructions in the printer or anything blocking the trays.","Press any button on the printer except Cancel (X) when ready."],
+        	"button":["Get More Help","OK"]
+			},
+		"Tray_Empty_Or_Open_65583":{
+        	"title":"Out of Paper",
+        	"content":["The printer is out of paper.","Load paper in the appropriate paper tray.","Press the OK or Resume button on the printer when ready.","HP recommends ColorLok® papers for best printing results"],
+        	"link":"HP recommends ColorLok® papers for best printing results",
+        	"button":["Get More Help","OK"]
+			},
+		"Front_Door_Open_75025":{
+        	"title":"Front Door Open",
+        	"content":["The door or cover must be closed to print.","Check that it is completely closed.","To cancel the job, press the Cancel (X) button on the printer."]
+			},
+		"jamInPrinter_65703":{
+        	"title":"Paper Jam",
+        	"content":["See printer control panel for instructions about how to clear the jam."],
+        	"button":["Get More Help","OK"]
+			},
+		"wasteMarkerCollectorFullPrompt_65712":{
+        	"title":"Service Ink Capacity Warning",
+        	"content":["The service ink container in the duplex module is full.","Ink smear on printed pages may occur when container is full","Obtain a replacement duplex module from HP to avoid ink smears.","Use care when removing the duplex module to avoid touching the ink in the container area and any that may be on the roller or nearby surfaces"],
+        	"button":["OK"]
+			},
+		"closeDoor_left_65724":{
+        	"title":"Service Ink Capacity Warning",
+        	"content":["Please close the door.","See printer control panel for instructions."],
+        	"button":["OK"]
+			},
+		"closeDoor_cover_65725":{
+        	"title":"Front Door Open",
+        	"content":["The door or cover must be closed to print. Check that it is completely closed.","If the problem persists after all doors and covers are properly closed, contact support."]
+			},
+		"PrintBarStall_65726":{
+        	"title":"Printhead Jam",
+        	"content":["There is a jam blocking the printhead.","See printer control panel for instructions."],
+        	"button":["OK"]
+        	},
+        "UnexpectedTypeInTray_65746":{
+        	"title":"Paper type mismatch",
+        	"content":["If the paper loaded in the printer is the correct type, change the selected paper type in your software and re-send the print job. If you want to change the paper, do so, then re-send the print job. The print job has been canceled."],
+        	"button":["OK"]
+        	},
+        "closeDoor_lowerleft_65760":{
+        	"title":"Paper type mismatch",
+        	"content":["If the paper loaded in the printer is the correct type, change the selected paper type in your software and re-send the print job. If you want to change the paper, do so, then re-send the print job. The print job has been canceled."],
+        	"button":["OK"]
+        	},
+        "insertOrCloseTray_65901":{
+        	"title":"Accessory Tray 4 Missing or Open",
+        	"content":["Please install and close the tray. See printer control panel for instructions."],
+        	"button":["OK"]
+        	},
+        "closeDoorOrCover_65902":{
+        	"title":"Tray 4 Door Open",
+        	"content":["Close Tray 4 left access door."]
+        	}
+		},
+	
+	"Limo":{
+		"MissingDuplexer_65713":{
+			"title":"Duplex Module Missing",
+			"content":["Please install the duplex module.","See printer control panel for instructions."],
+			"button":["OK"]
+			},
+		"jamInPrinter_65585":{
+        	"title":"Paper Jam or Tray Problem",
+        	"content":["Remove any obstructions in the printer or anything blocking the trays.","Press the OK or Resume button on the printer when ready."],
+        	"button":["Get More Help","OK"]
+			}
+		},
+
+	"ManhattanHI":{
+		"SharedSelectAddressError_65538":{
+        	"title":"Cartridge Problem",
+        	"content":["At least one of the cartridges has a problem. Click Help for more information.","Make sure all of the cartridges are properly installed. Make sure the plastic tape covering the nozzles has been removed and the cartridges are securely seated in the slots. If the problem persists, try restarting the printer.","To order a genuine HP replacement cartridge online, click Get Supplies.","View HP Privacy Statement Online"],
+        	"link":"View HP Privacy Statement Online",
+        	"button":["Get More Help","Get Supplies"]
+        	},
+        "JamIn_Printer_65584":{
+        	"title":"Paper Jam",
+        	"content":["Remove any obstructions in the printer or anything blocking the trays.","Press the OK button below or the Power button once when ready."],
+        	"button":["Get More Help","OK"]
+			},
+		"Supply_Forward_Incompatible_65689":{
+        	"title":"Older generation cartridge installed",
+        	"content":["The cartridge listed above is an older generation cartridge that does not work in your printer. It can still be used with some older printer models.","If you do not own an older printer model and your cartridge is a genuine HP cartridge, contact support for more information.","For problems with cartridges obtained from HP Instant Ink, please contact HP Instant Ink Support."],
+        	"button":["Get More Help"]
+			}
+		},
+	
+	"Mykonos":{
+		"CartridgeIn_WrongSlot_65544":{
+			"title":"Cartridge Incorrectly Installed",
+        	"content":["The indicated cartridges are in the wrong slots or are not fully seated. Remove and reinsert the cartridges, making sure they are securely seated in the correct slots."],
+        	"button":["Get More Help"]
+        	},
+        "closeDoor_cover_65568":{
+			"title":"Door Open",
+        	"content":["The door or cover must be closed to print. Check that it is completely closed.","If the problem persists after all doors and covers are properly closed, contact support."]
+        	},
+        "MediaTooShortToPrint_65570":{
+        	"title":"Paper Too Short",
+        	"content":["Please remove the paper from the printer, and load longer paper, or make sure that your paper is oriented correctly in the input tray and re-send your print job.","To cancel the job, press the Cancel (X) button on the printer."],
+        	"button":["Get More Help","OK"]
+			},
+		"calibrating_65571":{
+			"title":"Alignment is not finished",
+        	"content":["The alignment procedure requires you to scan the page that is automatically printed, and cannot be interrupted.","To continue the alignment procedure, click the Cancel (X) button on the printer to cancel the current task, and then place the printed page on the glass and press the Black Copy button to complete the alignment."]
+        	}, 
+        "JamIn_Carriage_65578":{
+        	"title":"Cartridge Carriage Stalled",
+        	"content":["The cartridge carriage cannot move. Check for a paper jam or other obstruction. Move carriage to the right.","Press the OK button below or the Power button once when ready."],
+        	"button":["Get More Help","OK"]
+			},
+		"JamIn_Carriage_65579":{
+        	"title":"Cartridge Carriage Stalled",
+        	"content":["The cartridge carriage cannot move. Check for a paper jam or other obstruction.","Press the OK or Resume button on the printer when ready."],
+        	"button":["Get More Help","OK"]
+			},
+		"calibrating_65586":{
+        	"title":"Alignment is not finished",
+        	"content":["The alignment procedure cannot be interrupted.","Please wait until the printer is finished to perform any other task."]
+			},
+		"PaperSizeMismatch_SingleTray_65701":{
+        	"title":"Paper Size Mismatch",
+        	"content":["The paper size detected by the printer sensor does not match the paper size selected in software.","If the paper loaded in the printer is the correct size, change the selected paper size in your software and re-send the print job.","If the paper loaded in the printer is not the correct size, change paper then click OK to continue. ","If you want to continue printing on this paper, click OK to continue."],
+        	"button":["Get More Help","OK"]
+			},
+		"instantink_subscribedpagesout_class_i_ui_65741":{
+        	"title":"HP Instant Ink: Update payment method",
+        	"content":["There is a problem with your payment method. Please visit ","HP Instant Ink"," for information.You will be unable to print with HP Instant Ink cartridges until the problem is resolved."],
+        	"link":"HP Instant Ink",
+        	"button":["Get More Help","OK"]
+			},
+		"instantink_subscribedpagesout_problemwithaccount_65742":{
+        	"title":"Please Connect Printer to the Internet",
+        	"content":["Your printer lost Internet connection and cannot print with HP Instant Ink cartridges.","Reconnect your printer to continue printing.","Press the Info button on your printer front panel to print a page with information about re-connecting.","The instruction page does not count towards your HP Instant Ink page count.","Please visit ","HP Instant Ink"," for information."],
+        	"link":"HP Instant Ink",
+        	"button":["Get More Help","OK"]
+			},
+		"InstantInk_subscription_ImportantMessageAvailable_Error_65743":{
+        	"title":"Important Message at HP Instant Ink",
+        	"content":["Cannot print. There is an important message about your HP Instant Ink account for you at ","HP Instant Ink"],
+        	"link":"HP Instant Ink",
+        	"button":["Get More Help","OK"]
+			},
+		"InstantInk_subscription_CancellationSuccessful_65768":{
+        	"title":"HP Instant Ink Enrollment Cancelled",
+        	"content":["Your printer is no longer enrolled in HP Instant Ink. It will no longer be able to use HP Instant Ink cartridges.","If you believe your printer should still be enrolled, please contact HP Instant Ink Support."],
+        	"button":["Get More Help","OK"]
+			},
+		"InstantInk_subscribedPagesOut_Class_II_III_UI_65779":{
+        	"title":"Please Connect Printer to the Internet",
+        	"content":["Your printer needs to be connected to HP Connected to update its HP Instant Ink status.","You will be unable to print until the printer has connected.","See printer control panel for instructions.","Please click Help for printer network troubleshooting information."],
+        	"button":["Get More Help","OK"]
+			},
+		"subscriptionCancellationSuccessful_65850":{
+        	"title":"HP Instant Ink",
+        	"content":["Your printer is no longer enrolled in HP Instant Ink. It can continue to use HP Instant Ink Ready cartridges, but not HP Instant Ink program cartridges."],
+        	"button":["Get More Help","OK"]
+			}
+		},
+
+	"WeberHiPDL":{
+		"Failed_Printhead_65536":{
+			"title":"Missing or Failed Printhead",
+        	"content":["The printhead appears to be missing, not detected, incorrectly installed, or incompatible."],
+        	"button":["Get More Help"]
+        	},
+        "Failed_PrintHead_65719":{
+			"title":"Problem with printhead",
+        	"content":["There is a problem with the printhead."],
+        	"button":["Get More Help"]
+        	},
+        "InstantInk_XMOS2_PrintJobBlocked_65849":{
+			"title":"Finish Printer Setup",
+        	"content":["To print, you need to finish setting up the printer on the printer front panel. Follow instructions on the printer front panel. The print job is canceled."],
+        	"button":["OK"]
+        	},
+         "trayEmptyOrOpen_65888":{
+			"title":"Load Paper in Printer",
+        	"content":["The printer is out of paper.","Load paper in the appropriate paper tray and confirm guides are in the correct position.","HP recommends ColorLok® papers for best printing results"],
+        	"link":"HP recommends ColorLok® papers for best printing results"
+        	}
+        },
+
+    "Vasari":{
+        "calibration_required_65569":{
+    		"title":"Alignment Recommended",
+    		"content":["For best print quality, align your new cartridges or printheads."],
+    		"button":["Get More Help","Align"]
+        	}
+		},
+
+    "Corfu":{
+        "Insert_Or_Close_Tray_65709":{
+            "title":"Main Tray 2 Missing or Open",
+            "content":["Please install and close the tray. See printer control panel for instructions."],
+            "button":["OK"]
+            }
+        }
+}

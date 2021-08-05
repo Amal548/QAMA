@@ -1,0 +1,97 @@
+{
+  "send_ui_event_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Send UI Event']"
+    }
+  },
+  "send_sys_info_event_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Send Sys Info Event']"
+    }
+  },
+  "action_name_txt_bx": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='action']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "screen_name_txt_bx": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='screenName']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "activity_txt_bx": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='activity']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "screenpath_txt_bx": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='screenPath']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "screenmode_txt_bx": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='screenMode']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "control_name_txt_bx": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='controlName']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "control_detail_txt_bx": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='controlDetail']/following-sibling::XCUIElementTypeTextField"
+    }
+  },
+  "activity_toggle_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[@name='activity']"
+    }
+  },
+  "screenpath_toggle_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[@name='screenPath']"
+    }
+  },
+  "screenmode_toggle_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[@name='screenMode']"
+    }
+  },
+  "control_name_toggle_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[@name='controlName']"
+    }
+  },
+  "control_detail_toggle_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[@name='controlDetail']"
+    }
+  },
+  "send_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='send']"
+    }
+  },
+  "share_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Share']"
+    }
+  },
+  "data_collection_services_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Data Collection Service']"
+    }
+  },
+  "data_collection_send_ui_event_response": {
+    "locator": {
+      "xpath": "//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextView"
+    }
+  },
+  "data_collection_send_sys_info_event_response": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextView"
+    }
+  }
+}

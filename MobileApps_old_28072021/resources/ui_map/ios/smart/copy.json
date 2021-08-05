@@ -1,0 +1,210 @@
+{
+    "enable_access_to_camera_link_txt":{
+      "locator":{
+        "name":"Enable Access to Camera"
+      },
+      "ga":[{
+          "ga_data":{
+            "screen":"/copy/camera-not-allowed",
+            "count":1},
+          "trigger":"wait_v",
+          "type":"screen"
+        }]
+    },
+    "x_btn_on_copy":{
+      "locator":{
+        "name":"Close"
+      }
+    },
+    "toggle_on_camera_access_system_ui":{
+      "locator":{
+        "xpath":"//XCUIElementTypeSwitch[@name='Camera']"
+      }
+    },
+    "capture_button":{
+      "locator":{
+        "xpath":"//XCUIElementTypeApplication[@name='HP Smart AH']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[4]/XCUIElementTypeButton[1]"
+      },
+      "ga":[{
+          "ga_data":{
+            "screen":"/copy?type=manual",
+            "count":1},
+          "trigger":"wait_v",
+          "type":"screen"
+        },
+        {
+          "ga_data":{
+            "category":"Copy",
+            "action":"Manual",
+            "label":"(not set)",
+            "count":1},
+          "trigger":"click",
+          "type":"event"
+        },
+        {
+          "ga_data":{
+            "category":"Copy",
+            "action":"Input-size",
+            "label":"{digital_copy_paper_size_type}",
+            "count":1},
+          "trigger":"click",
+          "type":"event"
+        }]
+    },
+    "object_size_btn":{
+      "locator":{
+        "name":"Object Size"
+      }
+    },
+    "flash_button":{
+      "locator":{
+        "name":"Flash"
+      },
+      "ga":[{
+          "ga_data":{
+            "category":"Copy",
+            "action":"Flash-mode",
+            "label":"{digital_copy_flash_mode}",
+            "count":1},
+          "trigger":"click",
+          "type":"event"
+        }]
+    },
+    "start_black_button":{
+      "locator":{
+        "name":"Start Black"
+      },
+      "ga":[{
+          "ga_data":{
+            "category":"Copy",
+            "action":"Resize",
+            "label":"{digital_copy_resize}",
+            "count":1},
+          "trigger":"click",
+          "type":"event"
+        },
+        {
+          "ga_data":{
+            "category":"Copy",
+            "action":"Volume",
+            "label":"{digital_copy_number_of_copies}",
+            "count":1},
+          "trigger":"click",
+          "type":"event"
+        },
+        {
+          "ga_data":{
+            "category":"Copy",
+            "action":"Mechanism",
+            "label":"Black",
+            "count":1},
+          "trigger":"click",
+          "type":"event"
+        }]
+    },
+    "start_color_button": {
+      "locator": {
+        "name": "Start Color"
+      },
+      "ga": [
+        {
+          "ga_data": {
+            "category": "Copy",
+            "action": "Resize",
+            "label": "{digital_copy_resize}",
+            "count": 1
+          },
+          "trigger": "click",
+          "type": "event"
+        },
+        {
+          "ga_data": {
+            "category": "Copy",
+            "action": "Volume",
+            "label": "{digital_copy_number_of_copies}",
+            "count": 1
+          },
+          "trigger": "click",
+          "type": "event"
+        },
+        {
+          "ga_data": {
+            "category": "Copy",
+            "action": "Mechanism",
+            "label": "Color",
+            "count": 1
+          },
+          "trigger": "click",
+          "type": "event"
+        }
+      ]
+    },
+      "Digital_copy_preview_title": {
+        "locator": {
+          "name": "Preview"
+        },
+        "ga": [
+          {
+            "ga_data": {
+              "screen": "/preview?mainaction=copy",
+              "count": 1
+            },
+            "trigger": "wait_v",
+            "type": "screen"
+          }
+        ]
+      },
+      "add_pages_button": {
+        "locator": {
+          "name": "Add Page"
+        },
+        "ga": [
+          {
+            "ga_data": {
+              "category": "Preview",
+              "action": "Add-new-page",
+              "label": "Copy",
+              "count": 1
+            },
+            "trigger": "click",
+            "type": "event"
+          }
+        ]
+      },
+      "copies_tray_button": {
+        "locator": {
+          "name": "Copies"
+        }
+      },
+      "resize_tray_button": {
+        "locator": {
+          "name": "Resize"
+        }
+      },
+      "copies_table": {
+        "locator": {
+          "xpath": "//XCUIElementTypeStaticText[@value='{}']"
+        }
+      },
+      "settings_button": {
+        "locator": {
+          "name": "Back"
+        }
+      },
+      "auto_btn": {
+        "locator": {
+          "name": "Auto"
+        }
+        },
+        "Manual_btn": {
+          "locator": {
+            "name": "Manual"
+          }
+
+      },
+      "copy_preview_exit_popup":{
+        "locator":{
+          "name": "Your captured images will be lost if you leave this screen now."
+        }
+      }
+}

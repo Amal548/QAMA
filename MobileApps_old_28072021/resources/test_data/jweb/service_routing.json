@@ -1,0 +1,16 @@
+{
+  "urls": [
+    "https://bruce-williams.github.io",
+    "https://*.badssl.com",
+    "https://*.*.badssl.com",
+    "https://*.appspot.com",
+    "https://www.hpsmartdev.com",
+    "https://www.hpsmartpie.com",
+    "http://localhost",
+    "http://localhost:3000",
+    "http://localhost:8000",
+    "http://localhost:8080",
+    "http://localhost:9000",
+    "https://chrisgeohringhp.github.io"
+  ]
+}

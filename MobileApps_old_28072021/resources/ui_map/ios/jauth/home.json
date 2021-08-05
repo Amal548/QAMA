@@ -1,0 +1,50 @@
+{
+   "settings_btn": {
+     "locator": {
+       "xpath": "//XCUIElementTypeButton[@name='Settings']"
+     }
+   },
+
+  "add_btn": {
+     "locator": {
+       "xpath": "//XCUIElementTypeButton[@name='Add']"
+     }
+   },
+
+  "sign_in_result":{
+        "locator":{
+            "xpath":["//XCUIElementTypeOther[@name='operationResultTextView']",
+                     "//XCUIElementTypeTextView[@name='operationResultTextView']"]
+        }
+  },
+
+  "accounts_button":{
+        "locator":{
+            "xpath":"//XCUIElementTypeButton[@name='Accounts']"
+        }
+  },
+
+  "continue_button":{
+        "locator":{
+            "xpath":"//XCUIElementTypeButton[@name='Continue']"
+        }
+  },
+
+  "cancel_button":{
+        "locator":{
+            "xpath":"//XCUIElementTypeButton[@name='Cancel']"
+        }
+  },
+
+  "account_more_info_button": {
+     "locator": {
+       "xpath": "//XCUIElementTypeStaticText[@name='{}']"
+     }
+  },
+
+  "empty_account_list": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTable[@name='Empty list']"
+    }
+  }
+}

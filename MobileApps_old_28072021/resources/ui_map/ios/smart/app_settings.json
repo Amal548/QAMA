@@ -1,0 +1,936 @@
+{
+    "app_settings_title":{
+        "locator":{
+            "name":["App Settings", "Settings"]
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "screen":"/app-settings",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }
+        ]
+    },
+    "app_settings_tv":{
+        "locator":{
+            "name":"Settings"
+        }
+    },
+    "my_account_text":{
+        "locator":{
+            "name":"MY ACCOUNT"
+        }
+    },
+    "notifications_settings_btn":{
+        "locator":{
+            "name":"Notifications Settings"
+        }
+    },
+    "privacy_settings_btn":{
+        "locator":{
+            "name":"Privacy Settings"
+        }
+    },
+    "contact_us_on_fb_popup_title":{
+        "locator":{
+            "name":"Contact Us on Facebook Messenger"
+        }
+    },
+    "contact_us_on_facebook_btn":{
+        "locator":{
+            "name":"Get Help On Support Page",
+            "xpath":"//XCUIElementTypeButton[@name='Contact Us on Facebook Messenger' and @visible='true']"
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "category":"Feedback",
+                    "action":"Facebook-contact-clicked",
+                    "label":"(not set)",
+                    "count":1
+                },
+                "trigger":"click",
+                "type":"event"
+            }
+        ]
+    },
+    "tweet_us_for_support_link_txt":{
+        "locator":{
+            "str_id":"cTweetUsforSupport"
+        }
+    },
+    "tweet_us_for_support_popup_title":{
+        "locator":{
+            "name":"Tweet Us for Support"
+        }
+    },
+    "tweet_us_for_support_cancel_btn":{
+        "locator":{
+            "str_id":"cCancel"
+        }
+    },
+    "tweet_us_for_support_tweet_btn":{
+        "locator":{
+            "name":"Tweet"
+        }
+    },
+    "send_feedback":{
+        "locator":{
+            "name":"Send Feedback"
+        }
+    },
+    "about":{
+        "locator":{
+            "str_id":"cAbout"
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "screen":"/app-settings/about",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }
+        ]
+    },
+    "continue_btn":{
+        "locator":{
+            "str_id":"cContinue"
+        }
+    },
+    "cancel_btn":{
+        "locator":{
+            "name":"Cancel"
+        }
+    },
+    "chat_virtual_agent_btn":{
+        "locator":{
+            "name":"Chat with HP Virtual Agent"
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "category":"App-settings",
+                    "action":"Virtual-agent",
+                    "label":"(not set)",
+                    "count":1
+                },
+                "trigger":"click",
+                "type":"event"
+            }
+        ]
+    },
+    "share_logs_btn":{
+        "locator":{
+            "name":"Share logs archive"
+        }
+    },
+    "import_with_drive_btn":{
+        "locator":{
+            "name":"Import with Drive"
+        }
+    },
+    "save_btn":{
+        "locator":{
+            "name":"Save"
+        }
+    },
+    "contact_HP_on_facebook_messenger_from_app_settings":{
+        "locator":{
+            "name":"Contact Us on Facebook Messenger",
+            "str_id":"cContactUSOnFacebookMessenger"
+        }
+    },
+    "send_btn":{
+        "locator":{
+            "name":["Send", "Mail.sendButton"]
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "screen":"/app-settings/send-feedback/sent",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }
+        ]
+    },
+    "thank_you_popup_msg":{
+        "locator":{
+            "str_id":"cFeedbackTitle"
+        }
+    },
+    "notifications_settings_title":{
+        "locator":{
+            "str_id":"cNotificationsCellTitle"
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "screen":"/app-settings/notification-settings",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }
+        ]
+    },
+    "alert_banners_toggle":{
+        "locator":{
+            "name":"AlertBannerSwitcher"
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "key":"Alert_banners_ON_OFF",
+                    "state1":"ON",
+                    "state2":"OFF",
+                    "default":"state1"
+                },
+                "type":"toggle_key",
+                "trigger":"click"
+            }
+        ]
+    },
+    "notifications_back_btn_with_ga":{
+        "locator":{
+            "name":"Navigate Back"
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "category":"Notification-settings",
+                    "action":"Alert-banners",
+                    "label":"{Alert_banners_ON_OFF}",
+                    "count":1
+                },
+                "default_keys":{
+                    "Alert_banners_ON_OFF":"ON"
+                },
+                "trigger":"click",
+                "type":"toggle_key"
+            }
+        ]
+    },
+    "privacy_settings_title":{
+        "locator":{
+            "name":"Privacy Settings"
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "screen":"/app-settings/privacy-settings",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }
+        ]
+    },
+    "app_improvement_switcher":{
+        "locator":{
+            "name":"AppImprovementSwitcher"
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "key":"App_improvement_program_ON_OFF",
+                    "state1":"ON",
+                    "state2":"OFF",
+                    "default":"state1"
+                },
+                "type":"toggle_key",
+                "trigger":"click"
+            }
+        ]
+    },
+    "smart_message_switcher":{
+          "locator":{
+              "name":"AppMessagingSwitcher"
+          },
+          "ga":[
+              {
+                  "ga_data":{
+                      "key":"HP_Smart_Messaging_ON_OFF",
+                      "state1":"ON",
+                      "state2":"OFF",
+                      "default":"state1"
+                  },
+                  "type":"toggle_key",
+                  "trigger":"click"
+              }
+          ]
+      },
+    "supplies_shopping_switcher":{
+        "locator":{
+            "name":"SuppliesShoppingSwitcher"
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "key":"HP_supplies_shopping_ON_OFF",
+                    "state1":"ON",
+                    "state2":"OFF",
+                    "default":"state1"
+                },
+                "type":"toggle_key",
+                "trigger":"click"
+            }
+        ]
+    },
+    "sign_in_button":{
+        "locator":{
+            "name":"Sign In"
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "category":"App-settings",
+                    "action":"Sign-in",
+                    "label":"(not-set)",
+                    "count":1
+                },
+                "trigger":"click",
+                "type":"event"
+            }
+        ]
+    },
+    "browser_back_to_hp_smart_btn":{
+        "locator":{
+            "name":"Return to HP Smart AH"
+        }
+    },
+    "sign_in_hpc_title":{
+        "locator":{
+            "name":"Sign in with your HP account"
+        }
+    },
+    "sign_out_btn":{
+        "locator":{
+            "name":"Sign Out"
+        }
+    },
+    "pop_up_sign_out_btn":{
+        "locator":{
+            "xpath":"//XCUIElementTypeAlert//XCUIElementTypeButton[@name='Sign Out']"
+        }
+    },
+    "already_have_account_text":{
+        "locator":{
+            "name":"Already have an HP account?"
+        }
+    },
+    "email_tf1":{
+        "locator":{
+            "xpath":"//XCUIElementTypeOther[@name='HP Login']/XCUIElementTypeOther[1]/XCUIElementTypeOther[6]/XCUIElementTypeTextField"
+        }
+    },
+    "password_tf1":{
+        "locator":{
+            "xpath":"//XCUIElementTypeOther[@name='HP Login']/XCUIElementTypeOther[1]/XCUIElementTypeOther[6]"
+        }
+    },
+    "final_sign_in_button":{
+        "locator":{
+            "name":"SIGN IN"
+        }
+    },
+    "goto_hpc_account_link":{
+        "locator":{
+            "name":"Go to my HP Connected Account"
+        },
+        "ga":[
+            {
+                "ga_data":{
+                    "category":"App-settings",
+                    "action":"Go-to-hpc-account",
+                    "label":"(not-set)",
+                    "count":1
+                },
+                "trigger":"click",
+                "type":"event"
+            },
+            {
+                "ga_data":{
+                    "screen":"/app-settings/moobe",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            },
+            {
+                "ga_data":{
+                    "category":"App-settings",
+                    "action":"Sign-in-success",
+                    "label":"(not-set)",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"event"
+            }
+        ]
+    },
+    "sync_docs_popup_title":{
+        "locator":{
+            "name":"Sync Documents"
+        }
+    },
+    "sign_in_popup_to_allow_hp_com":{
+        "locator":{
+            "name":"“HP Smart” Wants to Use “hp.com” to Sign In"
+        }
+    },
+    "accept_btn":{
+        "locator":{
+            "name":["ACCEPT","I ACCEPT"]
+        }
+    },
+    "decline_btn":{
+        "locator":{
+            "name":"DECLINE"
+        }
+    },
+    "send_a_message_tf":{
+        "locator":{
+            "name":"Send a Message..."
+        }
+    },
+    "send_message_small_box_tf":{
+        "locator":{
+            "name":"composer-text-view"
+        }
+    },
+    "sign_out_information":{
+        "locator":{
+            "name":"Signing out will disable features which rely on your HP account."
+        }
+    },
+    "we_are_logging_out_txt":{
+      "locator":{
+        "name":"We are logging you out..."
+      }
+    },
+    "skip_the_wait_btn":{
+      "locator":{
+        "name":"Skip the wait"
+      }
+    },
+    "_const_keep_on_my_phone":{
+      "locator":{
+        "name":"Keep on My iPhone"
+      }
+    },
+    "_const_delete_from_my_phone":{
+      "locator":{
+        "name":"Delete from My iPhone"
+      }
+    },
+    "_const_dont_disable_sync":{
+      "locator":{
+        "name":"Do Not Disable Sync"
+      }
+    },
+    "dont_have_account_txt":{
+      "locator":{
+        "name":"Don't have an account? Sign up"
+      }
+    },
+    "safari_allow_req_popup": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther[@name='WebView']/XCUIElementTypeOther/XCUIElementTypeOther[2]"
+        }
+    },
+    "allow_access":{
+      "locator":{
+        "name":"OK"
+      }
+    },
+    "open_in_messenger":{
+      "locator":{
+        "name":"Open In Messenger"
+      }
+    },
+    "get_the_messenger_app":{
+      "locator":{
+        "name":"Get the Messenger App"
+      }
+    },
+    "open_in_app_store":{
+      "locator":{
+        "xpath": "//XCUIElementTypeOther[@name='WebView']/XCUIElementTypeOther/XCUIElementTypeOther[2]"
+      }
+    },
+    "open_btn":{
+      "locator":{
+        "name":"Open"
+      }
+    },
+    "app_store_messenger_screen":{
+      "locator":{
+        "name":"Messenger"
+      }
+    },
+    "get_app":{
+      "locator":{
+        "name":"GET"
+      }
+    },
+    "redownload_app":{
+      "locator":{
+        "name":"Redownload"
+      }
+    },
+    "open_app_btn":{
+      "locator":{
+        "name":"OPEN"
+      }
+    },
+    "messenger_login_screen":{
+      "locator":{
+        "name":"Log in with your phone number or Facebook account"
+      }
+    },
+    "messenger_email_field":{
+      "locator":{
+        "name":"contact-point-textfield"
+      }
+    },
+    "messenger_password_field":{
+      "locator":{
+        "name":"password-textfield"
+      }
+    },
+    "login_btn":{
+      "locator":{
+        "name":"login-button"
+      }
+    },
+    "notification_popup":{
+      "locator":{
+        "name":"Please Turn On Notifications"
+      }
+    },
+    "not_now_btn":{
+      "locator":{
+        "name":"cancel-button"
+      }
+    },
+    "ok_btn":{
+      "locator":{
+        "name":"ok-button"
+      }
+    },
+    "messenger_send_notifications_popup":{
+      "locator":{
+        "name": "“Messenger” Would Like to Send You Notifications"
+
+      }
+    },
+    "allow_btn":{
+      "locator":{
+        "name":"Allow"
+      }
+    },
+    "dont_allow":{
+      "locator":{
+        "name":"Don't Allow"
+      }
+    },
+    "not_now_skip_btn":{
+      "locator":{
+        "name":"Not Now"
+      }
+    },
+    "skip_phone_number_popup":{
+      "locator":{
+        "name":"Skip phone number?"
+      }
+    },
+    "add_num_btn":{
+      "locator":{
+        "name":"Add Number"
+      }
+    },
+    "skip_btn":{
+      "locator":{
+        "name":"Skip"
+      }
+    },
+    "contact_wont_upload_popup":{
+      "locator":{
+        "name":"Your Contacts Won't Be Uploaded"
+      }
+    },
+    "chats_screen": {
+        "locator": {
+            "name": "Chats"
+        }
+    },
+    "hp_support_chat": {
+        "locator": {
+            "xpath":"//XCUIElementTypeStaticText[@name='HP Support']",
+            "name":"HP Support"
+
+        }
+    },
+    "hp_support": {
+        "locator": {
+            "name":"Computer Company"
+        }
+    },
+    "phone_contacts_not_now_btn": {
+        "locator": {
+            "name":"Not Now"
+        }
+    },
+    "message_send_btn": {
+        "locator": {
+            "name":"composer-send-icon-button"
+        }
+    },
+    "send_message_label": {
+        "locator": {
+            "xpath":"//XCUIElementTypeCollectionView[@name='messages-view']/XCUIElementTypeCell[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextView"
+        }
+    },
+    "virtual_agent_screen": {
+        "locator": {
+            "name":"Virtual Agent"
+        }
+    },
+    "fb_mess_text_on_popup": {
+        "locator": {
+            "name": "Contact Us on Facebook Messenger"
+        }
+    },
+    "welcome_to_messenger_screen": {
+        "locator": {
+            "name": "Welcome to Messenger"
+        }
+    },
+    "this_isnt_me_btn": {
+        "locator": {
+            "name": "This isn't me"
+        }
+    },
+    "notification_screen": {
+        "locator": {
+            "name": "Please turn on Notifications"
+        }
+    },
+    "remind_later_btn": {
+        "locator": {
+            "name": "Remind me later"
+        }
+    },
+    "search_box": {
+        "locator": {
+            "name": "Search"
+        }
+    },
+    "default_msg_from_virtual_agent": {
+        "locator": {
+            "xpath": "//div[@class='format-markdown']/p"
+        }
+    },
+    "virtual_agent_tf": {
+        "locator": {
+            "class name": "wc-shellinput"
+
+        }
+    },
+    "virtual_agent_send": {
+        "locator": {
+            "name":"Send",
+            "class name": "wc-send"
+
+        }
+    },
+    "virtual_agent_reply": {
+        "locator": {
+            "class name": "ac-pushButton"
+
+        }
+    },
+    "hp_support_reply": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCollectionView[@name='message-view']/XCUIElementTypeCell[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextView"
+        }
+    },
+    "default_delay_reply": {
+        "locator": {
+            "name": "Typically replies in a few hours"
+
+        }
+    },
+    "phone_number_add_popup": {
+        "locator": {
+            "name":"Your Phone Number Won't Be Added"
+
+        }
+    },
+    "add_set_up_a_printer": {
+        "locator": {
+            "str_id": "cAddSlashSetUpPrinter"
+        }
+    },
+    "info_icon": {
+        "locator": {
+            "name": "More Info"
+        }
+    },
+    "set_up_printer_page_title" : {
+        "locator": {
+            "str_id": "cLetsConnectToWiFi"
+        }
+    },
+    "set_up_printer_page_note" : {
+        "locator": {
+            "str_id": "cConnectToWiFi_Note"
+        }
+    },
+    "set_up_printer_page_step1_message" : {
+        "locator": {
+            "str_id": "cLetsConnectToWiFi_Step1Message"
+        }
+    },
+    "set_up_printer_page_step2_message" : {
+        "locator": {
+            "str_id": "cLetsConnectToWiFi_Step2Message"
+        }
+    },
+    "info_icon_page_header" : {
+        "locator": {
+            "str_id": "cAdjustWiFiSettings"
+        }
+    },
+    "to_print_wirelessly_msg" : {
+        "locator": {
+            "str_id": "cToPrintWirelessly"
+        }
+    },
+    "info_icon_page_steps" : {
+        "locator": {
+            "str_id": "cAdjustWiFiSettingsList"
+        }
+    },
+    "info_icon_page_x_button" : {
+        "locator": {
+            "name": "Exit"
+        }
+    },
+    "info_icon_page_close_button" : {
+        "locator": {
+            "str_id": "cClose"
+        }
+    },
+    "offer_to_reduce_size_str" : {
+        "locator": {
+            "str_id": "cFileSizeReductionCellTitle"
+        }
+    },
+    "dynamic_switch" : {
+        "locator": {
+            "xpath": "//*[@value=\"{}\"]/following-sibling::XCUIElementTypeSwitch"
+        }
+    },
+    "app_settings_main_window": {
+        "locator": {
+            "xpath": "//XCUIElementTypeWindow"
+        }
+    },
+    "hp_privacy_statement": {
+        "locator": {
+            "str_id": "cHPOnlinePrivacyStatement",
+            "name": "HP Privacy Policy"
+        }
+    },
+    "eula": {
+        "locator": {
+            "str_id":  "cEndUserLicenseAgreement",
+            "name":"EULA"
+        }
+    },
+    "legal_information": {
+        "locator": {
+            "str_id":  "cLegalInformation"
+        }
+    },
+    "about_icon":{
+        "locator":{
+            "name":"AboutIcon",
+            "xpath": "//XCUIElementTypeImage[../XCUIElementTypeStaticText[@name='HP Smart']]"
+        }
+    },
+    "rate_us":{
+        "locator":{
+            "str_id":"cRateUs"
+        }
+    },
+    "HP_Smart_text": {
+        "locator": {
+            "name": "HP Smart"
+        }
+    },
+    "notifications_and_privacy_cell": {
+        "locator": {
+            "name": "Notifications & Privacy",
+            "str_id": "cNotificationsAndPrivacy"
+        }
+    },
+    "backup_to_icloud": {
+        "locator": {
+            "name": "Back up to iCloud",
+            "str_id": "cBackUpToICloud"
+        }
+    },
+    "backup_icloud_switch_title": {
+        "locator": {
+            "str_id": "cBackUpFilesToYourICloudAccount"
+        }
+    },
+    "backup_icloud_switch": {
+        "locator": {
+            "xpath": "//XCUIElementTypeSwitch[contains(@name,\"iCloud\")]"
+        }
+    },
+    "icloud_account_message": {
+        "locator": {
+            "str_id": "cWhenYouAreSignedInToYourICloudAccount"
+        }
+    },
+    "how_satisfied_are_you": {
+        "locator": {
+            "name": "Overall, how satisfied are you with the HP Smart app?"
+        }
+    },
+    "submit_btn": {
+        "locator": {
+            "name": "Submit"
+        }
+    },
+    "star_slider": {
+        "locator": {
+            "xpath": "//XCUIElementTypeSlider"
+        }
+    },
+    "feedback_submission_popup": {
+        "locator": {
+            "name": "Thank you for your time! Your feedback helps us to improve the HP Smart app experience."
+        }
+    },
+    "mobile_fax_cell": {
+        "locator": {
+            "name": "Mobile Fax",
+            "str_id": "cMobileFax"
+        }
+    },
+    "promotional_messaging_switch": {
+        "locator": {"name": "AppMessagingSwitcher"}
+    },
+    "supply_status_switch": {
+        "locator": {
+            "name": "SupplyStatusSwitcher"
+        }
+    },
+    "app_improvement_switch": {
+        "locator":{
+            "name": "AppImprovementSwitcher"
+        }
+    },
+    "data_collection_notice":{
+        "locator":{
+            "name":"Data Collection Notice"
+        }
+    },
+    "courtesy_translation_for_hp":{
+        "locator":{
+            "name":"Courtesy Translations for HP Privacy Statement"
+        }
+    },
+    "hp_privacy_statement_link":{
+        "locator":{
+            "name":"HP Privacy Statement"
+        }
+    },
+    "google_analytics_privacy_policy":{
+        "locator":{
+            "name": "Google Analytics Privacy Policy"
+        }
+    },
+    "google_analytics_privacy_policy_page":{
+        "locator":{
+            "xpath": "//XCUIElementTypeNavigationBar[@name='Google Analytics Privacy Policy']"
+        }
+    },
+    "adobe_privacy_link": {
+        "locator": {
+            "name": "Adobe Privacy"
+        }
+    },
+    "adobe_privacy_policy_title":{
+        "locator":{
+            "name":"Adobe Privacy Policy"
+        }
+    },
+    "optimizely_link":{
+        "locator":{
+            "name":"Optimizely"
+        }
+    },
+    "terms_of_use_title":{
+        "locator":{
+            "name":"Terms of Use"
+        }
+    },
+    "term_use_page_page":{
+        "locator":{
+            "name":"Terms of Use - Worldwide"
+        }
+    },
+    "create_account_btn":{
+        "locator":{
+            "name": "Create Account"
+        }
+    },
+    "manage_my_privacy_settings":{
+        "locator":{
+            "name": "Manage my Privacy Settings"
+        }
+    },
+    "save_to_files":{
+        "locator":{
+            "name": ["Save to Files", "Activity"]
+        }
+    },
+    "hp_smart_files_option":{
+        "locator":{
+            "name": "HP Smart AH, level 2"
+        }
+    },
+    "mail_btn":{
+        "locator":{
+            "name":"Mail"
+        }
+    },
+    "send_to_field":{
+        "locator":{
+            "name": "Mail.sendButton"
+        }
+    },
+    "subject_field":{
+        "locator":{
+            "name": "Mail.subjectField"
+        }
+    },
+    "done_btn":{
+        "locator":{
+            "name":"Done"
+        }
+    }
+}

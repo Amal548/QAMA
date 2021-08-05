@@ -1,0 +1,85 @@
+{
+	"menu_bar_apple":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[0]"}
+    },
+    
+    "menu_bar_hp_smart":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[1]"}
+    },
+    
+    "menu_bar_edit":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[2]"}
+    },
+    
+    "menu_bar_copy":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[@AXTitle='Edit']/AXMenu[0]/AXMenuItem[0]"}
+    },
+    
+    "menu_bar_paste":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[@AXTitle='Edit']/AXMenu[0]/AXMenuItem[1]"}
+    },
+    
+    "menu_bar_printers":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[3]"}
+    },
+    
+    "menu_bar_add_setup_a_printer":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[@AXTitle='Printers']/AXMenu[0]/AXMenuItem[0]"}
+    },
+    
+    "menu_bar_about_hp_smart_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[@AXTitle='HP Smart']/AXMenu[0]/AXMenuItem[0]"}
+    },
+    
+    "menubar_personalize_tiles_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[@AXTitle='HP Smart']/AXMenu[0]/AXMenuItem[2]"}
+    },
+    
+    "menu_bar_send_feedback_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[@AXTitle='HP Smart']/AXMenu[0]/AXMenuItem[3]"}
+    },
+    
+    "menubar_hpsmart_privacy_settings_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[@AXTitle='HP Smart']/AXMenu[0]/AXMenuItem[4]"}
+    },
+    
+    "menu_bar_hide_hp_smart_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[@AXTitle='HP Smart']/AXMenu[0]/AXMenuItem[6]"}
+    },
+    
+    "menu_bar_hide_others_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[@AXTitle='HP Smart']/AXMenu[0]/AXMenuItem[7]"}
+    },
+    
+    "menu_bar_show_all_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[@AXTitle='HP Smart']/AXMenu[0]/AXMenuItem[8]"}
+    },
+    
+    "menu_bar_quit_hp_smart_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXMenuBar[0]/AXMenuBarItem[@AXTitle='HP Smart']/AXMenu[0]/AXMenuItem[10]"}
+    },
+    
+    "menu_bar_about_hp_smart_contents_1":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='About HP Smart' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:27']"}
+    },
+    
+    "menu_bar_about_hp_smart_contents_2":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='About HP Smart' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:43']"}
+    },
+    
+    "menu_bar_about_hp_smart_contents_3":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='About HP Smart' and @AXSubrole='AXDialog']/AXStaticText[@AXIdentifier='_NS:48']"}
+    },
+    
+    "menu_bar_hp_smart_icon":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='Dock']/AXList[0]/AXDockItem[@AXTitle='HP Smart' and @AXSubrole='AXApplicationDockItem']"}
+    },
+
+    "menu_bar_about_hp_smart_image":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='About HP Smart' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:12']"}
+    },
+
+    "close_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='About HP Smart' and @AXSubrole='AXDialog']/AXButton[@AXSubrole='AXCloseButton']"}
+    }
+}

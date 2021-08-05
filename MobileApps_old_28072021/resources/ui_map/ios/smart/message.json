@@ -1,0 +1,22 @@
+{
+    "new_message_title": {
+      "locator":{
+        "name":"New Message"
+      }
+    },
+    "message_body_textfield": {
+        "locator":{
+            "name":"messageBodyField"
+        }
+    },
+    "send_btn":{
+        "locator":{
+            "name":"sendButton"
+        }
+    },
+    "to_textfield": {
+        "locator":{
+            "name":"To:"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "offer_title":{
+        "locator": {"css selector": "div.title"}
+    },
+    "do_not_enable_ink_savings_btn":{
+        "locator": {"css selector": "div[data-testid='exit-button']"}
+    }
+}

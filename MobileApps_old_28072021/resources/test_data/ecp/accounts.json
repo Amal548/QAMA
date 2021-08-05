@@ -1,0 +1,23 @@
+{
+    "dev":
+    {
+        "email":"ecpmpsadmin7@getnada.com",
+        "password":"test123$",
+        "claimable":false,
+        "comment":""
+    },
+    "pie":
+    {
+        "email":"ecpmpsadmin7@getnada.com",
+        "password":"test123$",
+        "claimable":false,
+        "comment":""
+    },
+    "stage":
+    {
+        "email":"ecpmpsadmin7@getnada.com",
+        "password":"12345aA!",
+        "claimable":false,
+        "comment":""
+    }
+}

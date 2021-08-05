@@ -1,0 +1,140 @@
+{
+  "my_printers":{
+      "description":"my printers button",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='我的打印机']"
+      }
+   },
+  "personal_center":{
+      "description":"personal center button on public account home page",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='个人中心']"
+      }
+   },
+  "mini_program":{
+      "description":"mini program button",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='小程序']"
+      }
+   },
+   "search_help":{
+      "description":"search help button",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='寻找帮助']"
+      }
+   },
+  "voice_print":{
+      "description":"voice print button in personal center",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='语音打印']"
+      }
+   },
+  "print_history":{
+      "description":"print history button in personal center",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='打印历史']"
+      }
+   },
+  "supply_purchase":{
+      "description":"supply purchase button in personal center",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='购买耗材']"
+      }
+   },
+  "hp_supply_points":{
+      "description":"HP supply points button in personal center",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='惠普耗材积分']"
+      }
+   },
+  "completed_notification_title":{
+      "description":"The title of the notification for print results",
+      "locator":{
+         "id":"com.tencent.mm:id/dd"
+      }
+   },
+  "failed_notification_title":{
+      "description":"The title of the notification for print results",
+      "locator":{
+         "id":"com.tencent.mm:id/as5"
+      }
+   },
+  "failed_result_error_code":{
+      "description":"The erro code for print results",
+      "locator":{
+         "id":"com.tencent.mm:id/aq5"
+      }
+   },
+  "delete_history":{
+      "description":"delete chat history for notification server",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='删除']"
+      }
+   },
+  "confirm_delete":{
+      "description":"confirm chat history button ",
+      "locator":{
+         "xpath":"//android.widget.Button[@text='删除']"
+      }
+   },
+    "new_function_intro":{
+      "description":"the new function indroduction selection in search help",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='新功能介绍']"
+      }
+   },
+  "wechat_print_notice":{
+      "description":"the wechat print notice selection on search help menu",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='微信打印须知']"
+      }
+   },
+  "contact_support":{
+      "description":"the contact support selection on search help menu",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='联系客服']"
+      }
+   },
+  "suggestion_box":{
+      "description":"the suggestion box selection on search help menu",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='意见箱']"
+      }
+   },
+  "mp_icon_dev":{
+      "description":"",
+      "locator":{
+         "xpath":"//android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]"
+      }
+   },
+  "top_back_btn": {
+    "description": "The back button on top right of the screen",
+    "locator": {
+      "id": "com.tencent.mm:id/ls"
+    }
+  },
+  "follow_public_account": {
+    "description": "Follow the public account",
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='关注公众号']"
+    }
+  },
+  "unfollow_public_account": {
+    "description": "Unfollow the public account",
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='不再关注']"
+    }
+  },
+  "enter_public_account": {
+    "description": "Enter the public account home page after followed the public account",
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='进入公众号']"
+    }
+  },
+  "pa_home_3dots_menu": {
+    "description": "The 3 dots menu on top right of the public account home page",
+    "locator": {
+      "xpath": "//android.widget.ImageButton[@content-desc='聊天信息']"
+    }
+  }
+}

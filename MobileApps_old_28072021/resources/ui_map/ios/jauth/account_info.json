@@ -1,0 +1,33 @@
+{
+
+  "email_and_user_id_txt": {
+    "locator": {
+       "xpath": "//XCUIElementTypeStaticText[@name='{}']"
+    }
+  },
+
+  "get_token_button": {
+     "locator": {
+       "xpath": "//XCUIElementTypeStaticText[@name='Get Token']"
+     }
+  },
+
+  "sign_in_button": {
+     "locator": {
+       "xpath": "//XCUIElementTypeStaticText[@name='Sign In']"
+     }
+  },
+
+  "logout_button": {
+     "locator": {
+       "xpath": "//XCUIElementTypeStaticText[@name='Logout']"
+     }
+  },
+
+  "jarvis_auto_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Jarvis Auto']"
+    }
+  }
+
+}

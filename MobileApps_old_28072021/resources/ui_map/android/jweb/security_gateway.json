@@ -1,0 +1,50 @@
+{
+  "identity_provider_list" : {
+      "locator": {
+        "xpath": "//android.view.View[@resource-id = 'selectidp' ]"
+      }
+  },
+
+  "one_hp_unified_id_txt_box": {
+      "locator": {
+        "text": "One-HP Unified ID"
+      }
+  },
+
+  "hp_ldap_directory_txt_box": {
+      "locator": {
+        "text": "HP LDAP directory (Service Account and NT password)"
+      }
+  },
+
+  "proceed_to_login_btn": {
+      "locator": {
+        "text": "Proceed to login"
+      }
+  },
+
+  "service_account_id_txt_box": {
+      "locator": {
+        "xpath": "//android.widget.EditText[@resource-id = 'user']"
+      }
+  },
+
+  "service_account_password_txt_box": {
+      "locator": {
+        "text": "Password"
+      }
+  },
+
+  "logon_btn": {
+      "locator": {
+        "text": "Log-On"
+      }
+  },
+
+  "redirect_me_link": {
+      "locator": {
+        "text": "Redirect back to the App with the Token!"
+      }
+  }
+
+}

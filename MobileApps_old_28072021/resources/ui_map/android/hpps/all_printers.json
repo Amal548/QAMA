@@ -1,0 +1,50 @@
+{
+        "all_printers_title":{
+            "_comment": "for English language",
+            "locator": {"text": "All printers"}
+            
+        },
+        "search_btn":{
+            "locator": {"id": "com.android.printspooler:id/action_search"}
+        },
+
+        "search_tf":{
+            "locator": {"id": "android:id/search_src_text"}
+        },
+
+        "printers_lv":{
+            "locator": {"id": "android:id/list"}
+        },
+
+        "printer_cell_linear_layout":{
+            "_comment": "the LinearLayout part covering each printer_cell",
+            "locator": {"xpath": "//android.widget.RelativeLayout/parent::android.widget.LinearLayout"}
+        },
+
+        "printer_cell":{
+            "_comment": "each printer cell inside printers_lv",
+            "locator": {"class name": "android.widget.RelativeLayout"}
+        },
+
+        "printer_cell_title":{
+            "locator": {"xpath": "//android.widget.TextView[@resource-id='com.android.printspooler:id/title' and @text='{}']"
+            }
+        },
+
+        "printer_cell_subtitle":{
+            "locator": {"xpath": "//android.widget.TextView[contains(@text, 'com.hp.android.printservice.ServiceAndroidPrint') or contains(@text, '{}')]"}
+        },
+        "printer_cell_more_info":{
+            "locator": {"id": "com.android.printspooler:id/more_info"}
+        },
+        "epson_print_service_txt":{
+            "locator": {"text": "Epson Print Enabler"} 
+        },
+
+        "canon_print_service_txt":{
+            "locator": {"text": "Canon Print Service"}
+        },
+        "printer_name": {
+            "locator": {"xpath": "//*[@text='{}']"}
+        }
+}

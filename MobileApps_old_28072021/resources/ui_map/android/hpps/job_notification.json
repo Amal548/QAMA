@@ -1,0 +1,142 @@
+{
+  "back_btn":{
+    "locator": {"access_id": "Navigate up"}
+  },
+  "print_job_txt":{
+    "locator": {"str_id": "print_status_title__print_jobs"}
+  },
+  "cancel_btn":{
+    "locator": {"text": "Cancel",
+      "id": "com.hp.android.printservice:id/menu_item_cancel_job"}
+  },
+  "notif_list": {
+    "locator": {"id": "com.android.systemui:id/notification_stack_scroller"}
+  },
+  "print_job_el": {
+    "locator": {"class name": "android.widget.LinearLayout"}
+  },
+  "notif_main_column":{
+    "locator":{"id": "android:id/notification_main_column"}
+  },
+  "notif_text_element": {
+    "locator": {"id": "android:id/text"}
+  },
+  "print_job_title":{
+    "locator": {  "partial_text": "{}",
+                  "id": "android:id/title"}
+  },
+  "print_job_summary":{
+    "locator": {"id": "android:id/summary"}
+  },
+  "printing_txt":{
+    "locator": {"text": "Printing"}
+  },
+  "job_details_lv":{
+    "locator": {"id": "android:id/list"}
+  },
+  "job_details_texts":{
+    "locator": {"class name": "android.widget.TextView"}
+  },
+  "restart_btn":{
+    "locator": {"text": "Restart"}
+  },
+  "notif_title":{
+    "locator": {"xpath":"//*[contains(@text, '{}')]"}
+  },
+  "notif_title_printing":{
+    "locator": {"text": "Printing"}
+  },
+  "notif_desc":{
+     "locator": {"id": "android:id/text"}
+  },
+  "notif_title_error":{
+    "locator": {"text": "Print job sent with errors"}
+    },
+  "notif_title_canceled":{
+    "locator": {"text": "Print canceled"}
+    },
+  "notif_title_unsuccessful":{
+    "locator": {"text": "Printing unsuccessful"}
+    },
+  "notif_filename_desc":{
+    "_comment": "2nd line in trapdoor notif - file name",
+    "locator": {"id": "android:id/text2"}
+  },
+  "notification_progressbar":{
+    "locator": {"id": "android:id/progress"}
+  },
+  "notif_status":{
+    "_comment": "available in trapdoor notification",
+    "locator": {"id": "android:id/info"}
+  },
+  "error_list":{
+    "_comment": "all possibility of partial error msg. Use to create expected list of error msgs",
+    "locator": {"text": ["Printer error ", "Printer blocked "]}
+
+  },
+  "tap_to_enable":{
+      "_comment": "use for English only",
+      "locator": {"text": "Tap to enable"}
+  },
+  "hp_inc_name":{
+    "_name": "HP Inc.",
+    "locator": {"text": "HP Print Service"}
+  },
+  "print_jobs_title":{
+    "locator": {"str_id": "print_status_title__print_jobs"}
+  },
+  "jobs_lv":{
+    "locator": {"id": "android:id/list",
+                "xpath": "//android.widget.ListView[1]"}
+  },
+  "job_cell":{
+    "locator": {"id": "com.hp.android.printservice:id/card_view"}
+  },
+  "file_name_as_job_description":{
+    "_comment": "It is usually file_name",
+    "locator": {"id": "com.hp.android.printservice:id/job_description"}
+  },
+  "select_printer":{
+    "_comment": "printer's ip",
+    "locator": {"id": "com.hp.android.printservice:id/selected_printer"}
+  },
+  "job_select_cb":{
+    "locator": {"id": "com.hp.android.printservice:id/job_select"}
+  },
+  "job_state":{
+    "locator": {"id": "com.hp.android.printservice:id/job_state"}
+  },
+  "job_status":{
+    "locator": {"id": "com.hp.android.printservice:id/job_status"}
+  },
+  "finished_txt":{
+    "locator": {"str_id": "print_job_state__completed"}
+  },
+  "running_txt":{
+    "locator": {"str_id": "print_job_state__running"}
+  },
+  "canceling_txt":{
+    "locator": {"str_id": "print_job_state__cancelling"}
+  },
+  "blocked_txt":{
+    "locator": {"str_id": "print_job_state__blocked"}
+  },
+  "waiting_txt":{
+    "locator": {"str_id": "print_job_state__queued"}
+  },
+  "unknown_txt":{
+    "locator": {"str_id": "print_job_state__unknown"}
+  },
+  "send_successfully_txt":{
+    "locator": {"str_id": "job_state_description__complete__successful"}
+  },
+  "sending_txt":{
+    "locator": {"text": "Sending"}
+  },
+  "job_canceled_txt":{
+    "locator": {"str_id": "job_state_description__complete__cancelled"}
+  },
+  "noti_title_name": {
+    "locator": {"str_id": "app_name"}
+  }
+}
