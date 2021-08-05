@@ -1,0 +1,11 @@
+{
+    "Vasari":{
+        "initializing":"Initializing",      
+        "copying":"Printer busy",
+        "processing":"Printer busy",
+        "shuttingDown":"Shutting down",
+        "cancelJob":"Canceling'",
+        "scanProcessing":"Printer busy"
+        }
+}
+

@@ -1,0 +1,5 @@
+{
+    "remove_protective_sheet_continue":{
+        "locator": {"css selector": "button.btn-enabled.btn-primary.ng-binding"}
+    }
+}

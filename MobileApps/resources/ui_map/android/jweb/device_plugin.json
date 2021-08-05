@@ -1,0 +1,49 @@
+{
+  "device_get_info_open_item": {
+      "locator": {
+        "id": "getInfo"
+      }
+  },
+
+  "device_get_info_close_item": {
+    "locator": {
+      "text": "Device.getInfo()"
+    }
+  },
+
+  "device_get_info_test_btn": {
+    "locator": {
+      "text": "getInfoTestButton"
+    }
+  },
+
+  "device_get_info_result_txt": {
+    "locator": {
+      "id": "deviceInfoResult"
+    }
+  },
+
+  "device_get_language_code_open_item": {
+      "locator": {
+        "id": "getLanguageCode"
+      }
+  },
+
+  "device_get_language_code_close_item": {
+    "locator": {
+      "text": "Device.getLanguageCode()"
+    }
+  },
+
+  "device_get_language_code_test_btn": {
+    "locator": {
+      "text": "getLanguageCodeTestButton"
+    }
+  },
+
+  "device_get_language_code_result_txt": {
+    "locator": {
+      "id": "languageCodeResult"
+    }
+  }
+}

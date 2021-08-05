@@ -1,0 +1,24 @@
+{
+    "_system_keyboard_done_btn":
+    {
+        "locator": {"name": "Done"}
+    },
+  "_system_keyboard_return_btn":{
+    "locator": {"name": "Return"}
+
+    },
+    "_system_picker_wheel":
+    {
+        "locator": {"class name": "XCUIElementTypePickerWheel"}
+    },
+
+    "_system_visit_website_pop_up_button": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Visit Website']"}
+    },
+    "_system_continue_button":{
+      "locator":{
+          "xpath":"//XCUIElementTypeButton[@name='Continue']"
+      }
+    }
+}

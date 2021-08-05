@@ -1,0 +1,62 @@
+{
+  "_version": "5.10",
+  "_platform": "android",
+
+  "welcome": {
+      "title":{
+          "id": "com.google.android.gm:id/welcome_tour_title"
+      },
+      "got_it_btn":{
+          "id": "com.google.android.gm:id/welcome_tour_got_it"
+      },
+      "setup_addr_title":{
+          "id": "com.google.android.gm:id/setup_addresses_title"
+      },
+      "take_me_btn":{
+          "id": "com.google.android.gm:id/action_done"
+      }
+
+  },
+  "gmail_inbox": {
+      "menu_btn":{
+          "class_name": "android.widget.ImageButton",
+          "xpath": "//android.widget.ImageButton[1]"
+      },
+      "email_frame_layout":{
+          "id": "com.google.android.gm:id/conversation_list_parent_frame"
+      },
+      "emails_lv":{
+          "id": "com.google.android.gm:id/conversation_list_view"
+      },
+      "email_cell":{
+          "class_name": "android.view.View"
+      }
+  },
+  "gmail_nav":{
+      "nav_lv":{
+         "id": "android:id/list",
+         "xpath": "//android.widget.ListView[1]"
+      },
+      "current_email_txt":{
+          "id": "com.google.android.gm:id/account_address"
+      },
+      "acc_list_btn": {
+          "id": "com.google.android.gm:id/account_list_button"
+      }
+  },
+  "email":{
+      "back_btn":{
+          "class_name": "android.widget.ImageButton",
+          "xpath": "//android.widget.ImageButton[1]"
+      },
+      "option_btn":{
+          "class_name": "android.widget.ImageView",
+          "xpath": "//android.widget.ImageView[1]"
+      },
+      "print_btn":{
+          "_comment": "English language only.",
+          "_id": "com.google.android.gm:id/title",
+          "name": "Print"
+      }
+  }
+}

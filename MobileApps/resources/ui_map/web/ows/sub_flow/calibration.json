@@ -1,0 +1,22 @@
+{
+    "calibration_title":{
+        "locator":{
+            "id": "header-content"
+        }
+    },
+    "skip_alignment_link":{
+        "locator":{
+            "css selector": "a.btn-enabled.btn-tertiary.ng-binding"
+        }
+    },
+    "start_calibration_btn":{
+        "locator":{
+            "css selector": "button.btn-enabled.btn-primary.ng-binding"
+        }
+    },
+    "full_screen_error_obj":{
+        "locator": {
+            "css selector": "fullscreen-error"
+        }
+    }
+}

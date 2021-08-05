@@ -1,0 +1,295 @@
+{
+    "printer_settings_screen_title": {
+        "locator": {
+            "xpath":"//XCUIElementTypeNavigationBar[@name='My Printer']"
+        }
+    },
+    "printer_status_title": {
+        "locator": {
+            "str_id": "cDeviceStatus"
+        }
+    },
+    "printer_status_ready": {
+        "locator": {
+            "str_id": "cReady"
+        }
+    },
+    "printer_status_screen_printer_image": {
+        "locator": {
+            "xpath": "//XCUIElementTypeImage[@name='Connected_State']"
+        }
+    },
+    "printer_status_ready_text": {
+        "locator":{
+            "name":"Available to receive your files.",
+            "str_id": "cAvailableToReceiveYourFiles"
+        }
+    },
+    "options_title": {
+        "locator": {
+            "str_id": "cOptionsLowerCase"
+        }
+    },
+    "print_anywhere": {
+        "locator": {
+            "str_id": "cPrintAnywhere"
+        }
+    },
+    "remote_printing": {
+        "locator": {
+            "str_id": "cRemotePrinting"
+        }
+    },
+    "print_from_other_devices": {
+        "locator": {
+            "str_id": "cPrintFromOtherDevices",
+            "name": "Print from other devices"
+        }
+    },
+    "select_a_different_printer": {
+        "locator": {
+            "str_id": "cSelectADifferentPrinter"
+        }
+    },
+    "supported_supplies": {
+        "locator": {
+            "str_id": "cSupportedCartridges"
+        }
+    },
+    "rename_my_printer": {
+        "locator": {
+            "str_id": "cRenamePrinter"
+        }
+    },
+    "preferences_title": {
+        "locator": {
+            "str_id": "cPreferences"
+        }
+    },
+    "tray_and_paper": {
+        "locator": {
+            "str_id": "cTrayAndPaperSettings"
+        }
+    },
+    "quiet_mode": {
+        "locator": {
+            "str_id": "cQuietMode"
+        }
+    },
+    "printer_reports": {
+        "locator": {
+            "str_id": "cPrinterReports"
+        }
+    },
+    "print_quality_tools": {
+        "locator": {
+            "str_id": "cPrinterQualityTools"
+        }
+    },
+    "printer_information": {
+        "locator": {
+            "str_id": "cPrinterInformation"
+        }
+    },
+    "network_information": {
+        "locator": {
+            "str_id": "cNetworkInformation"
+        }
+    },
+    "advanced_settings": {
+        "locator": {
+            "str_id": "cAdvancedSettings"
+        }
+    },
+    "forget_this_printer": {
+        "locator": {
+            "str_id": "cForgetThisPrinter"
+        }
+    },
+    "123_hp_com_link": {
+        "locator": {
+            "xpath": "//XCUIElementTypeLink[@label='123.hp.com']"
+        }
+    },
+    "print_from_other_devices_screen_title": {
+        "locator": {
+            "str_id": "cPrintFromOtherDevices_lowercase"
+        }
+    },
+    "send_link_btn": {
+        "locator": {
+            "str_id": "cSendLink"
+        }
+    },
+    "link_sent": {
+        "locator": {
+            "str_id": "cLinkSent"
+        }
+    },
+    "send_another_link_btn": {
+        "locator": {
+            "str_id": "cSendAnotherLink"
+        }
+    },
+    "characters_left_text": {
+        "locator": {
+            "str_id": "cIntegerCharactersLeft",
+            "partial_text": "characters left"
+        }
+    },
+    "renaming_printer_note": {
+        "locator": {
+            "str_id": "cNoteRenamingPrinter"
+        }
+    },
+    "rename_printer_text_field": {
+        "locator": {
+            "name": "Network Name"
+        }
+    },
+    "paper_settings": {
+        "locator": {
+            "name":"Paper Settings"
+        }
+    },
+    "tray": {
+        "locator": {
+            "name":"Tray"
+        }
+    },
+    "status": {
+        "locator": {
+            "str_id":"cStatus"
+        }
+    },
+    "paper_size": {
+        "locator": {
+            "name":"Paper Size"
+        }
+    },
+    "paper_type": {
+        "locator": {
+            "name":"Paper Type"
+        }
+    },
+    "apply_btn": {
+        "locator": {
+            "name":"Apply"
+        }
+    },
+    "advanced_btn": {
+        "locator": {
+            "name":"Advanced"
+        }
+    },
+    "on_radio_btn": {
+        "locator": {
+            "xpath":"//XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[@name='On']"
+        }
+    },
+    "off_radio_btn": {
+        "locator": {
+            "xpath":"//XCUIElementTypeOther[2]/XCUIElementTypeOther[4]/XCUIElementTypeStaticText[@name='Off']"
+        }
+    },
+    "demo_page": {
+        "locator": {
+            "str_id": "cDemoPage"
+        }
+    },
+    "network_configuration": {
+        "locator": {
+            "str_id": "cNetworkConfiguration"
+        }
+    },
+    "wireless_test_report": {
+        "locator": {
+            "str_id": "cWirelessTestReport"
+        }
+    },
+    "print_quality_report": {
+        "locator": {
+            "str_id": "cPrintQualityReport"
+        }
+    },
+    "web_access_report": {
+        "locator": {
+            "str_id": "cWebAccessReport"
+        }
+    },
+    "print_btn": {
+        "locator": {
+            "str_id": "cPrint"
+        }
+    },
+    "clean_printhead": {
+        "locator": {
+            "str_id": "cCleanPrinthead"
+        }
+    },
+    "align_printer": {
+        "locator": {
+            "str_id": "cAlignPrinter"
+        }
+    },
+    "align_btn": {
+        "locator": {
+            "str_id": "cAlign"
+        }
+    },
+    "clean_btn": {
+        "locator": {
+            "str_id": "cClean"
+        }
+    },
+    "network_info": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[contains(@name,'{}')]/following-sibling::XCUIElementTypeStaticText"
+        }
+    },
+    "ethernet_status_cell": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell[8]/XCUIElementTypeStaticText[2]"
+        }
+    },
+    "ethernet_info_title": {
+        "locator": {
+            "name": "Ethernet"
+        }
+    },
+    "direct_connection_name": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[@name='Wi-Fi Direct Name']"
+        }
+    },
+    "bonjour_name": {
+        "locator": {
+            "str_id": "cBonjourName"
+        }
+    },
+    "wireless_txt": {
+        "locator": {
+            "str_id": "cWireless"
+        }
+    },
+    "ethernet_txt": {
+        "locator": {
+            "str_id": "cEthernet"
+        }
+    },
+    "wi_fi_direct_txt": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[contains(@name,'Direct')]"
+        }
+    },
+    "wi_fi_direct_title": {
+        "locator": {
+            "xpath": "//XCUIElementTypeNavigationBar[contains(@name,'Direct')]"
+        }
+    },
+    "find_printer_txt": {
+        "locator": {
+            "name": ["Find your printer PIN", "PIN:"]
+        }
+    }
+}

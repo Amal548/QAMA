@@ -1,0 +1,16 @@
+{
+    "hp_print_service_plugin":{
+        "locator": {"text": "HP Print Service Plugin"}
+    },
+    "wprint_test_app":{
+    "locator":{"text": "wPrintTestApp"}
+    },
+    "permission_message": {
+      "locator": {"id": "com.android.packageinstaller:id/permission_message"}
+    },
+    "permission_allow_button": {
+      "locator": {"id": "com.android.packageinstaller:id/permission_allow_button"}
+    }
+
+}
+

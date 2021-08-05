@@ -1,0 +1,410 @@
+{
+    "setting_btn":{
+        "locator":{
+            "name":"Configuration"
+        }
+    },
+    "scan_images_or_slash_documents_popup_msg":{
+        "locator":{
+            "name":"You can use the scanner on your printer or the camera on your iPhone to scan images and documents."
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/scan/first-time",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "_const_input_type_doc_btn":{
+        "locator":{
+            "name":"Document or PDF"
+        }
+    },
+    "_const_input_type_img_btn":{
+        "locator":{
+            "name":"Image or JPG"
+        }
+    },
+    "_const_grayscale_btn":{
+        "locator":{
+            "str_id":"cGrayscale",
+            "name":"Grayscale"
+        }
+    },
+    "scanner_popup_btn":{
+        "locator":{
+            "name":"Scanner"
+        },
+        "ga":[{
+                "ga_data":{
+                    "category":"Scan",
+                    "action":"First-time-dialog",
+                    "label":"Scanner"
+                },
+                "trigger":"click",
+                "type":"event"
+            }]
+    },
+    "camera_popup_btn":{
+        "locator":{
+            "name":"Camera"
+        },
+        "ga":[{
+                "ga_data":{
+                    "category":"Scan",
+                    "action":"First-time-dialog",
+                    "label":"Camera"
+                },
+                "trigger":"click",
+                "type":"event"
+            }]
+    },
+    "scan_btn":{
+        "locator":{
+            "name":"Scan"
+        }
+    },
+    "cancel_scan_btn":{
+        "locator":{
+            "name":"Scan"
+        },
+        "ga":[{
+                "ga_data":{
+                    "category":"Scan",
+                    "action":"Cancelled",
+                    "label":"(not set)"
+                },
+                "trigger":"click",
+                "type":"event"
+            },
+            {
+                "ga_data":{
+                    "screen":"/scan/scanning",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "area_size":{
+        "locator":{
+            "name":"Configuration",
+            "label":"Scan Settings"
+        }
+    },
+    "preview_btn":{
+        "locator":{
+            "name":"adv scan preview"
+        },
+        "ga":[{
+                "ga_data":{
+                    "category":"Preview",
+                    "action":"Preview",
+                    "label":"[PRINTER]"
+                },
+                "trigger":"click",
+                "type":"event"
+            }]
+    },
+    "done_btn":{
+        "locator":{
+            "name":"Done"
+        }
+    },
+    "scan_settings_title":{
+        "locator":{
+            "str_id":"cScanSettings"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/scan/setting",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "input_type_title":{
+        "locator":{
+            "str_id":"cInputType"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/scan/setting/type",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "input_src_title":{
+        "locator":{
+            "str_id":"cInputSource"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/scan/setting/source",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "quality_title":{
+        "locator":{
+            "str_id":"cQuality"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/scan/setting/quality",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "color_title":{
+        "locator":{
+            "name":"Color"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/scan/setting/color",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "close_btn":{
+        "locator":{
+            "name":"Close"
+        }
+    },
+    "scan_status":{
+        "locator":{
+            "xpath":"//XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText"
+        }
+    },
+    "_const_input_type_btn":{
+        "locator":{
+            "name":"Input Type"
+        }
+    },
+    "_const_input_src_btn":{
+        "locator":{
+            "_comment":"xpath changes depending on printer used. This only appears on certain printers",
+            "_str_id":"cInputSource",
+            "name":"Input Source"
+        }
+    },
+    "_const_quality_btn":{
+        "locator":{
+            "name":"Quality"
+        }
+    },
+    "_const_color_btn":{
+        "locator":{
+            "str_id":"cColor"
+        }
+    },
+    "_const_quality_normal_btn":{
+        "locator":{
+            "name":"Normal (200 dpi)"
+        }
+    },
+    "_const_quality_draft_btn":{
+        "locator":{
+            "name":"Draft (100 dpi)"
+        }
+    },
+    "_const_quality_best_btn":{
+        "locator":{
+            "name":"Best (300 dpi)"
+        }
+    },
+    "_const_input_src_automatic_btn":{
+        "locator":{
+            "name":"Automatic",
+            "_str_id":"cAutomatic"
+        }
+    },
+    "_const_input_src_scanner_glass_btn":{
+        "locator":{
+            "name":"Scanner Glass",
+            "_str_id":"cScannerGlass"
+        }
+    },
+    "_const_input_src_doc_feeder_btn":{
+        "locator":{
+            "name":"Document Feeder",
+            "_str_id":"cDocumentFeeder"
+        }
+    },
+    "_const_black_btn":{
+        "locator":{
+            "name":"Black"
+        }
+    },
+    "_const_color_option_btn":{
+        "locator":{
+            "name":"Color"
+        }
+    },
+    "_const_paper_size_a4_option":{
+        "locator":{
+            "name":"A4"
+        }
+    },
+    "_const_paper_size_a3_option":{
+        "locator":{
+            "name":"A3"
+        }
+    },
+    "_const_paper_us_legal_option":{
+        "locator":{
+            "name":"US Legal"
+        }
+    },
+    "_const_paper_size_letter_option":{
+        "locator":{
+            "name":"Letter - 8.5x11 in"
+        }
+    },
+    "_const_paper_size_3_5x5_option":{
+        "locator":{
+            "name":"3.5x5 in/9x13"
+        }
+    },
+    "_const_paper_size_5x7_option":{
+        "locator":{
+            "name":"5x7 in/13x18 cm"
+        }
+    },
+    "_const_paper_size_4x6_option":{
+        "locator":{
+            "name":"4x6 in/10x15 cm"
+        }
+    },
+    "_const_paper_size_custom_size_option":{
+        "locator":{
+            "name":"Custom Size"
+        }
+    },
+    "source_btn":{
+        "locator":{
+            "name":"Source"
+        }
+    },
+    "down_arrow_icon":{
+        "locator":{
+            "name":"icon drop down"
+        }
+    },
+    "camera_btn":{
+        "locator":{
+            "name":"Camera"
+        }
+    },
+    "scanner_btn":{
+         "locator":{
+            "name":"Scanner"
+        }
+    },
+    "files_and_photos_btn":{
+        "locator":{
+            "name":"Files & Photos"
+        }
+    },
+    "import_title":{
+        "locator":{
+            "name":"Import"
+        }
+    },
+    "next_btn":{
+        "locator":{
+            "name":"Next"
+        }
+    },
+    "navigate_bck_popup":{
+        "locator":{
+            "name":"Are you done working?"
+        }
+    },
+    "add_page_no_btn":{
+        "locator":{
+            "name":"No"
+        }
+    },
+    "area_size_options": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTable[@name='Flat Picker Table View']/XCUIElementTypeCell"
+        }
+    },
+    "top_left_knob":{
+        "locator":{
+            "name":"Top Left Knob"
+        }
+    },
+    "scanning_msg": {
+        "locator": {
+            "str_id": "cScanningEllipsis",
+            "name": "Scanning..."
+        }
+    },
+    "scanning_finished_msg": {
+        "locator": {
+            "str_id": "cScanningIsFinished",
+            "name": "Scanning is finished"
+        }
+    },
+    "scanning_canceling_msg": {
+        "locator": {
+            "str_id": "cCancelingEllipsis",
+            "name": "Scanning is canceled"
+        }
+
+    },
+    "adjust_scan_capture_coachmark": {
+        "locator": {
+            "name": "Adjust scan capture settings."
+        }
+    },
+    "start_scan_coachmark": {
+        "locator": {
+            "name": "Tap here to start a scan from your HP printer."
+        }
+    },
+    "scan_source_coachmark": {
+        "locator": {
+            "name": "Tap to change the source of your scan."
+        }
+    },
+    "page_size":{
+        "locator":{
+            "name": "Page Size"
+        }
+    },
+    "input_source":{
+        "locator":{
+            "name": "Input Source"
+        }
+    },
+    "quality":{
+        "locator":{
+            "name": "Quality"
+        }
+    },
+    "color":{
+        "locator":{
+            "name": "Color"
+        }
+    },
+    "book_mode":{
+        "locator":{
+            "name": "Book"
+        }
+    }
+}

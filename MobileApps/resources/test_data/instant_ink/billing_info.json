@@ -1,0 +1,28 @@
+{
+	"mastercard": {
+			"cardnumber": "5111005111051128",
+			"month": "12",
+			"year": "2030",
+            "cvv": "150"
+		
+	},
+
+	"visa": {
+			"cardnumber": "4112344112344113",
+			"cvv": "150",
+			"month": "12",
+			"year": "2030"
+		
+	},
+
+
+	"directDebit": {
+			"IBAN": "DE97502109000700046052",
+			"name": "CITIDEFFXXX",
+			"bank": "CITIBANK AG"
+		
+	}
+}
+
+
+

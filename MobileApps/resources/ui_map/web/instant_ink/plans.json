@@ -1,0 +1,9 @@
+{
+    "plans_page_title": {
+        "locator": {"css selector": "h1.g-enroll-header"}
+    },
+    "plan_select_btn":{
+        "locator": {"xpath": "//input[@name='plan-{}']"}
+    }
+
+}

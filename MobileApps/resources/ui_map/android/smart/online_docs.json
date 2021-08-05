@@ -1,0 +1,110 @@
+{
+  "google_drive_txt":{
+    "locator": {"str_id": "google_drive"}
+  },
+  "dropbox_txt":{
+    "locator":{"str_id": "dropbox"}
+  },
+  "onedrive_txt":{
+    "locator":{"str_id": "onedrive"}
+  },
+  "nav_btns_layout":{
+    "locator": {"class name": "androidx.appcompat.widget.LinearLayoutCompat"}
+  },
+  "more_options_btn":{
+    "locator":{"xpath": "//android.widget.ImageView[@content-desc='More options' and @clickable='true']"}
+  },
+  "opt_alphabetical_btn":{
+    "locator":{"str_id": "alphabetical"},
+    "ga": [
+        {
+          "ga_data":{
+            "category": "Documents",
+            "action":"Sort",
+            "label": "Alphabetical",
+            "count": 1},
+          "trigger": "click",
+          "type": "event"
+        }
+    ]
+  },
+  "opt_date_btn":{
+    "locator":{"str_id": "date"},
+    "ga": [
+        {
+          "ga_data":{
+            "category": "Documents",
+            "action":"Sort",
+            "label": "Date",
+            "count": 1},
+          "trigger": "click",
+          "type": "event"
+        }
+    ]
+  },
+  "files_lv":{
+    "locator": {"id": "files_list"},
+    "ga": [
+        {
+          "ga_data":{
+            "screen": "/documents/Google-drive",
+            "count": 1},
+          "trigger": "wait_v",
+          "type": "screen"
+        }
+    ]
+  },
+  "file_name":{
+    "locator":{"text": "{}"}
+  },
+  "file_name_txt": {
+    "locator": {"id": "adapter_item_tv_item"}
+  },
+  "file_sub_txt": {
+    "locator": {"id": "adapter_item_tv_subItem"}
+  },
+  "not_supported_file_txt":{
+    "locator":{"str_id": "not_supported"}
+  },
+  "choose_account_title":{
+    "_comment": "GOOGLE DRIVE",
+    "locator": {"id": "com.google.android.gms:id/alertTitle"}
+  },
+  "acc_txt":{
+    "locator": {"text": "{}"}
+  },
+  "choose_account_popup_ok_btn":{
+    "_comment": "GOOGLE DRIVE",
+    "locator": {"id": "android:id/button1"},
+    "ga": [
+        {
+        "ga_data":{
+            "screen": "/documents/add/Google-drive",
+            "count": 1},
+          "trigger": "wait_v",
+          "type": "screen"
+        }
+    ]
+  },
+  "choose_account_popup_cancel_btn":{
+    "locator": {"id": "android:id/button2"}
+  },
+  "access_to_dropbox_allow_btn":{
+    "locator": {"xpath": "//android.widget.TextView[@text='Allow']"},
+    "ga": [
+        {
+          "ga_data":{
+            "screen": "/documents/add/Dropbox",
+            "count": 1},
+          "trigger": "wait_v",
+          "type": "screen"
+        }
+    ]
+  },
+  "access_to_google_drive_allow_btn":{
+    "locator": {"xpath": "//android.widget.Button[@text='Allow']"}
+  },
+  "progress_icon": {
+    "locator": {"id":  "android:id/progress"}
+  }
+}

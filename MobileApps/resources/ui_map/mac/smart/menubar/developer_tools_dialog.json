@@ -1,0 +1,10 @@
+{
+    "override_app_version":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Developer Tools (RELEASE)' and @AXSubrole='AXDialog']/AXTextField[@AXIdentifier='_NS:208']"}
+    },
+    
+    "ok_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Developer Tools (RELEASE)' and @AXSubrole='AXDialog']/AXButton[@AXTitle='OK' and @AXIdentifier='_NS:219']"}
+    }
+    
+}

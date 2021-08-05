@@ -1,0 +1,29 @@
+{
+  "default_device": "HUAWEI P20",
+  "devices": [
+    {
+      "device_name": "Honor 8",
+      "platform_version": "7.0",
+      "device_uuid": "NXTDU16821000931",
+      "wechat_user": "HP Bridge"
+    },
+    {
+      "device_name": "Samsung",
+      "platform_version": "8.0.0",
+      "device_uuid": "0825d859",
+      "wechat_user": "Ben testing"
+    },
+    {
+      "device_name": "HUAWEI P30",
+      "platform_version": "10",
+      "device_uuid": "GBG5T19829005344",
+      "wechat_user": "HP Bridge Auto"
+    },
+    {
+      "device_name": "HUAWEI P20",
+      "platform_version": "10",
+      "device_uuid": "CLB0219223000320",
+      "wechat_user": "Ben testing"
+    }
+  ]
+}

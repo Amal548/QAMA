@@ -1,0 +1,134 @@
+{
+  "auth_is_logged_in_open_item": {
+      "locator": {
+        "xpath": "//android.view.View[@resource-id='loggedIn']"
+      }
+  },
+
+  "auth_test_btn": {
+      "locator": {
+        "text": "TEST"
+      }
+  },
+
+  "auth_is_logged_in_result_txt": {
+      "locator": {
+        "xpath": "//android.view.View[@resource-id='isLoggedInResult']"
+      }
+  },
+
+  "auth_is_logged_in_close_item": {
+      "locator": {
+        "text": "Auth.isLoggedIn()"
+
+      }
+  },
+
+  "auth_get_token_open_item": {
+      "locator": {
+        "xpath": "//android.view.View[@resource-id='getToken']"
+      }
+  },
+
+  "auth_get_token_result_txt": {
+      "locator": {
+        "xpath": "//android.view.View[@resource-id='getTokenResult']"
+      }
+  },
+
+  "auth_get_token_close_item": {
+      "locator": {
+        "text": "Auth.getToken()"
+      }
+  },
+
+  "auth_require_fresh_token_switch": {
+     "locator": {
+       "xpath": "//android.widget.CheckBox[@resource-id='requireFreshTokenToggle']"
+     }
+  },
+
+  "auth_network_access_switch": {
+     "locator": {
+       "xpath": "//android.widget.CheckBox[@resource-id='setAllowNetworkAccessToggle']"
+     }
+  },
+
+  "auth_user_interaction_switch": {
+     "locator": {
+       "xpath": "//android.widget.CheckBox[@resource-id='setAllowUserInteractionToggle']"
+     }
+  },
+
+  "auth_account_creation_switch": {
+     "locator": {
+       "xpath": "//android.widget.CheckBox[@resource-id='setAllowAccountCreateOnSignInToggle']"
+     }
+   },
+
+  "auth_skip_token_refresh_switch": {
+     "locator": {
+       "xpath": "//android.widget.CheckBox[@resource-id='setSkipTokenRefreshToggle']"
+     }
+  },
+
+  "auth_user_interaction_entry_point_selector": {
+     "locator": {
+       "xpath": "//android.view.View[@resource-id='userInteractionEntryPointSelect']"
+     }
+  },
+
+  "auth_sign_in_page_item": {
+    "locator": {
+      "text": "signIn"
+    }
+  },
+
+  "auth_create_account_page_item": {
+    "locator": {
+      "text": "createAccount"
+    }
+  },
+
+  "auth_invalid_option_item": {
+    "locator": {
+      "text": "Invalid Option (Test)"
+    }
+  },
+
+  "auth_no_option_item": {
+    "locator": {
+      "text": "No Option (Test)"
+    }
+  },
+
+  "auth_get_token_test_btn": {
+    "locator": {
+      "xpath": "//android.view.View[@resource-id='getTokenButton']"
+    }
+  },
+
+  "auth_logout_open_item": {
+      "locator": {
+        "xpath": "//android.view.View[@resource-id='logout']"
+      }
+  },
+
+  "auth_logout_test_btn": {
+      "locator": {
+        "xpath": "//android.view.View[@resource-id='logoutButton']"
+      }
+  },
+
+  "auth_logout_result_txt": {
+    "locator": {
+      "xpath": "//android.view.View[@resource-id='logoutResult']"
+    }
+  },
+
+  "auth_logout_close_item": {
+      "locator": {
+        "text": "Auth.logout()"
+      }
+  }
+}

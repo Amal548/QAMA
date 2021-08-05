@@ -1,0 +1,140 @@
+{
+   "printer_list":{
+      "description":"the printers in the printer list page",
+      "locator":{
+         "css":"div.printerlist>div"
+      }
+   },
+   "printer_spec":{
+      "description":"assgin the special printer by printer name from the printer list",
+      "locator":{
+         "xpath":"//p[text()='{}']"
+      }
+   },
+   "printers":{
+      "description":"printer list in Wechat public account device home page",
+      "locator":{
+         "css":"div.swiper-wrapper>div"
+      }
+   },
+   "current_printer":{
+      "description":"the selected printer in Wechat public account device home page",
+      "locator":{
+         "css":"div[class*='swiper-slide-active']"
+      }
+   },
+   "printer_img":{
+      "description":"printer icon",
+      "locator":{
+         "css":"div.swiper-wrapper>div"
+      }
+   },
+   "printer_name":{
+      "description":"the printer name label",
+      "locator":{
+         "css":"div.device_center>p:nth-child(1)"
+      }
+   },
+   "moder_name":{
+      "description":"the printer's model name",
+      "locator":{
+         "css":"div.device_center>p:nth-child(2)"
+      }
+   },
+   "unbinding_btn":{
+      "description":"unbind printer button",
+      "locator":{
+         "css":"div.device_btn>span:nth-child(1)"
+      }
+   },
+   "change_name_btn":{
+      "description":"change printer name button",
+      "locator":{
+         "css":"div.device_btn>span:nth-child(3)"
+      }
+   },
+   "dialog_title":{
+      "description":"the popup dialog after click change printer name",
+      "locator":{
+         "css":"h4#myModalLabel"
+      }
+   },
+   "input_printer_name":{
+      "description":"the input box to input new printer name",
+      "locator":{
+         "css":"input#printerName"
+      }
+   },
+   "save_btn":{
+      "description":"save the new printer name button",
+      "locator":{
+         "css":"div.ui-view>div:nth-child(6) button.btn-primary"
+      }
+   },
+   "cancel_btn":{
+      "description":"cancel save printer name button",
+      "locator":{
+         "css":"div.ui-view>div:nth-child(6) button.btn-default"
+      }
+   },
+   "cancel_unbinding_btn":{
+      "description":"cancel unbind button",
+      "locator":{
+         "css":"div.ui-view>div:nth-child(5) button.btn-default"
+      }
+   },
+   "confirm_unbinding_btn":{
+      "description":"confirm unbinding printer button",
+      "locator":{
+         "css":"div.ui-view>div:nth-child(5) button.btn-primary"
+      }
+   },
+   "ink_info_tab":{
+      "description":"the ink info tab in device detail page",
+      "locator":{
+         "xpath":"//uib-tab-heading[contains(text(),'估计墨盒量')]"
+      }
+   },
+   "file_print_tab":{
+      "description":"the file print setting tab in device detail page",
+      "locator":{
+         "xpath":"//uib-tab-heading[contains(text(),'文件打印设置')]"
+      }
+   },
+   "img_print_tab":{
+      "description":"the photo print setting tab in device detail page",
+      "locator":{
+         "xpath":"//uib-tab-heading[contains(text(),'图片打印设置')]"
+      }
+   },
+   "setting_list":{
+      "description":"the print setting options list",
+      "locator":{
+         "css":"div.active ul.optionlist>li"
+      }
+   },
+   "checkbox":{
+      "description":"the checkbox in print setting options",
+      "locator":{
+         "css":"div:nth-child(2)"
+      }
+   },
+   "checkbox_enabled":{
+      "description":"the filed for checking the enabled status of the checkbox",
+      "locator":{
+         "css":"clicksheet>div"
+      }
+   },
+   "setting_value":{
+      "description":"the value for print setting options",
+      "locator":{
+         "css":"p"
+      }
+   },
+   "cartridge_percentage_spec":{
+      "description":"the value for print setting options",
+      "locator":{
+         "css":"div.{} >div:nth-child(4)"
+      }
+   }
+}

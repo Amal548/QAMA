@@ -1,0 +1,73 @@
+{
+    "_shared_page_nav_btn": {
+        "locator": {
+            "css selector": "button[aria-label*='age {}']"
+        }
+    }, 
+    "_shared_page_prev_nav_btn": {
+        "locator": {
+            "css selector": "button[aria-label='Previous']"
+        }
+    },
+    "_shared_page_next_nav_btn": {
+        "locator": {
+            "css selector": "button[aria-label='Next']"
+        }
+    },
+    "_shared_page_size_btn":{
+        "locator": {
+            "css selector": "button[aria-label='Select page size']"
+        }
+    },
+    "_shared_page_size_total_txt":{
+        "locator": {
+            "css selector": "button[aria-label='Select page size'] ~ span"
+        }
+    },
+    "_shared_page_size_menu_entry":{
+        "locator": {
+            "css selector": "li[data-value='{}']"
+        }
+    }, 
+    "_shared_page_size_menu_selected_entry":{
+        "locator": {
+            "css selector": "li[aria-selected='true']"
+        }
+    },
+    "_shared_table_entries":{
+        "locator": {
+            "css selector": "tbody tr"
+        }
+    }, 
+    "_shared_table_entries_with_link":{
+        "locator": {
+            "css selector": "tbody tr td a"
+        }
+    }, 
+    "_shared_current_page":{
+        "locator": {
+            "css selector": "button[aria-label*='(Current Page)']"
+        }
+    },
+    "_shared_all_pages_btn":{
+        "locator": {
+            "css selector": "nav[aria-label='Pagination Navigation'] li"
+        }
+    },
+    "_shared_no_items_found_img":{
+        "locator": {
+            "css selector": "tr td div[class*='-Avatar']"
+        }
+    },
+    "_shared_all_table_header_column":{
+        "locator": {
+            "css selector": "thead tr th"
+        }
+    },
+    "_shared_table_all_col_by_index":{
+        "locator": {
+            "css selector": "tr > td:nth-of-type({})"
+        }
+    }
+
+}

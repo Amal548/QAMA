@@ -1,0 +1,12 @@
+{
+    "image_carousel": {
+        "locator": {
+            "css selector": ".value-prop-image"
+        }
+    },
+    "background_image": {
+        "locator": {
+            "css selector": "div.ucde-prop-background"
+        }
+    }
+}

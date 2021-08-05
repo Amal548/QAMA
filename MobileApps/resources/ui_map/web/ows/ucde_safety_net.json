@@ -1,0 +1,17 @@
+{
+    "safety_net_page_div":{
+        "locator": {
+            "css selector": "div.page-container.safety-net-container"
+        }
+    },
+    "back_to_account_btn":{
+        "locator": {
+            "css selector": "button.btn-enabled.btn-primary.safety-net-btn.ng-binding"
+        }
+    },
+    "skip_warrenty_and_account_activation_btn":{
+        "locator": {
+            "css selector": "button.btn-enabled.btn-tertiary.safety-net-btn.ng-binding"
+        }
+    }
+}

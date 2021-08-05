@@ -1,0 +1,21 @@
+{"mac_printers":{
+    "PalemoSuper": {
+        "bonjour_name": "HP ENVY Photo 7800 series [0B46DD]",
+        "model_name":"HP ENVY Photo 7800 series",
+        "printer_key_id": "853d7e0d-d3e0-5cd0-c19c-0b1f6cf38fcc",
+        "ip":""
+     },
+     "Marathon":{
+        "bonjour_name": "HP PageWide MFP P77740-60z [98301E]",
+        "printer_key_id": "63b6310e-ac9f-534e-d75b-798f41c13c4e"
+     },
+     "Taccola": [{
+        "bonjour_name": "HP Deskjet Plus 4100 serise [F6E03C]",
+        "printer_key_id": "f11f1dd3-aac4-f003-825c-96b5a969c134"
+      },
+      {
+        "bonjour_name": "HP Deskjet Plus 4100 serise [F6E0AA]",
+        "printer_key_id": "c3376244-e4b9-72bd-c478-344df96f8561"
+      }]
+  }
+}

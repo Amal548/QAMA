@@ -1,0 +1,25 @@
+{
+    "connect_your_computer_to_the_network_title":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:11']"}
+    },
+    
+    "connect_your_computer_to_the_network_contents":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:39']/AXStaticText[@AXIdentifier='_NS:43']"}
+    },
+    
+    "connect_your_computer_to_the_network_image":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:39']/AXImage[@AXIdentifier='_NS:53']"}
+    },
+    
+    "yes_connect_to_network_opt":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:39']/AXRadioButton[@AXIdentifier='_NS:46']"}
+    },
+    
+    "no_continue_without_network_opt":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXGroup[@AXIdentifier='_NS:39']/AXRadioButton[@AXIdentifier='_NS:79']"}
+    },
+    
+    "continue_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXButton[@AXIdentifier='_NS:49']"}
+    }
+}

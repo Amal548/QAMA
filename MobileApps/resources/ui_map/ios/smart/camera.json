@@ -1,0 +1,272 @@
+{
+    "manual_btn": {
+        "locator": {
+            "name": "Manual"
+        }
+    },
+    "auto_btn": {
+        "locator": {
+            "name": "Auto"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/copy?type=auto",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "capture_btn": {
+        "locator": {
+            "name": ["Scan", "Capture"]
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/copy?type=manual",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "back_btn": {
+        "locator": {
+            "name": "Navigate Back"
+        }
+    },
+    "photo_btn": {
+        "locator": {
+            "name": "Scanner controls photos icon w"
+        }
+    },
+    "gallery_btn": {
+        "locator": {
+            "name": "Import"
+        }
+    },
+    "phone_settings_camera_toggle": {
+        "locator": {
+            "xpath": "//XCUIElementTypeSwitch[@name=\"Camera\" and @value=\"0\"]"
+        }
+    },
+    "return_from_settings": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name=\"HP Smart AH\"]"
+        }
+    },
+    "allow_camera_access_popup": {
+        "locator": {
+            "name": "“HP Smart AH” Would Like to Access the Camera"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/capture/request-access",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "allow_ok": {
+        "locator": {
+            "name": "OK"
+        }
+    },
+    "dont_allow": {
+        "locator": {
+            "name": "Don’t Allow"
+        }
+    },
+    "camera_btn": {
+        "locator": {
+            "name": "CAMERA"
+        }
+    },
+    "flash_btn": {
+        "locator": {
+            "name": "Flash",
+            "xpath": "//XCUIElementTypeButton[starts-with(@name, 'Flash ')]"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "category": "Capture",
+                    "action": "Flash-mode",
+                    "label": "{camera_flash_mode_dynamic_ga_value}",
+                    "count": 1
+                },
+                "default_keys": {
+                    "camera_flash_mode_dynamic_ga_value": "Off"
+                },
+                "trigger": "click",
+                "type": "event"
+            }
+        ]
+    },
+    "auto_image_collection_view": {
+        "locator": {
+
+            "xpath": "//XCUIElementTypeStaticText[string(number(@name)) != 'NaN']"
+        }
+    },
+    "result_btn": {
+        "locator": {
+            "name": "Result"
+        }
+    },
+    "allow_hp_smart_access_camera": {
+        "locator": {
+            "name": "ALLOW HP SMART AH TO ACCESS"
+        }
+    },
+    "unsaved_pages_popup": {
+        "locator": {
+            "name": "Unsaved pages will be lost"
+        }
+    },
+    "no_btn": {
+        "locator": {
+            "name": "No"
+        }
+    },
+    "yes_btn": {
+        "locator": {
+            "name": "Yes"
+        }
+    },
+    "close_btn": {
+        "locator": {
+            "name": "Close"
+        }
+    },
+    "camera_toggle_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeSwitch[@name='Camera']",
+            "name": "Camera"
+        }
+    },
+    "return_to_hp_smart_btn": {
+        "locator": {
+            "accessibility id": "Return to HP Smart AH",
+            "name": "Return to HP Smart AH",
+            "xpath": "//XCUIElementTypeButton[@name='Return to HP Smart AH]"
+        }
+    },
+    "all_btn_in_page": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@type='XCUIElementTypeButton']"
+        }
+    },
+    "source_btn": {
+        "locator": {
+            "name": "Source"
+        }
+    },
+    "camera_adjust_text": {
+        "locator": {
+            "name": "Center content in camera frame…"
+        }
+    },
+    "exit_without_saving_popup": {
+        "locator": {
+            "name": "Exit without saving?"
+        }
+    },
+    "flash_off": {
+        "locator": {
+            "name": "Flash Off"
+        }
+    },
+    "flash_on": {
+        "locator": {
+            "name": "Flash On"
+        }
+    },
+    "flash_torch": {
+        "locator": {
+            "name": "Flash Torch"
+        }
+    },
+    "flash_auto": {
+        "locator": {
+            "name": "Flash Auto"
+        }
+    },
+    "default_flash_off": {
+        "locator": {
+            "name": "Flash Off"
+        }
+    },
+    "add_page": {
+        "locator": {
+            "name": "Add Page"
+        }
+    },
+    "auto_boundary_btn": {
+        "locator": {
+            "str_id": "cAuto"
+        }
+    },
+    "full_boundary_btn": {
+        "locator": {
+            "str_id": "cFull"
+        }
+    },
+    "adjust_boundaries_image": {
+        "locator": {
+            "xpath": "//XCUIElementTypeApplication[@name='HP Smart AH'f]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeImage"
+        }
+    },
+    "enable_access_to_camera_text": {
+        "locator": {
+            "str_id": "cEnableAccessToCamera"
+        }
+    },
+    "allow_access_to_camera_text": {
+        "locator": {
+            "str_id": "cAllowAccessToYourCamera"
+        }
+    },
+    "aio_needs_access_to_camera_text": {
+        "locator": {
+            "str_id": "cAiORemoteNeedsAccessToCameraOnPlaceholder"
+        }
+    },
+    "files_and_photos_str": {
+        "locator": {
+            "str_id": "cFilesAndPhotos"
+        }
+    },
+    "camera_str": {
+        "locator": {
+            "str_id": "cCamera"
+        }
+    },
+    "scanner_str": {
+        "locator": {
+            "str_id": "cScanner"
+        }
+    },
+    "camera_preset_coach_mark": {
+        "locator": {
+            "name": "Select the preset you would like to use."
+        }
+    },
+    "camera_capture_coach_mark": {
+        "locator": {
+            "name": "Tap here to capture a camera scan."
+        }
+    },
+    "camera_source_coach_mark": {
+        "locator": {
+            "name": "Tap to change the source of your scan."
+        }
+    }
+}

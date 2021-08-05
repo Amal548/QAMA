@@ -1,0 +1,450 @@
+{
+
+    "refresh_icon":{ "locator":{
+        "name":"Down"}
+    },
+
+    "printer_not_connected_txt":{
+        "locator":{
+            "name":"Printer Not Connected"
+        }
+    },
+    "printer_name_txt":{
+        "locator":{
+            "xpath": "//XCUIElementTypeStaticText[@name='{}']"
+        }
+    },
+    "notification_bell_btn":{
+        "locator":{
+            "name":"Notifications"
+        }
+    },
+    "last_connected_txt":{
+        "locator":{
+            "str_id":"cLastConnected"
+        }
+    },
+    "device_info_section":{
+        "locator":{
+            "name":"BriefDeviceInfo"
+        }
+    },
+    "printer_info_btn":{
+        "locator":{
+            "str_id":"cSeeMyPrinterInformation"
+        }
+    },
+    "select_printer_btn":{
+        "locator":{
+            "str_id":"cSelectADifferentPrinter"
+        }
+    },
+    "tile_collection_view":{
+        "locator":{
+            "name":"MPTilesCollectionView"
+        },
+        "ga":[{
+                "ga_data":{
+                    "category":"Home",
+                    "action":"Tiles",
+                    "label":"{home_tile_count}",
+                    "count":1
+                },
+                "default_keys":{
+                    "home_tile_count":1
+                },
+                "trigger":"wait_v",
+                "type":"event"
+            }]
+    },
+    "add_new_printer_from_top_bar": {
+      "locator": {
+        "xpath": "//XCUIElementTypeNavigationBar/XCUIElementTypeButton[@name='Add Printer']"
+      }
+    },
+    "get_started_text":{
+        "locator":{
+            "name":"Get Started by Adding a Printer",
+            "str_id": "cGetStartedByAddingPrinter"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/home/more-than-one-printer-found",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            },
+            {
+                "ga_data":{
+                    "category":"Home",
+                    "action":"Found-printer",
+                    "label":"No",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"event"
+            }]
+    },
+    "device_carousel_collection_view":{
+        "locator":{
+            "xpath":"//XCUIElementTypeCollectionView[@name='MPTilesCollectionView']//XCUIElementTypeCollectionView"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/home",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "device_name_in_carousel": {
+      "locator": {
+        "xpath": "//XCUIElementTypeCell[@name='{}']//XCUIElementTypeStaticText[1]"
+      }
+    },
+
+    "wifi_off_txt":{
+        "locator":{
+            "xpath":"//XCUIElementTypeStaticText[@name=\"To find a printer, turn on Wi‑Fi on your iPhone.\"]"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/home/printer-connection-help",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "tile_frame":{
+        "locator":{
+            "class name":"XCUIElementTypeCell"
+        }
+    },
+    "tile_title":{
+        "locator":{
+            "text_ci":"{}"
+        },
+        "ga":[{
+                "ga_data":{
+                    "category":"Home",
+                    "action":"Tiles-showing",
+                    "label":"{home_tile_name}",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"event"
+            },
+            {
+                "ga_data":{
+                    "category":"Home",
+                    "action":"Tile-clicked",
+                    "label":"{home_tile_name_clicked_one}",
+                    "count":1
+                },
+                "trigger":"click",
+                "type":"event"
+            }]
+    },
+    "estimate_cartridge_levels_text_btn":{
+        "locator":{
+            "str_id":"cEstimatedCartridgeLevels"
+        }
+    },
+    "forget_this_printer_btn":{
+        "locator":{
+            "name":"Forget This Printer"
+        },
+        "ga":[{
+                "ga_data":{
+                    "category":"Home",
+                    "action":"Printer-menu-printer",
+                    "label":"Forget-this-printer",
+                    "count":1
+                },
+                "trigger":"click",
+                "type":"event"
+            }]
+    },
+    "hide_printer_btn": {
+      "locator": {
+        "name": "Hide Printer"
+      }
+    },
+    "hide_printer_confirmation_btn":{
+      "locator":{
+        "name": "Hide"
+      }
+    },
+    "hide_this_printer_popup":{
+      "locator":{
+        "xpath": "//XCUIElementTypeOther/XCUIElementTypeStaticText[contains(@name, 'Hide this')]"
+      }
+    },
+    "printer_information_btn":{
+        "locator":{
+            "name":"Printer Information"
+        },
+        "ga":[{
+                "ga_data":{
+                    "category":"Home",
+                    "action":"Printer-menu-printer",
+                    "label":"See-printer-info",
+                    "count":1
+                },
+                "trigger":"click",
+                "type":"event"
+            }]
+    },
+    "forget_printer_cancel_btn":{
+        "locator":{
+            "name":"Cancel"
+        },
+        "ga_data":{
+            "category":"Home",
+            "action":"Forget-printer-dialog",
+            "label":"Cancel",
+            "count":1
+        },
+        "trigger":"click",
+        "type":"event"
+    },
+    "forget_printer_forget_btn":{
+        "locator":{
+            "name":"Forget"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/home/forget-printer-dialog",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            },
+            {
+                "ga_data":{
+                    "category":"Home",
+                    "action":"Forget-printer-dialog",
+                    "label":"Forget",
+                    "count":1
+                },
+                "trigger":"click",
+                "type":"event"
+            }]
+    },
+    "printer_menu_table_view":{
+        "locator":{
+            "name":"Context Menu Table View"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/home/printer-menu-printer",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+
+  "smart_task_awareness_popup": {
+    "locator": {
+      "str_id":"cSmartTasksValuePropDescription"
+    }
+  },
+
+  "smart_task_pop_up_close_btn": {
+    "locator": {
+      "name": "Close"
+    }
+  },
+
+  "print_anywhere_anytime": {
+    "locator": {
+      "str_id": "cPrintAnywhereEnabled"
+    }
+  },
+  "print_anywhere_anytime_popup": {
+    "locator": {
+      "str_id": ["cPrintAnywhereAnytime", "cConnectAnywhereAwareness_Message"]
+    }
+
+  },
+  "print_anywhere_anytime_pop_up_close_btn": {
+    "locator": {
+      "name": "ConnectAnywhereClose",
+      "xpath": "//XCUIElementTypeOther/XCUIElementTypeButton[@name='ConnectAnywhereClose']"
+    }
+  },
+  "add_printer_img_txt": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Add Printer']",
+      "str_id":"cAddPrinter"
+    }
+  },
+  "printer_image": {
+    "locator": {
+      "name": "DeviceCarouselInfo-1"
+    }
+  },
+  "promotion_banner_pop_up": {
+    "locator": {
+      "name": "Promotion Banner Popup"
+    }
+  },
+  "second_printer_img": {
+    "locator": {
+      "name": "DeviceCarouselInfo-2"
+    }
+  },
+  "tap_here_to_start": {
+    "locator": {
+      "name": "Tooltip"
+    }
+  },
+  "personalize_btn": {
+    "locator": {
+      "name": "Personalize"
+    }
+  },
+  "feature_unavailable": {
+    "locator": {
+      "name": "Feature Unavailable",
+      "str_id": "cFeatureUnavailable"
+    }
+  },
+  "no_printer_msg": {
+    "locator": {
+      "str_id": "cFeatureUnavailable_NoPrinterMessage"
+    }
+  },
+  "not_supported_msg": {
+    "locator": {
+      "str_id": "cFeatureUnavailable_NotSupportedMessage"
+    }
+  },
+  "limited_access": {
+    "locator": {
+      "str_id": "cLimitedAccess"
+    }
+  },
+  "limited_access_no_printer": {
+    "locator": {
+      "str_id": "cLimitedAccess_NoPrinterMessage"
+    }
+  },
+  "try_photomyne": {
+    "locator": {
+      "str_id": "cPhotomyneTryPhotomyne"
+    }
+  },
+  "photomyne_consent": {
+    "locator": {
+      "str_id|remove_tags": "cPhotomyneConsent"
+    }
+  },
+  "add_your_first_printer":{
+    "locator":{
+        "name":"Add Your First Printer"
+    }
+  },
+  "top_navigation_bar_name":{
+    "locator":{
+      "name":"HP Smart"
+    }
+  },
+  "get_support_btn":{
+    "locator":{
+      "name":"Get Support"
+    }
+  },
+  "tap_account_coachmark": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@name,'access billing information.')]",
+      "str_id": "cTapAccountToViewYour_Message"
+    }
+  },
+  "create_account_icon":{
+    "locator": {
+      "name": ["Create Account", "CreateAccount-inactive"],
+      "xpath": "//XCUIElementTypeButton[@name='CreateAccount-inactive']",
+      "label": "Create Account"
+    }
+  },
+  "notification_title": {
+    "locator": {
+      "name":  "Notifications"
+    }
+  },
+  "activity_btn": {
+    "locator": {
+      "name":  "Activity"
+    }
+  },
+  "inbox_btn": {
+    "locator": {
+      "name":  "Inbox"
+    }
+  },
+  "signin_btn":{
+    "locator":{
+      "name": ["Sign In", "SignIn-inactive"],
+      "xpath": "//XCUIElementTypeButton[@name='SignIn-inactive']",
+      "label": "Sign In"
+    }
+  },
+  "supplies_btn":{
+    "locator":{
+      "name": "Supplies"
+    }
+  },
+  "shortcuts_btn":{
+    "locator":{
+      "name": "Shortcuts"
+    }
+  },
+  "account_btn":{
+    "locator":{
+      "name": "Account",
+      "xpath": "//XCUIElementTypeStaticText[@name='Account']"
+    }
+  },
+  "settings_opt":{
+    "locator":{
+      "xpath": "//XCUIElementTypeButton[@name='SettingsTab-inactive']",
+      "name": ["Settings", "SettingsTab-inactive"],
+      "label": "Settings"
+    }
+  },
+  "welcome_to_your_hp_inbox":{
+    "locator":{
+      "name": "Welcome to your HP Smart Inbox!"
+    }
+  },
+  "no_printer_activity_title":{
+    "locator":{
+      "name": "No print activity available."
+    }
+  },
+  "mobile_fax_btn":{
+    "locator":{
+      "name": "Mobile Fax"
+    }
+  },
+  "view_notifications_title":{
+    "locator":{
+      "name": "View Notifications"
+    }
+  },
+  "view_notifications_link":{
+    "locator":{
+      "xpath": "//XCUIElementTypeLink/XCUIElementTypeLink[@name='View Notifications']"
+    }
+  },
+  "toggle_menu":{
+    "locator":{
+      "name": "Toggle Menu"
+    }
+  }
+}

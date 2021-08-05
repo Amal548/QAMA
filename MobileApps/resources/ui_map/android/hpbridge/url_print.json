@@ -1,0 +1,146 @@
+{
+  "web_article_print":{
+  "description":"web article print category",
+      "locator": {
+        "xpath": "//android.view.View[@text='网络文章打印']"
+      }
+  },
+  "url_input_field": {
+    "description":"web article print input field",
+    "locator": {
+      "xpath": "//android.webkit.WebView[contains(@text, 'articlePrint')]/android.view.View[2]"
+    }
+  },
+  "url_input_field_click": {
+    "description": "Click the input field, the xpath will be a little bit different",
+    "locator":{
+      "xpath": "//android.widget.EditText"
+    }
+  },
+  "get_article_button": {
+    "description": "'获取文章'button",
+    "locator": {
+      "xpath": "//android.widget.Button[@text='获取文章 ']"
+    }
+  },
+ "got_button": {
+    "description": "'已获取' button",
+    "locator": {
+      "xpath": "//android.widget.Button[@text='已获取 ']"
+    }
+  },
+  "picture_mode_radio_button": {
+    "description":"'图文模式' radio button",
+    "locator": {
+      "xpath": "//android.widget.RadioButton[@text='图文模式']"
+    }
+  },
+  "txt_mode_radio_button": {
+    "description":"'纯文本模式' radio button",
+    "locator": {
+      "xpath": "//android.widget.RadioButton[@text='纯文本模式']"
+    }
+  },
+  "process_to_button": {
+    "description":"'前往打印'button",
+    "locator": {
+      "xpath": "//android.widget.Button[@text='前往打印 ']"
+    }
+  },
+  "generating_document_prompt": {
+    "description":"The pops up dialog while generating the pdf document",
+    "locator": {
+      "xpath": "//android.view.View[@text='请耐心等待']"
+    }
+  },
+ "pic_mode_prompt": {
+    "description":"The pops up dialog for generate picture mode document",
+    "locator": {
+      "xpath": "//android.view.View[@text='图文模式文章生成中，']"
+    }
+  },
+ "txt_mode_prompt": {
+    "description":"The pops up dialog for generate txt mode document",
+    "locator": {
+      "xpath": "//android.view.View[@text='纯文本模式文章生成中，']"
+    }
+  },
+   "auto_past_prompt": {
+    "description":"The pops up dialog while auto paste the URL on web article print page",
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='已成功为您粘贴当前剪切板链接\n请点击“获取文章”预览效果']"
+    }
+  },
+ "paste_url_reminder": {
+    "description":"The pops up dialog for paste the web article url",
+    "locator": {
+      "partial_text@android.widget.TextView": "请粘贴网络文章链接"
+    }
+  },
+ "confirm_btn": {
+    "description":"The confirm button on pops up dialog while auto paste the URL on web article print page",
+    "locator": {
+      "xpath": "//android.widget.Button[@text='确定']"
+    }
+  },
+ "how_to_get_article_url": {
+    "description":"The how to get web article URL on web article print page",
+    "locator": {
+      "xpath": "//android.view.View[@text='如何获取网络文章的链接？']"
+    }
+  },
+ "wechat_public_account": {
+    "description":"Wechat public account url on web article print page",
+    "locator": {
+      "xpath": "//android.view.View[@text='微信公众号']"
+    }
+  },
+ "regular_web_article": {
+   "description": "The regular web article url on web article print page",
+   "locator": {
+     "xpath": "//android.view.View[@text='普通网络文章']"
+   }
+ },
+ "toutiao_url": {
+   "description": "The tou tiao url on web article print page",
+   "locator": {
+     "xpath": "//android.view.View[@text='今日头条']"
+   }
+ },
+"public_account_page": {
+   "description": "Verify the public account page opened",
+   "locator": {
+     "xpath": "//android.view.View[@text='获取微信公众号文章的链接方法！']"
+   }
+ },
+"regular_article_page": {
+   "description": "Verify the regular article page opened",
+   "locator": {
+     "xpath": "//android.view.View[@text='获取普通网络文章的链接方法！']"
+   }
+ },
+"toutiao_page": {
+   "description": "Verify the tou tiao page opened",
+   "locator": {
+     "xpath": "//android.view.View[@text='获取今日头条文章的链接方法！']"
+   }
+ },
+"get_article_failure_title": {
+   "description": "Get web article failure pops out dialog title",
+   "locator": {
+     "xpath": "//android.widget.TextView[@text='获取失败']"
+   }
+ },
+"get_article_failure_body": {
+   "description": "Get web article failure pops out message body",
+   "locator": {
+      "partial_text@android.widget.TextView": "获取网络文章失败，链接错误或当前网络文章不支持此功能"
+   }
+ },
+"get_article_failure_body_blacklist_url": {
+   "description": "Get web article failure pops out message body with blacklist urls",
+   "locator": {
+      "partial_text@android.widget.TextView": "无法获取该网站的网络文章，请重新选择其他链接地址"
+   }
+ }
+}

@@ -1,0 +1,14 @@
+{
+    "value_proposition_div":{
+        "locator": {
+            "css selector": "div#app"
+        }
+    },
+    "skip_button":
+    {
+        "locator":{"css selector": "div[data-testid='skip-button']"}
+    },
+    "yes_skip_offer_btn":{
+        "locator": {"css selector": "button[data-testid='ucde-skip-button']"}
+    }
+}

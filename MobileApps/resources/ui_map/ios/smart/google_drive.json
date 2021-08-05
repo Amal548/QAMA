@@ -1,0 +1,68 @@
+{
+    "google_drive_txt":{
+        "locator":{
+            "name":"Google Drive"
+        }
+    },
+    "google_txt":{
+        "locator":{
+            "name":"Google"
+        }
+    },
+    "google_sign_in_txt":{
+        "locator":{
+            "name":"Sign in"
+        }
+    },
+    "sign_in_email_tf":{
+        "locator":{
+            "name":"Email or phone"
+        }
+    },
+    "sign_in_password_tf":{
+        "locator":{
+            "name":"Enter your password"
+        }
+    },
+    "mobiauto_account_btn":{
+        "locator":{
+            "name":"Mobile Auto qa.mobiauto@gmail.com"
+        }
+    },
+    "mo_appandstuff_account_btn":{
+        "locator":{
+            "xpath":"//XCUIElementTypeButton[contains(@name, \"Mobile Auto qa.mobiauto@gmail.com\")]"
+        }
+    },
+    "allow_btn":{
+        "locator":{
+            "name":"Allow"
+        }
+    },
+    "next_btn":{
+        "locator":{
+            "name":"Next"
+        }
+    },
+    "cancel_btn":{
+        "locator":{
+            "name":"Cancel"
+        }
+    },
+    "back_btn":{
+        "locator":{
+            "name":"Navigate Back"
+        }
+    },
+    "done_btn":{
+        "locator":{
+            "name":"Done"
+        }
+    },
+
+    "testdata_cloud_folder":{
+        "locator":{
+            "name":"testdata_cloud"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "our_approach_to_privacy": {
+        "locator": {"xpath": "//h2[contains(text(),'OUR APPROACH TO PRIVACY')]"}
+      }
+}

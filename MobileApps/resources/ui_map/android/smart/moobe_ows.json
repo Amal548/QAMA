@@ -1,0 +1,117 @@
+{
+  "more_options": {
+    "locator":{"str_id": "abc_action_menu_overflow_description"}
+  },
+  "skip_btn": {
+    "locator": {"str_id": "skip2_btn"}
+  },
+  "are_you_sure_dialog_title": {
+    "locator": {"str_id":  "are_you_sure"}
+  },
+  "are_you_sure_dialog_yes_btn": {
+    "locator": {"id": "moobe_dialog_button_center"}
+  },
+  "checking_printer_status_txt": {
+    "locator": {
+      "id": "tv_transition_title"
+    },
+    "ga": [
+        {
+          "ga_data":{
+            "screen": "/moobe/login/transition-loading",
+            "count": 1},
+          "trigger": "wait_v",
+          "type": "screen"
+        },
+        {
+          "ga_data":{
+            "screen": "/moobe/start-ows",
+            "count": 1},
+          "trigger": "wait_iv",
+          "type": "screen"
+        }
+      ]
+  },
+  "ows_wait_spinner": {
+    "locator": {"id": "ows_wait_spinner"}
+  },
+  "continue_btn": {
+    "_comment": "Currently, xpath is used for tango printer",
+    "locator": {"xpath": ["//android.view.View[@resource-id = 'continue']",
+                          "//android.widget.Button[@resource-id = 'continue-button']"]}
+  },
+  "enjoy_hp_acc_benefit_title": {
+    "locator": {"text": "Enjoy HP Account benefits!"}
+  },
+  "set_country_language_txt":{
+    "_comment": "fake value for being compatible with ows flow (common). Update it when see the screen",
+    "locator": {"id": "invalid"}
+  },
+  "setup_cartridges_view": {
+    "locator": {"xpath": "//android.view.View[@resource-id='insertSETUPCartridge']"}
+  },
+  "something_unexpected_title": {
+    "locator": {"text": "Something unexpected happened"}
+  },
+  "let_try_something_title": {
+    "locator": {"text": "Let's try something else"}
+  },
+  "retry_btn": {
+    "locator": {"xpath": "//android.widget.Button[@resource-id='continue-button']"}
+  },
+  "issue_not_identified_title": {
+    "locator": {"text":  "Issue not identified"}
+  },
+  "replace_cartridges_title":{
+    "locator": {"text":  "Replace cartridges"}
+  },
+  "ok_btn":{
+    "locator": {"xpath": "//android.widget.Button[@resource-id='continue-button']"}
+  },
+  "help_button":{
+    "locator": {"xpath": "//android.widget.Image[@resource-id = 'help-button']"}
+  },
+  "load_paper_title": {
+    "_comment": "using for printer which has main tray as main",
+    "locator": {"xpath": "//android.view.View[@resource-id = 'page-header-main-tray']"}
+  },
+  "load_paper_photos_title":{
+    "_comment": "using for printer which has photos tray as main",
+    "locator": {"xpath": "//*[@resource-id = 'page-header-photo-tray']"}
+  },
+  "print_alignment_page_title": {
+    "locator": {"text": "Print alignment page"}
+  },
+  "begin_calibration_title": {
+    "locator": {"text": "Begin calibration"}
+  },
+  "scan_printed_page_title": {
+    "locator": {"text":  "Next, scan the printed page"}
+  },
+  "alignment_finished_title": {
+    "_comment": "For live UI",
+    "locator": {"xpath": "//android.view.View[@resource-id='celebration-header']"}
+  },
+  "register_instant_ink_view": {
+    "locator": {"xpath": "//android.view.View[@resource-id='offers-step']"}
+  },
+  "do_not_enable_ink_savings_btn": {
+    "locator": {"text":  "Do not enable ink savings"}
+  },
+  "hp_instant_ink_view": {
+    "_comment": "old view for Gen1 printers, malbec",
+    "locator": {"text":  "HP Instant Ink"}
+  },
+  "get_ink_regular_price_cb": {
+    "_comment": "it is on old instant ink view for gen1 printers, malbec",
+    "locator": {"text": "Get ink at regular price"}
+  },
+  "hp_instant_ink_continue_btn": {
+    "_comment": "it is on old instant ink view for gen1 printers, malbec",
+    "locator": {"text":  "Continue"}
+  },
+  "remind_me_btn": {
+    "locator": {"text": "Remind Me"}
+  }
+
+}

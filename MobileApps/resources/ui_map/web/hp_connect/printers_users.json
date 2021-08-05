@@ -1,0 +1,25 @@
+{
+    "users_btn":{
+        "locator": {"css selector": "li[data-testid='manage-users-menu']",
+                    "xpath": "//XCUIElementTypeStaticText[@name='Users']"}
+    },
+    "printers_btn":{
+        "locator": {"css selector": "li[data-testid='my-printers-menu']",
+                    "xpath": "//XCUIElementTypeStaticText[@name='Printers']"}
+    },
+    "printers_title":{
+        "locator": {"css selector": "h4[data-testid='my-printers-header']"}
+    },
+    "printer_option":{
+        "locator": {"id": "printerOptions"}
+    },
+    "printer_details":{
+        "locator": {"id": "printerDetails"}
+    },
+    "users_title":{
+        "locator": {"css selector": "h4[data-testid='manage-users-header']"}
+    },
+    "invite_button":{
+        "locator": {"css selector": "button[data-testid='open-invite-user-modal']"}
+    }
+}
