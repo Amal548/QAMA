@@ -1,0 +1,69 @@
+{
+    "wifi_network_problem_title":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:11']"}
+    },
+    
+    "you_are_connected_to_content":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:37']"}
+    },
+    
+    "try_one_of_the_following_content":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:77']"}
+    },
+    
+    "wifi_network_problem_content_1_1":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXScrollArea[2]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]"}
+    },
+    
+    "wifi_network_problem_content_1_2":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXScrollArea[2]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]"}
+    },
+    
+    "wifi_network_problem_content_1_3":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXScrollArea[2]/AXWebArea[0]/AXGroup[0]/AXStaticText[2]"}
+    },
+    
+    "wifi_network_problem_content_1_4":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXScrollArea[2]/AXWebArea[0]/AXGroup[0]/AXStaticText[3]"}
+    },
+    
+    "wifi_network_problem_content_1_5":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXScrollArea[2]/AXWebArea[0]/AXGroup[0]/AXStaticText[4]"}
+    },
+    
+    "network_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:43']"}
+    },
+    
+    "or_content":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXStaticText[@AXIdentifier='_NS:62']"}
+    },
+    
+    "wifi_network_problem_content_2_1":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXScrollArea[1]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]"}
+    },
+    
+    "wifi_network_problem_content_2_2":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXScrollArea[1]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]"}
+    },
+    
+    "wifi_network_problem_content_2_3":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXScrollArea[1]/AXWebArea[0]/AXGroup[0]/AXStaticText[2]"}
+    },
+    
+    "change_connection_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:67']"}
+    },
+    
+    "wifi_network_problem_content_3_1":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[0]"}
+    },
+    
+    "wifi_network_problem_content_3_2":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[0]/AXStaticText[1]"}
+    },
+    
+    "continue_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXSheet[0]/AXButton[@AXIdentifier='_NS:81']"}
+    }
+}

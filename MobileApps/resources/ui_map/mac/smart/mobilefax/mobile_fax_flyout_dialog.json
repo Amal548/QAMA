@@ -1,0 +1,14 @@
+{
+    "dialog_title":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXPopover[0]/AXStaticText[@AXIdentifier='_NS:38']"}
+    },
+    
+    "dialog_content":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXPopover[0]/AXStaticText[@AXIdentifier='_NS:80']"}
+    },
+      
+    "learn_more_btn":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXPopover[0]/AXButton[@AXIdentifier='_NS:62']"}
+    }
+    
+}

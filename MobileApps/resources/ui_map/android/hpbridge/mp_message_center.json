@@ -1,0 +1,80 @@
+{
+  "all_msg_tab":{
+      "description":"the all tab on message center page",
+      "locator":{
+         "text@android.view.View": "全部"
+      }
+   },
+  "share_tab":{
+      "description":"the share tab on message center page",
+      "locator":{
+         "text@android.view.View": "分享"
+      }
+   },
+  "print_job_tab":{
+      "description":"the print job tab on message center page",
+      "locator":{
+         "text@android.view.View": "打印任务"
+      }
+   },
+  "printer_tab":{
+      "description":"the printer tab on message center page",
+      "locator":{
+         "text@android.view.View": "打印机"
+      }
+   },
+  "dustbin_icon":{
+      "description":"the dustbin icon on message center page",
+      "locator":{
+         "xpath": "//android.webkit.WebView/android.view.View[3]"
+      }
+   },
+  "bottom_bolder_msg":{
+      "description":"the bolder message on message center page",
+      "locator":{
+         "text@android.view.View": "已经到底部啦"
+      }
+   },
+ "no_more_msg":{
+      "description":"the no more message on message center page",
+      "locator":{
+         "text@android.view.View": "暂无消息"
+      }
+   },
+ "select_all_option":{
+      "description":"the select all option on message center page when trying to delete records",
+      "locator":{
+         "text@android.view.View": "全选"
+      }
+   },
+ "delete_btn":{
+      "description":"the delete button on message center page when trying to delete records",
+      "locator":{
+         "partial_text@android.view.View": "删除"
+      }
+   },
+ "cancel_btn":{
+      "description":"the cancel button on message center page when trying to delete records",
+      "locator":{
+         "text@android.view.View": "取消"
+      }
+   },
+ "all_records":{
+      "description":"all records in a tab on message center page",
+      "locator":{
+         "xpath": "//android.webkit.WebView/android.view.View[2]/android.view.View/android.view.View/android.view.View"
+      }
+   },
+ "records_details":{
+      "description":"The detailed info in a records",
+      "locator":{
+         "xpath": "//android.view.View/android.view.View"
+      }
+   },
+  "checkbox_checked":{
+      "description":"The element for the checkbox checked",
+      "locator":{
+         "xpath": "//android.view.View/android.widget.CheckBox/android.widget.CheckBox"
+      }
+  }
+}

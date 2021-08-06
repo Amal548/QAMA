@@ -1,0 +1,170 @@
+{
+    "sign_in_username_txt_box": {
+        "_comment": "Included Windows, iOS, Mac, Android native locator",
+        "locator": {
+            "xpath": ["//XCUIElementTypeTextField", "//Edit[@AutomationId='username']", "//android.widget.EditText[@resource-id='username']",
+            "/AXApplication/AXWindow[@AXTitle='Sign in' and @AXSubrole='AXDialog']/AXScrollArea/AXWebArea/AXGroup/AXGroup/AXTextField[@AXDOMIdentifier='username']"],
+            "css selector": "#username",
+            "name": "Username (Email)"
+        }
+    },
+    "sign_in_password_txt_box": {
+        "_comment": "Included Windows, iOS, Mac, Android native locator",
+        "locator": {
+            "xpath": ["//XCUIElementTypeSecureTextField[@value='Password']", "//Edit[@AutomationId='password']", "//android.widget.EditText[@resource-id='password']",
+            "/AXApplication/AXWindow[@AXTitle='Sign in' and @AXSubrole='AXDialog']/AXScrollArea/AXWebArea/AXGroup/AXGroup[@AXDOMIdentifier='passwordContainer']/AXTextField[@AXValue='Password' and @AXDOMIdentifier='password' and @AXSubrole='AXSecureTextField']"
+            ],
+            "css selector": "#password",
+            "name": "Password"
+        }
+    },
+    "sign_in_next_btn": {
+        "_comment": "Included Windows, iOS, Mac, Android native locator",
+        "locator": {
+            "xpath": ["//Button[@AutomationId='next_button']", "//android.widget.Button[@resource-id='user-name-form-submit']",
+            "/AXApplication/AXWindow[@AXTitle='Sign in' and @AXSubrole='AXDialog']/AXScrollArea/AXWebArea/AXGroup/AXGroup/AXButton[@AXTitle='NEXT']"],
+            "css selector": "#user-name-form-submit",
+            "name": "NEXT"
+        }
+    },
+    "sign_in_button": {
+        "_comment": "Included Windows native locator, Mac, Android, Mac native locator",
+        "locator": {
+            "xpath": ["//Button[@Name='SIGN IN']", "//android.widget.Button[@resource-id='sign-in']",
+            "/AXApplication/AXWindow[@AXTitle='Sign in' and @AXSubrole='AXDialog']/AXScrollArea/AXWebArea/AXGroup/AXGroup/AXButton[@AXTitle='SIGN IN']"
+            ],
+            "css selector": "button#sign-in",
+            "name": "SIGN IN"
+        }
+    },
+    "create_account_link": {
+        "locator": {
+            "xpath": [
+                "//div[@class = 'link' and @id = 'sign-up']",
+                "//HyperLink[@Name='Don't have an account? Sign up']",
+                "/AXApplication/AXWindow[@AXTitle='Sign in' and @AXSubrole='AXDialog']/AXScrollArea/AXWebArea/AXGroup/AXGroup/AXLink[@AXTitle='Don't have an account? Sign up']/AXStaticText[@AXValue='Don't have an account? Sign up']"
+            ],
+            "css selector": "div#sign-up"
+        }
+    },
+    "sign_in_link_from_create_account": {
+        "locator": {
+            "xpath": "//div[@class = 'link' and @id = 'sign-in']"
+        }
+    },
+    "sign_up_form_firstname_txtbx": {
+        "_comment": "Included Windows native locator",
+        "locator": {
+            "xpath": "//Edit[@AutomationId='firstName']",
+            "css selector": "#firstName"
+        }
+    },
+    "sign_up_form_lastname_txtbx": {
+        "_comment": "Included Windows native locator",
+        "locator": {
+            "xpath": "//Edit[@AutomationId='lastname']",
+            "css selector": "#lastName"
+        }
+    },
+    "sign_up_form_email_txtbx": {
+        "_comment": "Included Windows native locator",
+        "locator": {
+            "xpath": "//Edit[@AutomationId='email']",
+            "css selector": "#email"
+        }
+    },
+    "sign_up_form_create_password": {
+        "_comment": "Included Windows native locator",
+        "locator": {
+            "xpath": "//Edit[@AutomationId='password']",
+            "css selector": "#password"
+        }
+    },
+    "sign_up_form_confirm_password": {
+        "_comment": "Included Windows native locator",
+        "locator": {"xpath": "//Edit[@AutomationId='confirmPassword']",
+                    "id": "confirmPassword"}
+    },
+    "captcha_iframe":{
+        "locator":{
+            "css selector": "div.captcha_iframe iframe"
+        }
+    },
+    "sign_up_form_country_drop_down": {
+        "locator": {
+            "class name": "#vn-select__title"
+        }
+    },
+    "sign_up_form_create_account_button": {
+        "locator": {
+            "css selector": "button#sign-up-submit"
+        }
+    },
+    "invalid_credential_msg": {
+        "locator": {
+            "css selector": "p.vn-form-field__error-message"
+        }
+    },
+    "verification_code_txt_box": {
+        "locator": {
+            "css selector": "input#code"
+        }
+    },
+    "verification_code_submit_btn": {
+        "locator": {
+            "css selector": "button#submit-code"
+        }
+    },
+    "continue_btn": {
+        "locator": {
+            "css selector": "div.skip-wait"
+        }
+    },
+    "back_btn": {
+        "locator": {
+            "css selector": "#back-link"
+        }
+    },
+    "send_email_msg_txt": {
+        "locator": {
+            "css selector": "div.email-desc"
+        }
+    },
+    "send_email_btn": {
+        "locator": {
+            "css selector": "button#send-email"
+        }
+    },
+    "create_your_hp_account_button": {
+        "_comment": "Included Windows native locator",
+        "locator": {
+            "xpath": [
+                "//h5[@class='sign-up-title']",
+                "//button[@id='sign-up-submit']"
+            ]
+        }
+    },
+    "create_your_hp_account_page_title": {
+        "_comment": "Included Windows and Mac native locator",
+        "locator": {
+            "xpath": [
+                "/AXApplication/AXWindow[@AXTitle='Sign in' and @AXSubrole='AXDialog']/AXScrollArea/AXWebArea/AXHeading[@AXTitle='Create your HP account']/AXStaticText[@AXValue='Create your HP account']"
+            ]
+        }
+    },
+    "privacy_accept_btn": {
+        "locator": {
+            "css selector": "button#onetrust-accept-btn-handler"
+        }
+    },
+    "privacy_pop_up": {
+        "locator": {
+            "css selector": "div#onetrust-policy"
+        }
+    },
+    "privacy_more_options_btn": {
+        "locator": {
+            "css selector": "button#onetrust-pc-btn-handler"
+        }
+    }
+}

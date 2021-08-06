@@ -1,0 +1,68 @@
+{
+   "network_access_switch": {
+     "locator": {
+       "xpath": "//XCUIElementTypeSwitch[@name='Allow Network Access']"
+     }
+   },
+
+  "user_interaction_switch": {
+     "locator": {
+       "xpath": "//XCUIElementTypeSwitch[@name='Allow User Interaction']"
+     }
+   },
+
+  "show_account_creation_link_switch": {
+     "locator": {
+       "xpath": "//XCUIElementTypeSwitch[@name='Show Account Creation Link']"
+     }
+   },
+
+  "start_on_create_account_switch": {
+     "locator": {
+       "xpath": "//XCUIElementTypeSwitch[@name='Start on Create Account']"
+     }
+   },
+
+  "token_refresh_switch": {
+     "locator": {
+       "xpath": "//XCUIElementTypeSwitch[@name='Skip Token Refresh']"
+     }
+   },
+
+  "require_fresh_token_switch": {
+     "locator": {
+       "xpath": "//XCUIElementTypeSwitch[@name='Require Fresh Token']"
+     }
+   },
+
+  "scopes_requested": {
+     "locator": {
+       "xpath": "//XCUIElementTypeSwitch[@name='Scopes Requested']"
+     }
+   },
+
+  "use_biometrics_switch": {
+     "locator": {
+       "xpath": "//XCUIElementTypeSwitch[@name='Use Biometrics']"
+     }
+   },
+
+  "done_button": {
+     "locator": {
+       "xpath": "//XCUIElementTypeButton[@name='Done']"
+     }
+   },
+
+  "app_settings": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='App Settings']"
+    }
+  },
+
+  "accept_self_signed_certificates_switch": {
+    "locator": {
+      "xpath": "//XCUIElementTypeSwitch[@name='Accept Self-Signed Certificates']"
+    }
+  }
+}
+

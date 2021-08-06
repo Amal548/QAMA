@@ -1,0 +1,12 @@
+{
+    "email_txt_box":{
+        "locator": {
+            "css selector": "#login-email"
+        }
+    },
+    "next_btn":{
+        "locator": {
+            "css selector": "button"
+        }
+    }
+}

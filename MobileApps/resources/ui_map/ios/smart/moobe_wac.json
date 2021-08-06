@@ -1,0 +1,29 @@
+{
+  "accessory_setup_title": {
+    "locator": {
+      "name": "Accessory Setup"
+    }
+  },
+  "selected_network_name": {
+    "locator": {
+      "xpath": ["//XCUIElementTypeStaticText[@name='{}' and ../XCUIElementTypeButton[@name='checkmark']]",
+                "//XCUIElementTypeStaticText[@name='{}' and ../XCUIElementTypeButton[@name='More Info']]"
+               ]
+    }
+  },
+  "next_button": {
+    "locator": {
+      "name": "Next"
+    }
+  },
+  "setup_complete_title": {
+    "locator": {
+      "name": "Setup Complete"
+    }
+  },
+  "accessory_name_textfield": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTextField[@value='{}' and ../XCUIElementTypeStaticText[@name='Accessory Name']]"
+    }
+  }
+}

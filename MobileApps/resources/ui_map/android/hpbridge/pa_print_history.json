@@ -1,0 +1,44 @@
+{
+  "notification_list":{
+      "description":"the css locator for the items in print history",
+      "locator":{
+         "css":"div.historyFile>div"
+      }
+   },
+  "notification_title":{
+      "description":"the h5 tag",
+      "locator":{
+         "css":"h5"
+      }
+   },
+  "notification_content":{
+      "description":"the h6 tag",
+      "locator":{
+         "css":"h6"
+      }
+   },
+  "print_status":{
+      "description":"the i tag",
+      "locator":{
+         "css":"i"
+      }
+   },
+  "personal_center":{
+      "description":"personal center button on public account home page",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='个人中心']"
+      }
+   },
+  "print_history":{
+      "description":"print history button in personal center",
+      "locator":{
+         "xpath":"//android.widget.TextView[@text='打印历史']"
+      }
+   },
+  "print_history_page_close_btn":{
+      "description":"print history close button in personal center",
+      "locator":{
+         "xpath":"//android.widget.ImageView[@content-desc='返回']"
+      }
+   }
+}

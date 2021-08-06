@@ -1,0 +1,71 @@
+{
+    "continue_button": {
+      "locator": {"id": "btn-continue"}
+    },
+  
+    "in_a_home_label":{
+      "locator": {"xpath": "//label[@for='home-radio']"}
+    },
+  
+    "in_a_business_label":{
+      "locator": {"xpath": "//label[@for='business-radio']"}
+    },
+  
+    "in_a_home_radio_button": {
+      "_comment": "this is the hidden <input> element",
+      "locator": {"id": "home-radio"}
+    },
+  
+    "in_a_business_radio_button": {
+      "_comment": "this is the hidden <input> element",
+      "locator": {"id": "business-radio"}
+    },
+  
+    "in_a_home_dropdown_toggle": {
+      "locator" : {"id": "dropdownMenu1"}
+    },
+  
+    "in_a_business_dropdown_toggle": {
+      "locator": {"id": "dropdownMenu2"}
+    },
+  
+    "list_of_home_dropdown_options": {
+      "locator": {"xpath": "//button[@id='dropdownMenu1']/following-sibling::ul/li"}
+    },
+  
+    "list_of_business_dropdown_options": {
+      "locator": {"xpath": "//button[@id='dropdownMenu2']/following-sibling::ul/li"}
+    },
+  
+    "edit_button": {
+      "locator": {"id": "edit-postal-code"}
+    },
+  
+    "postal_code_text_field": {
+      "locator": {"id": "postal-code"}
+    },
+  
+    "help_hp_make_better_products_page": {
+      "locator": {"id": "complete-hdr-no-ink-no-hpc"}
+    },
+  
+    "please_specify_text_in_home_dropdown": {
+      "locator": {"xpath": "//button[@id='dropdownMenu1']/span[contains(text(), 'Please specify')]"}
+    },
+  
+    "please_specify_text_in_business_dropdown": {
+      "locator": {"xpath": "//button[@id='dropdownMenu2']/span[contains(text(), 'Please specify')]"}
+    },
+  
+    "invalid_postal_code_message": {
+      "locator": {"id": "postal-required"}
+    },
+  
+    "home_dropdown_menu_list": {
+      "locator": {"xpath": "//button[@id='dropdownMenu1']/following-sibling::ul[@class='dropdown-menu']"}
+    },
+  
+    "business_dropdown_menu_list": {
+      "locator": {"xpath": "//button[@id='dropdownMenu2']/following-sibling::ul[@class='dropdown-menu']"}
+    }
+  }

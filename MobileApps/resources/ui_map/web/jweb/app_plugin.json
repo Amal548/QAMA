@@ -1,0 +1,22 @@
+{
+  "add_listener_btn": {
+    "locator": {
+     "css selector": "#isAddListenerButton"
+    }
+  },
+  "remove_listener_btn": {
+    "locator": {
+     "css selector": "#isRemoveListenerButton"
+    }
+  },
+  "app_pop_up_toast_text": {
+    "locator": {
+      "css selector": "div[role='alert'] div span"
+    }
+  },
+  "app_pop_up_toast_close": {
+    "locator": {
+      "css selector": "button[aria-label='close']"
+    }
+  }
+}

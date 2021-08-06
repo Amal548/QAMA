@@ -1,0 +1,30 @@
+{
+    "title":{
+      "locator":{"str_id": "personalize_tiles"},
+      "ga": [
+        {
+          "ga_data":{
+            "screen": "/personalize",
+            "count": 1},
+          "trigger": "wait_v",
+          "type": "screen"
+        }
+      ]
+    },
+    "tile_title":{
+      "locator": {"id": "generic_list_text_view",
+                  "text": "{}"}
+    },
+    "tile_switch":{
+      "_comment": "id is used to identify the screen and ga",
+      "locator": {"id": "generic_switch",
+                  "xpath": ["//android.widget.Switch[@resource-id='com.hp.printercontrol.debug:id/generic_switch' and ../android.widget.TextView[@text='{}']]",
+                            "//android.widget.Switch[@resource-id='com.hp.printercontrol:id/generic_switch' and ../android.widget.TextView[@text='{}']]"]}
+    },
+    "on_txt":{
+      "locator": {"str_id": "abc_capital_on"}
+    },
+    "off_txt":{
+      "locator": {"str_id": "abc_capital_off"}
+      }
+}

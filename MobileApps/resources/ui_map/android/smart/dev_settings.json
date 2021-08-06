@@ -1,0 +1,27 @@
+{
+    "server_stack_cell":{
+        "_comment": "use xpath for 2 conditions because there are 2 elements with the same 'Server Stack' value",
+        "locator": {"xpath": "//android.widget.TextView[@text = '{}' and ../android.widget.TextView[@resource-id = 'android:id/summary']]"}
+    },
+    "server_stack_txt":{
+        "locator":{"str_id": "jwocky_debug_server_stacks"}
+    },
+    "pie_stack_cb":{
+        "locator": {"str_id": "jwocky_server_stack_pie1"}
+    },
+    "stage_stack_cb":{
+        "locator": {"str_id": "jwocky_server_stack_stage1"}
+    },
+    "production_stack_cb":{
+        "locator":{"str_id": "jwocky_server_stack_prod"}
+    },
+    "detect_leaks_txt":{
+        "locator": {"str_id": "skel_leak_canary_enable_title"}
+    },
+    "toggle_switch":{
+        "locator": {"xpath": "//android.widget.Switch[@resource-id = 'com.hp.printercontrol.debug:id/switchWidget' and ../../android.widget.RelativeLayout/android.widget.TextView[@text = '{}']]"}
+    },
+    "dev_settings_title":{
+        "locator": {"id": "toolbar"}
+    }
+}

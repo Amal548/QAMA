@@ -1,0 +1,30 @@
+{
+    "search_box":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Open' and @AXSubrole='AXDialog']/AXTextField[@AXIdentifier='Search' and @AXSubrole='AXSearchField']"}
+    },
+    
+    "search_contents":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Open' and @AXSubrole='AXDialog']/AXSplitGroup[0]/AXSplitGroup[0]/AXBrowser[@AXIdentifier='ColumnView']/AXScrollArea[0]/AXScrollArea[0]/AXStaticText[@AXIdentifier='groupNameField']"}
+    },
+    
+    "search_column":{
+        "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Open' and @AXSubrole='AXDialog']/AXSplitGroup[0]/AXSplitGroup[0]/AXBrowser[@AXIdentifier='ColumnView']/AXScrollArea[0]/AXScrollArea[0]"}
+    },
+
+    "file_picker_searched_item":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Open' and @AXSubrole='AXDialog']/AXSplitGroup[0]/AXSplitGroup[0]/AXScrollArea[@AXIdentifier='_NS:175']/AXOutline[@AXIdentifier='ListView']/AXRow[@AXSubrole='AXOutlineRow']/AXCell[0]/AXTextField[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Open' and @AXSubrole='AXDialog']/AXSplitGroup[0]/AXSplitGroup[0]/AXScrollArea[@AXIdentifier='_NS:174']/AXOutline[@AXIdentifier='ListView']/AXRow[@AXSubrole='AXOutlineRow']/AXCell[0]/AXTextField[0]",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Open' and @AXSubrole='AXDialog']/AXSplitGroup[0]/AXSplitGroup[0]/AXBrowser[@AXIdentifier='ColumnView']/AXScrollArea[0]/AXScrollArea[0]/AXList/AXGroup[1]/AXTextField[@AXIdentifier='_NS:17']"]}
+    },
+
+    "cancel_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Open' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:12']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Open' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:252']"]}
+    },
+    
+    "open_btn":{
+        "locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Open' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:90']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Open' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:33']",
+                              "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXTitle='Open' and @AXSubrole='AXDialog']/AXButton[@AXIdentifier='_NS:264']"]}
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "eventing_dispatch_close_item": {
+    "locator": {
+      "xpath": "/AXApplication[@AXTitle='HP.Jarvis.WebView.Reference.MacOS']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:10' and @AXSubrole='AXStandardWindow']/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[3]/AXButton[@AXTitle='Eventing.dispatchEvent()']"
+    }
+  },
+  "eventing_test_button": {
+    "locator": {
+      "xpath": "/AXApplication[@AXTitle='HP.Jarvis.WebView.Reference.MacOS']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:10' and @AXSubrole='AXStandardWindow']/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[6]/AXButton[@AXTitle='TEST' and @AXDOMIdentifier='sendEventTestButton']"
+    }
+  },
+  "eventing_name_field": {
+    "locator": {
+      "xpath": "/AXApplication[@AXTitle='HP.Jarvis.WebView.Reference.MacOS']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:10' and @AXSubrole='AXStandardWindow']/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[5]/AXTextField[@AXDOMIdentifier='nameField']"
+    }
+  },
+  "eventing_data_field": {
+    "locator": {
+      "xpath": "/AXApplication[@AXTitle='HP.Jarvis.WebView.Reference.MacOS']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:10' and @AXSubrole='AXStandardWindow']/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[5]/AXTextField[@AXDOMIdentifier='dataField']"
+    }
+  },
+  "eventing_test_result_txt": {
+    "locator": {
+      "xpath": "/AXApplication[@AXTitle='HP.Jarvis.WebView.Reference.MacOS']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:10' and @AXSubrole='AXStandardWindow']/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[6]/AXStaticText"
+    }
+  },
+  "eventing_dispatch_open_item": {
+    "locator": {
+      "xpath": "/AXApplication[@AXTitle='HP.Jarvis.WebView.Reference.MacOS']/AXWindow[@AXTitle='Window' and @AXIdentifier='_NS:10' and @AXSubrole='AXStandardWindow']/AXGroup[0]/AXGroup[0]/AXScrollArea[0]/AXWebArea[0]/AXGroup[3]/AXButton[@AXTitle='Eventing.dispatchEvent()']"
+    }
+  }
+}

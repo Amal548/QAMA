@@ -1,0 +1,8 @@
+{
+    "scan_success_popup":{
+        "locator": {"css selector": "div.modal"}
+    },
+    "scan_success_ok_btn":{
+        "locator": {"css selector": "modal-success button.btn-enabled.btn-primary.ng-binding"}
+    }
+}

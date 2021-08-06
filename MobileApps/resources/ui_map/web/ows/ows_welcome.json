@@ -1,0 +1,27 @@
+{
+    "continue_btn":{
+        "locator":{
+            "css selector": "a.btn-enabled.btn-primary.ng-binding"
+        }
+    },
+    "page_title":{
+        "locator":{
+            "css selector": "p.prop-header-text.ng-binding"
+        }
+    },
+    "more_option":{
+        "locator":{
+            "xpath": "//android.widget.ImageView"
+        }
+    },
+    "skip_menu_item":{
+        "locator":{
+            "id": "title"
+        }
+    },
+    "skip_popup_yes_btn":{
+        "locator":{
+            "id": "moobe_dialog_button_center"
+        }
+    }
+}

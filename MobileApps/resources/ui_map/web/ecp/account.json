@@ -1,0 +1,53 @@
+{
+    "profile_page_title":{
+        "locator": {
+            "css selector": "div[data-testid='user-profile-header']"
+        }
+    },
+
+    "profile_username_txt_box":{
+        "locator": {
+            "css selector": "input#profile-username"
+        }
+    },
+    "profile_first_name_txt_box":{
+        "locator": {
+            "css selector": "input#profile-name"
+        }
+    }, 
+    "profile_last_name_txt_box":{
+        "locator": {
+            "css selector": "input#family-name"
+        }
+    },
+    "profile_email_txt_box":{
+        "locator": {
+            "css selector": "input#profile-email"
+        }
+    },
+    "profile_country_dropdown": {
+        "locator": {
+            "css selector": "div#profile-country"
+        }
+    }, 
+    "profile_country_option": {
+        "locator": {
+            "css selector": "li#profile-country-option-{}"
+        }
+    },
+    "profile_language_dropdown": {
+        "locator": {
+            "css selector": "div#profile-language"
+        }
+    },
+    "profile_language_option":{
+        "locator": {
+            "css selector": "li#profile-language-option-{}"
+        }
+    },
+    "apply_changes_button":{
+        "locator": {
+            "css selector": "button[data-testid='profile-submit-button']"
+        }
+    }
+}

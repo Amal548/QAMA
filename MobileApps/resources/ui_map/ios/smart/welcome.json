@@ -1,0 +1,25 @@
+{
+    "share_usage_data_title": {
+        "locator": {
+            "str_id": "cDoYouWantToHelp_Title"
+        }
+    },
+    "data_usage_privacy_statement_link": {
+        "locator": {
+            "str_id": "cHPPrivacyStatement",
+            "name": "HP Privacy Statement"
+        }
+    },
+    "google_analytics_link": {
+        "locator": {
+            "str_id": "cGoogleAnalyticsPrivacyPolicy",
+            "name": "Google Analytics Privacy Policy"
+        }
+    },
+    "adobe_privacy_link": {
+        "locator": {
+            "str_id": "cAdobePrivacy",
+            "name": "Adobe Privacy"
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+  "search_button":{
+      "description":"click to search page",
+      "locator":{
+         "xpath":"//android.webkit.WebView[@text='如何打印信息页']//android.widget.Button[1]"
+      }
+   },
+  "icon_view_button":{
+      "description":"click to change to the img view for the printers",
+      "locator":{
+         "xpath":"//android.webkit.WebView[@text='如何打印信息页']//android.widget.Button[2]"
+      }
+   },
+  "list_view_button":{
+      "description":"click to change to the list view for the printers",
+      "locator":{
+         "xpath":"//android.webkit.WebView[@text='如何打印信息页']//android.widget.Button[3]"
+      }
+   },
+  "list_view_list":{
+      "description":"the printer list in the img view",
+      "locator":{
+         "xpath":"//android.webkit.WebView[@text='如何打印信息页']//android.widget.ListView//android.widget.ListView/android.view.View/android.view.View[2]"
+      }
+   },
+  "icon_view_list":{
+      "description":"the printer list in the img view",
+      "locator":{
+         "xpath":"//android.webkit.WebView[@text='如何打印信息页']//android.widget.ListView/android.view.View/android.view.View[2]"
+      }
+   },
+  "printer_spec":{
+      "description":"the printer element with the given name",
+      "locator":{
+        "xpath": "//android.webkit.WebView[@text='如何打印信息页']//android.view.View[@text='{}']/.."
+      }
+   },
+  "new_icon":{
+      "description":"the new icon for new released printer",
+      "locator":{
+         "text@android.view.View/..": "{}"
+      }
+   },
+  "inkjet_dropdown":{
+      "description":"the drop down button for ink jet printer category",
+      "locator":{
+         "text@android.view.View": "喷墨打印机"
+      }
+   },
+  "laserjet_dropdown":{
+      "description":"the drop down button for laser jet printer category",
+      "locator":{
+         "text@android.view.View": "激光打印机"
+      }
+   },
+  "printer_model":{
+      "description":"the printer model in the special printer faq page",
+      "locator":{
+         "xpath": "//android.widget.ListView//android.widget.ListView/android.view.View[1]"
+      }
+   },
+  "step1":{
+      "description":"the step 1 on printer faq page",
+      "locator":{
+         "text@android.view.View": "步骤一：打印信息页"
+      }
+   },
+  "copy_btn":{
+      "description":"the copy btn on 如何打印信息页 page",
+      "locator":{
+         "text@android.widget.Button": "复制"
+      }
+   },
+  "copy_success_msg":{
+      "description":"the copy success message after click copy btn",
+      "locator":{
+         "text@android.view.View": "复制成功，请到浏览器上粘贴并打开该链接"
+      }
+   },
+  "input_box":{
+      "description":"the input box in search page",
+      "locator":{
+         "xpath": "//android.webkit.WebView[@text='搜索']/android.widget.EditText"
+      }
+   },
+  "delete_input":{
+      "description":"the delete button to remove what you input",
+      "locator":{
+         "xpath": "//android.webkit.WebView[@text='搜索']/android.view.View[1]"
+      }
+   },
+  "cancel_btn":{
+      "description":"the cancel btn in the search page",
+      "locator":{
+         "xpath": "//android.webkit.WebView[@text='搜索']/android.view.View[2]"
+      }
+   },
+  "search_history":{
+      "description":"the search history field in search page",
+      "locator":{
+         "text@android.view.View": "搜索历史"
+      }
+   },
+  "delete_history":{
+      "description":"delete search history button  in search page",
+      "locator":{
+         "xpath": "//android.webkit.WebView[@text='搜索']/android.widget.Image"
+      }
+   },
+  "search_result_spec":{
+      "description":"the printer spec for you searched printers",
+      "locator":{
+         "xpath": "//android.webkit.WebView[@text='搜索']//android.view.View[@text='{}']"
+      }
+   },
+  "no_results_msg1":{
+      "description":"the printer results after searched",
+      "locator":{
+         "text@android.view.View": "没有找到相关的打印机"
+      }
+   },
+  "no_results_msg2":{
+      "description":"the printer results after searched",
+      "locator":{
+         "text@android.view.View": "请尝试输入其它关键字"
+      }
+   }
+}

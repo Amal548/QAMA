@@ -1,0 +1,324 @@
+{
+  "edit_screen_navigation_bar":{
+    "locator":{"id": "editorTitle",
+                "text": "{}"}
+  },
+  "edit_title": {
+    "locator": {"str_id": "edit"}
+  },
+  "edit_options_adjust_txt": {
+    "locator": {"str_id": "pesdk_adjustments_title_name"}
+  },
+  "brightness_option": {
+    "locator": {"str_id": "pesdk_adjustments_button_brightnessTool"}
+  },
+  "saturation_option": {
+    "locator": {"str_id": "pesdk_adjustments_button_saturationTool"}
+  },
+  "contrast_option": {
+    "locator": {"str_id": "pesdk_adjustments_button_contrastTool"}
+  },
+  "clarity_option": {
+    "locator": {"str_id": "pesdk_adjustments_button_clarityTool"}
+  },
+  "exposure_option": {
+    "locator": {"str_id": "pesdk_adjustments_button_exposureTool"}
+  },
+  "shadows_option": {
+    "locator": {"str_id": "pesdk_adjustments_button_shadowTool"}
+  },
+  "highlights_option": {
+    "locator": {"str_id": "pesdk_adjustments_button_highlightTool"}
+  },
+  "whites_option": {
+    "locator": {"str_id": "pesdk_adjustments_button_whitesTool"}
+  },
+  "blacks_option": {
+    "locator": {"str_id": "pesdk_adjustments_button_blacksTool"}
+  },
+  "temperature_option": {
+    "locator": {"str_id": "pesdk_adjustments_button_temperatureTool"}
+  },
+  "adjustments_slider": {
+    "locator": {"id": "seekBar"}
+  },
+  "edit_options_filters_txt": {
+    "locator": {"str_id": "pesdk_filter_title_name"}
+  },
+  "edit_options_text_txt": {
+    "locator": {"str_id": "pesdk_text_title_name"}
+  },
+  "edit_img": {
+    "locator": {"id": "glGroundView"}
+  },
+  "undo_btn": {
+    "locator": {"id": "image"}
+  },
+  "filter_option_document_txt": {
+    "locator": {"str_id": "filter_folder_document"}
+  },
+  "bw_option": {
+    "locator": {"str_id": "filter_name_bw"}
+  },
+  "bw2_option": {
+    "locator": {"str_id": "filter_name_bw2"}
+  },
+  "greyscale_option": {
+    "locator": {"str_id": "filter_name_greyscale"}
+  },
+  "alabaster_option": {
+    "locator": {"str_id": "filter_name_alabaster"}
+  },
+  "edit_option_txt": {
+    "locator": {"id": "label",
+                 "text": "{}"}
+  },
+  "filter_option_photo_txt": {
+    "locator": {"str_id": "filter_folder_photo"}
+  },
+  "summer_option": {
+    "locator": {"str_id": "filter_name_summer"}
+  },
+  "aurora_option": {
+    "locator": {"str_id": "filter_name_aurora"}
+  },
+  "ultraviolet_option": {
+    "locator": {"str_id": "filter_name_ultraviolet"}
+  },
+  "ink_stains_option": {
+    "locator": {"str_id": "filter_name_ink_stains"}
+  },
+  "dusk_option": {
+    "locator": {"str_id": "filter_name_dusk"}
+  },
+  "noir_option": {
+    "locator": {"str_id": "filter_name_noir"}
+  },
+  "daydream_option": {
+    "locator": {"str_id": "filter_name_daydream"}
+  },
+  "embers_option": {
+    "locator": {"str_id": "filter_name_embers"}
+  },
+  "moonlight_option": {
+    "locator": {"str_id": "filter_name_moonlight"}
+  },
+  "snowshine_option": {
+    "locator": {"str_id": "filter_name_snowshine"}
+  },
+  "atmospheric_option": {
+    "locator": {"str_id": "filter_name_atmospheric"}
+  },
+  "honeybee_option": {
+    "locator": {"str_id": "filter_name_honeybee"}
+  },
+  "fireside_option": {
+    "locator": {"str_id": "filter_name_fireside"}
+  },
+  "glacial_option": {
+    "locator": {"str_id": "filter_name_glacial"}
+  },
+  "sauna_option": {
+    "locator": {"str_id": "filter_name_sauna"}
+  },
+  "seafarer_option": {
+    "locator": {"str_id": "filter_name_seafarer"}
+  },
+  "cameo_option": {
+    "locator": {"str_id": "filter_name_cameo"}
+  },
+  "timeworn_option": {
+    "locator": {"str_id": "filter_name_timeworn"}
+  },
+  "sunlight_option": {
+    "locator": {"str_id": "filter_name_sunlight"}
+  },
+  "filter_option_original_txt": {
+    "locator": {"str_id": "pesdk_filter_asset_none"}
+  },
+  "edit_options_crop_txt": {
+    "locator": {"str_id": "pesdk_transform_title_name"}
+  },
+  "custom_txt": {
+    "locator": {"str_id": "pesdk_transform_button_freeCrop"}
+  },
+  "square_txt": {
+    "locator": {"str_id": "pesdk_transform_button_squareCrop"}
+  },
+  "letter_txt": {
+    "locator": {"str_id": "letter"}
+  },
+  "a4_txt": {
+    "locator": {"str_id": "A4"}
+  },
+  "5_7_txt": {
+    "locator": {"str_id": "five_by_seven"}
+  },
+  "4_6_txt": {
+    "locator": {"str_id": "four_by_six"}
+  },
+  "3_5_5_txt": {
+    "locator": {"str_id": "three_half_by_five"}
+  },
+  "cancel_btn": {
+    "locator": {"id": "cancelButton"}
+  },
+  "done_btn": {
+    "locator": {"id": "acceptButton"}
+  },
+  "discard_edit_title_txt": {
+    "locator": {
+      "str_id": "pesdk_editor_title_closeEditorAlert"
+    }
+  },
+  "discard_edit_pop_up_msg": {
+    "locator": {"str_id": "pesdk_editor_text_closeEditorAlert"}
+  },
+  "discard_edit_btn": {
+    "locator": {"id": "agreeButton"}
+  },
+  "discard_edit_cancel_btn": {
+    "locator": {"id": "disagreeButton"}
+  },
+  "collection_view": {
+    "locator": {"id": "optionList"}
+  },
+  "crop_flip_btn": {
+    "locator": {"id": "buttonHorizontalFlip"}
+  },
+  "crop_rotate_btn": {
+    "locator": {"id": "buttonRotateCCW"}
+  },
+  "crop_transform_scale_picker": {
+    "locator": {"id": "slider"}
+  },
+  "add_text_editor": {
+    "locator": {"id": "textInputField"}
+  },
+  "text_option_fonts_txt": {
+    "locator": {"str_id": "pesdk_text_button_font"
+    }
+  },
+  "fonts_title": {
+    "locator": {"str_id": "pesdk_text_title_font"
+    }
+  },
+  "abril_option": {
+    "locator": {"str_id": "font_name_abril"}
+  },
+  "arvo_option": {
+    "locator": {"str_id": "font_name_arvo"}
+  },
+  "concert_option": {
+    "locator": {"str_id": "font_name_concertone"}
+  },
+  "commorant_option": {
+    "locator": {"str_id": "font_name_cormorant"}
+  },
+  "dancing_script_option": {
+    "locator": {"str_id": "font_name_dancingscript"}
+  },
+  "lora_option": {
+    "locator": {"str_id": "font_name_lora"}
+  },
+  "meie_script_option": {
+    "locator": {"str_id": "font_name_meiescript"}
+  },
+  "montserrat_option": {
+    "locator": {"str_id": "font_name_montserrat"}
+  },
+  "old_standard_option": {
+    "locator": {"str_id": "font_name_oldstandard"}
+  },
+  "oswald_option": {
+    "locator": {"str_id": "font_name_oswald"}
+  },
+  "playfair_display_option": {
+    "locator": {"str_id": "font_name_playfairdisplay"}
+  },
+  "rakkas_option": {
+    "locator": {"str_id": "font_name_rakkas"}
+  },
+  "roboto_option": {
+    "locator": {"str_id": "font_name_roboto"}
+  },
+  "ubuntu_option": {
+    "locator": {"str_id": "font_name_ubuntu"}
+  },
+  "yatra_one_option": {
+    "locator": {"str_id": "font_name_yatraone"}
+  },
+  "text_option_title": {
+    "locator": {"str_id": "pesdk_text_title_options"}
+  },
+  "add_btn" : {
+    "locator": {"str_id": "pesdk_text_button_add"}
+  },
+  "delete_btn" : {
+    "locator": {"str_id": "pesdk_text_button_delete"}
+  },
+  "bring_to_front_btn" : {
+    "locator": {"str_id": "pesdk_text_button_bringToFront"}
+  },
+  "text_option_color_txt": {
+    "locator": {"str_id": "pesdk_text_title_textColor"}
+  },
+  "text_color": {
+    "locator": {"str_id": "pesdk_text_button_color"}
+  },
+  "text_option_bgcolor_txt": {
+    "locator": {"str_id": "pesdk_text_button_backgroundColor"}
+  },
+  "gray_color" : {
+    "locator": {"str_id": "pesdk_common_title_grayColor"}
+  },
+  "black_color" : {
+    "locator": {"str_id": "pesdk_common_title_blackColor"}
+  },
+  "light_blue_color" : {
+    "locator": {"str_id": "pesdk_common_title_lightBlueColor"}
+  },
+  "blue_color" : {
+    "locator": {"str_id": "pesdk_common_title_blueColor"}
+  },
+  "purple_color" : {
+    "locator": {"str_id": "pesdk_common_title_purpleColor"}
+  },
+  "orchid_color" : {
+    "locator": {"str_id": "pesdk_common_title_orchidColor"}
+  },
+  "pink_color" : {
+    "locator": {"str_id": "pesdk_common_title_pinkColor"}
+  },
+  "red_color" : {
+    "locator": {"str_id": "pesdk_common_title_redColor"}
+  },
+  "orange_color" : {
+    "locator": {"str_id": "pesdk_common_title_orangeColor"}
+  },
+  "gold_color" : {
+    "locator": {"str_id": "pesdk_common_title_goldColor"}
+  },
+  "yellow_color" : {
+    "locator": {"str_id": "pesdk_common_title_yellowColor"}
+  },
+  "olive_color" : {
+    "locator": {"str_id": "pesdk_common_title_oliveColor"}
+  },
+  "green_color" : {
+    "locator": {"str_id": "pesdk_common_title_greenColor"}
+  },
+  "aquamarin_color" : {
+    "locator": {"str_id": "pesdk_common_title_aquamarinColor"}
+  },
+  "color_option": {
+    "locator": {"id": "contentHolder",
+                 "text": "{}"}
+  },
+  "export_progress_bar": {
+    "locator": {"id": "progressBar"}
+  },
+  "export_progress_label": {
+    "locator": {"id": "progress"}
+  }
+}

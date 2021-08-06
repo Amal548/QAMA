@@ -1,0 +1,87 @@
+{
+  "title": {
+    "locator": {"xpath":  "//h1[@id = 'pageTitle' and contains(text(), 'Contacts')]"}
+  },
+  "add_btn": {
+    "locator": {"css selector": "a#addButton"}
+  },
+  "contact_cell": {
+    "locator": {"css selector":  "div.item__content__data"}
+  },
+  "saved_contact_list": {
+    "locator": {"css selector": "#savedContactsList li"}
+  },
+  "recent_empty_contact_message": {
+    "locator": {"css selector": "p#recentContactsEmpty"}
+  },
+  "saved_empty_contact_message": {
+    "locator": {"css selector": "p#savedContactsEmpty"}
+  },
+  "recent_tab": {
+    "_comments": "Including native app locator for iOS",
+    "locator": {"css selector": "div#recentTab",
+                "name": "Recent"}
+  },
+  "saved_tab": {
+    "_comments": "Including native app locator for iOS",
+    "locator": {"css selector": "div#savedTab",
+                "name": "Saved"}
+  },
+  "saved_contact_title":{
+    "locator": {"xpath": "//span[text() = '{}']"}
+  },
+  "saved_contact_phone_number": {
+    "locator": {"xpath": "//span[contains(text(), '{}')]"}
+  },
+  "saved_i_icon_btn":{
+    "_comment": "need to be passed contact's name and phone number. Click() is unsuccessful without any errors/exceptions in WEBVIEW",
+    "locator": {"xpath": "//android.widget.Image[contains(@resource-id,'savedContactImage') and ../android.view.View[@text='{}'] and ../android.view.View[@text='{}']]",
+                "css selector": "img[id^='savedContactImage']"}
+  },
+  "add_contact_title": {
+    "locator": {"xpath": "//h1[@id = 'pageTitle' and contains(text(), 'Add Contact')]" }
+  },
+  "country_code_edit_tf": {
+    "locator": {"css selector": "div#contactFormPhoneCountrySelectCountrySelect input"}
+  },
+  "fax_number_edit_tf": {
+    "locator": {"xpath": "//XCUIElementTypeStaticText[contains(@name,'Fax Number')]",
+      "css selector": "input#contactFormPhoneNumberInput"
+    }
+  },
+  "name_edit_tf": {
+    "locator": {"xpath": "//XCUIElementTypeStaticText[contains(@name,'Name')]",
+      "css selector": "input#contactFormNameInput"}
+  },
+  "save_btn": {
+    "locator": {"css selector":  "button#saveContactButton"}
+  },
+  "edit_contact_title": {
+    "locator": {"xpath": "//h1[@id = 'pageTitle' and contains(text(), 'Edit Contact')]" }
+  },
+  "edit_contact_delete_btn": {
+    "locator": {"css selector":  "a#deleteButton"}
+  },
+  "are_you_sure_popup_title": {
+    "locator": {"xpath":  "//div[@id = 'titleContainer' and contains(text(), 'Are you sure?')]"}
+  },
+  "are_you_ure_popup_cancel_btn": {
+    "locator": {"css selector":  "button#cancelDeleteDialogButton"}
+  },
+  "are_you_sure_popup_delete_btn": {
+    "locator": {"css selector":  "button#confirmDeleteDialogButton"}
+  },
+  "invalid_format_phone_number_msg": {
+    "locator": {"xpath":  "//div[text() = 'Invalid format']"}
+  },
+  "select_all_btn": {
+    "locator": {
+      "name": "Select All"
+    }
+  },
+    "cut_btn": {
+      "locator": {
+        "name": "Cut"
+    }
+  }
+}

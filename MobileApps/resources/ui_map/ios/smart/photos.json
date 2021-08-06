@@ -1,0 +1,217 @@
+{
+    "photos_title":{
+        "locator":{
+            "name":"Photos"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/photos",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "photos_access_popup_txt":{
+        "locator":{
+            "name":"“HP Smart AH” Would Like to Access Your Photos"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/photos/request-access",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "allow_access_btn":{
+        "locator":{
+            "name":["OK", "Allow Access to All Photos"]
+        }
+    },
+    "do_not_allow_access_btn":{
+        "locator":{
+            "name":"Don't Allow",
+            "xpath": "//XCUIElementTypeButton[contains(@name,'Don')]"
+        }
+    },
+    "album_cell_list":{
+        "locator":{
+            "name":"PrintShare"
+        }
+    },
+    "album_cell":{
+        "locator":{
+            "class_name":"XCUIElementTypeCell"
+        }
+    },
+    "add_account_btn":{
+        "locator":{
+            "name":"Add Account"
+        }
+    },
+    "add_account_title":{
+        "locator":{
+            "xpath":"//XCUIElementTypeApplication/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeNavigationBar/XCUIElementTypeStaticText"
+        }
+    },
+    "my_photos_btn":{
+        "locator":{
+            "str_id":"cMyPhotos"
+        }
+    },
+    "facebook_btn":{
+        "locator":{
+            "name":"Facebook"
+        }
+    },
+    "cell_text":{
+        "locator":{
+            "class_name":"XCUIElementTypeStaticText"
+        }
+    },
+    "cancel_btn":{
+        "locator":{
+            "name":"Cancel"
+        }
+    },
+    "delete_btn":{
+        "locator":{
+            "name":"Remove Storage Account"
+        }
+    },
+    "all_photos_btn":{
+        "locator":{
+            "name":"All Photos"
+        }
+    },
+    "all_photos_title":{
+        "locator":{
+            "name":"All Photos"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/photos/albums/detail",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "my_photos_title":{
+        "locator":{
+            "name":"My Photos"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/photos/albums",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "photos_lv":{
+        "locator":{
+            "name":"Assets Group Collection View"
+        }
+    },
+    "photos_lv_xpath":{
+        "locator":{
+            "xpath":"//XCUIElementTypeCollectionView[@name='Assets Group Collection View']/XCUIElementTypeImage"
+        }
+    },
+    "select_all_btn":{
+        "locator":{
+            "name":"Select All"
+        }
+    },
+    "select_btn":{
+        "locator":{
+            "name":"Select"
+        }
+    },
+    "select_print_btn":{
+        "locator":{
+            "name":"Print"
+        }
+    },
+    "next_btn":{
+        "locator":{
+            "name":"Next"
+        },
+        "ga":[{
+                "ga_data":{
+                    "screen":"/photos/albums/detail/multi-selection",
+                    "count":1
+                },
+                "trigger":"wait_v",
+                "type":"screen"
+            }]
+    },
+    "all_photos":{
+        "locator":{
+            "xpath":["//XCUIElementTypeCollectionView[@name='Assets Group Collection View']/XCUIElementTypeImage",
+                    "//XCUIElementTypeOther/XCUIElementTypeImage[contains(@name, 'Photo')]"]
+        }
+    },
+    "back_btn":{
+        "locator":{
+            "name":"Navigate Back"
+        }
+
+    },
+    "recents_btn_txt":{
+        "locator": {
+            "name": "Recents"
+        }
+    },
+    "my_photos_first_option": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTable[@name='Assets Library Table View']//XCUIElementTypeStaticText[1]"
+        }
+    },
+    "select_photos":{
+        "locator":{
+            "name": "Select",
+            "xpath": "//XCUIElementTypeOther[1]/XCUIElementTypeButton[contains(@name,'Select Photos')]"
+        }
+    },
+    "access_btn":{
+        "locator":{
+            "name": ["Access","Allow Access"]
+        }
+    },
+
+    "set_photo_access_btn":{
+        "locator":{
+            "name": "Set Photo Access"
+        }
+    },
+    "no_of_photos_preview_label":{
+        "locator":{
+            "xpath": "//XCUIElementTypeStaticText[contains(@name, 'Photos:')]"
+        }
+    },
+    "select_photos_page_after_popup":{
+        "locator":{
+            "name": "This app will have access to the photos you select."
+        }
+    },
+    "show_selected_photos_btn":{
+        "locator":{
+            "xpath": "//XCUIElementTypeButton[contains(@name, 'Show Selected')]"
+        }
+    },
+    "screenshot_folder":{
+        "locator":{
+            "name": "Screenshots"
+        }
+    },
+    "all_files_Photos_title": {
+        "locator": {
+            "str_id": "cAllFilesAndPhotos"
+        }
+    }
+}

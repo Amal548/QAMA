@@ -1,0 +1,70 @@
+
+{
+    "title":{
+      "locator": {"str_id": "how_to_print"},
+      "ga": [
+        {
+          "ga_data":{
+            "screen": "/how-to-print",
+            "count": 1},
+          "trigger": "wait_v",
+          "type": "screen"
+        }
+      ]
+    },
+    "google_drive":{
+      "locator": {"str_id": "google_drive"}
+    },
+    "gdrive_screen":{
+      "locator": {"id": "com.google.android.apps.docs:id/identity_disc_menu_item"}
+    },
+    "dropbox": {
+      "locator": {"str_id":  "dropbox"}
+    },
+    "dropbox_screen":{
+      "locator": {"id": ["com.dropbox.android:id/google_signup",
+                         "com.dropbox.android:id/recent_recycler_view"]}
+    },
+    "gmail":{
+      "locator": {"str_id": "gmail"}
+    },
+    "search_gmail_et":{
+      "_comment": "It is used to verify Gmail screen only.",
+      "locator": {"id": "com.google.android.gm:id/open_search"}
+    },
+    "google_photos":{
+      "locator": {"str_id": "google_photos"}
+    },
+    "photos_screen":{
+      "locator": {"id": "com.google.android.apps.photos:id/touch_capture_view"}
+    },
+    "microsoft_office":{
+      "locator": {"str_id": "microsoft_office"}
+    },
+    "microsoft_word_screen": {
+      "locator": {"id":  "com.microsoft.office.word:id/landing_page_header_title"}
+    },
+    "google_chrome":{
+      "locator": {"str_id": "google_chrome"}
+    },
+    "google_chrome_browser": {
+      "locator": {"xpath":  "//android.widget.ImageButton[@resource-id = 'com.android.chrome:id/menu_button']"}
+    },
+    "facebook_photos":{
+      "locator": {"str_id": "facebook_photos"}
+    },
+    "facebook_screen": {
+      "locator": {"xpath":  "//*[@resource-id = 'com.facebook.katana:id/(name removed)']"}
+    },
+    "tutor_details_txt":{
+      "locator": {"id": "how_to_print_tutor_details"}
+    },
+    "open_btn":{
+      "locator": {"id": "how_to_print_launch_app_bt",
+                  "str_id": "open_app"}
+    },
+    "instruction_txt": {
+      "locator": {"str_id":  "how_to_print_text_instruction",
+                  "id":  "textview_instruction"}
+    }
+  }

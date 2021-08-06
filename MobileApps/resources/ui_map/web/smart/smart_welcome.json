@@ -1,0 +1,42 @@
+{
+    "welcome_title":{
+        "_comment": "img for stage stack",
+        "locator": {"css selector": "#title-text"}
+    },
+    "welcome_message":{
+        "locator": {"css selector": "div#hpsmart-content"}
+    },
+    "accept_all_btn":{
+        "locator":{"css selector": ["button#consent-button", "button#consent-accept-all-button"]}
+    },
+    "hp_privacy_statement_link":{
+        "locator":{"css selector": "a[href='https://hp.com/go/privacy']"}
+    },
+    "terms_of_use_link":{
+        "locator":{"css selector": "a[href='https://www.hpsmart.com/tou']"}
+    },
+    "eula_link":{
+        "locator":{"css selector": "a[href='http://www.hp.com/go/sweula']"}
+    },
+    "term_use_page_title":{
+        "locator": {"css selector": "h2.Terms__StyledTitle-sc-1ke7c59-2"}
+    },
+    "select_location_title":{
+        "locator": {"css selector": "h3#select-country-header"}
+    },
+    "privacy_statement_title":{
+        "locator":{"css selector": "a[data-metrics-title='hpprivacy-statements']"}
+    },
+    "manage_options":{
+        "locator":{"css selector":["button#consent-continue-button", "button#consent-manage\\=options-button"]}
+    },
+    "app_analytics_toggle":{
+        "locator":{"css selector":"span#app-analytics-toggle"}
+    },
+    "personalized_suggestions_toggle":{
+        "locator":{"css selector":"span#personalized-suggestions-toggle"}
+    },
+    "advertising_toggle":{
+        "locator":{"css selector":"span#advertising-toggle"}
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "browser_toggle_tab_item": {
+    "locator": {
+      "css selector": "div[aria-controls='open']"
+    }
+  },
+  "browser_url_field_txt_box": {
+    "locator": {
+      "css selector": "#urlField"
+    }
+  },
+  "browser_scheme_field_txt_box": {
+    "locator": {
+      "css selector": "#schemeField"
+    }
+  },
+  "browser_test_btn": {
+    "locator": {
+      "css selector": "#openTestButton"
+    }
+  },
+  "browser_sign_in_result_txt": {
+    "locator": {
+      "css selector": "#result"
+    }
+  }
+}

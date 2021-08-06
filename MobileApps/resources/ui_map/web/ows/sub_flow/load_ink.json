@@ -1,0 +1,36 @@
+{
+    
+    "ink_installed_popup_header":{
+        "locator": {
+            "css selector": "div.modal-header-content.ng-binding"
+        }
+    },
+    "ink_installed_popup":{
+        "locator": {
+            "css selector": "div.modal"
+        }
+    },
+    "ink_popup_continue_btn":{
+        "_comment": "css selector for continue button after calling ows_fake_install_setup_cartridges() in SPL printer",
+        "locator": {
+            "xpath": "//button[@ng-click='nextStep()']",
+            "css selector": "button.btn-enabled.btn-primary.ng-binding.ng-scope"
+        }
+    },
+    "ink_error_popup":{
+        "locator": {
+            "css selector": "modal-error"
+        }
+    },
+
+    "ink_error_popup_learn_more_btn":{
+        "locator": {
+            "css selector": "modal-error button.btn-enabled.btn-primary"
+        }
+    },
+    "ink_error_collapsed_error_body":{
+        "locator": {
+            "css selector": "div.page-container + div.collapsed-error"
+        }
+    }
+}

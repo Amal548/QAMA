@@ -1,0 +1,27 @@
+{
+    "access_photos_popup_title":{
+        "locator":{
+            "name":"“AiO Remote AH” Would Like to Access Your Photos"
+        }
+    },
+    "popup_dont_allow_btn":{
+        "locator":{
+            "name":"Don’t Allow"
+        }
+    },
+    "popup_ok_btn":{
+        "locator":{
+            "name":"OK"
+        }
+    },
+    "browser_back_to_hp_btn":{
+        "locator":{
+            "name":"Return to HP Smart AH"
+        }
+    },
+    "browser_status_bar":{
+        "locator":{
+            "class_name":"XCUIElementTypeStatusBar"
+        }
+    }
+}

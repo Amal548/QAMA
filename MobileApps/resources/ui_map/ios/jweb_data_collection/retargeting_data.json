@@ -1,0 +1,29 @@
+{
+  "get_client_advertising_id_availability_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Get Client Advertising ID Availability']"
+    }
+  },
+  "request_client_advertising_id_access_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Request Client Advertising ID Access']"
+    }
+  },
+  "go_to_application_settings_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Go To Application Settings']"
+    }
+  },
+  "client_id_availability_response": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText"
+    }
+  },
+
+  "retargeting_data_ok_pop_up_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='OK']"
+    }
+  }
+
+}

@@ -1,0 +1,25 @@
+{
+    "chat_with_virtual_agent_btn":{
+        "locator":{
+            "css selector":"button#chatbotLink",
+            "name": "Chat with Virtual Agent"
+        }
+    },
+    "help_center_title":{
+        "locator":{
+            "xpath":"//h1[text()='Welcome to HP Smart App Help and Support']",
+            "name":"Welcome to HP Smart App Help and Support"
+        }
+    },
+    "accept_cookies_btn":{
+        "locator":{
+            "xpath": "//button[@title='Accept Cookies']",
+            "name": "Accept Cookies"
+        }
+    },
+    "virtual_agent":{
+        "locator":{
+            "name": "Virtual Agent"
+        }
+    }
+}

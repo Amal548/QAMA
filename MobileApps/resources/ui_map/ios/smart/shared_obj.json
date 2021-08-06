@@ -1,0 +1,569 @@
+{
+  "_shared_back_arrow_btn": {
+    "locator": {
+      "name": ["Navigate Back", "Back"],
+      "xpath": "//XCUIElementTypeButton[@name='Navigate Back']"
+    }
+  },
+  "_shared_save_btn": {
+    "locator": {
+      "str_id": "cSave"
+    }
+  },
+  "_shared_select_all_btn": {
+    "locator": {
+      "name": "Select All",
+      "str_id": "cSelectAll"
+    }
+  },
+  "_shared_cut_btn": {
+    "name": "Cut"
+  },
+  "_shared_str_shortcuts": {
+    "locator": {
+      "str_id": "cShortcuts"
+    }
+  },
+  "_shared_instant_ink_tile": {
+    "locator": {
+      "name": "HP Instant Ink / Get Cartridges Tile",
+      "str_id": "cGetSupplies"
+    }
+  },
+  "_shared_play_learn_tile": {
+    "locator": {
+      "name": "Play and Learn Tile",
+      "str_id": "cPlayAndLearn"
+    }
+  },
+  "_shared_smart_task_tile": {
+    "locator": {
+      "name": "Smart Tasks Tile",
+      "str_id": "cSmartTasks"
+    }
+  },
+  "_shared_camera_scan_tile": {
+    "locator": {
+      "name": "Camera Scan Tile",
+      "str_id": "cCameraScan"
+    }
+  },
+  "_shared_help_tile": {
+    "locator": {
+      "name": "Get HP Help and Support Tile",
+      "str_id": "cGetHelpAndSupport"
+    }
+  },
+  "_shared_print_photos_tile": {
+    "locator": {
+      "str_id": "cPrintPhotosTitle",
+      "name": "Print Photos"
+    }
+  },
+  "_shared_print_documents_tile": {
+    "locator": {
+      "name": "Print Documents Tile",
+      "str_id": "cPrintDocuments"
+    }
+  },
+  "_shared_scan_tile": {
+    "locator": {
+      "name": "Printer Scan",
+      "str_id": "cPrinterScan"
+    }
+  },
+  "_shared_copy_tile": {
+    "locator": {
+      "name": "Copy Tile",
+      "str_id": "cCopy"
+    }
+  },
+  "_shared_create_photos_tile": {
+    "locator": {
+      "name": "Create Photo Books Tile",
+      "str_id": "cCreatePhotoBooks"
+    }
+  },
+  "_shared_str_personalized_tiles": {
+    "locator": {
+      "str_id": "cPersonalizeTitle",
+      "name":"Personalize Tiles"
+    }
+  },
+  "_shared_mobile_fax_tile": {
+    "locator": {
+      "str_id": "cMobileFax",
+      "name": "Mobile Fax"
+    }
+  },
+  "_shared_paper_size_letter": {
+    "locator": {
+      "str_id": "cLetter"
+    }
+  },
+  "_shared_us_legal": {
+    "locator": {
+      "str_id": "cLegal"
+    }
+  },
+  "_shared_paper_size_4x6": {
+    "locator": {
+      "str_id": "c4X6In10X15Cm"
+    }
+  },
+  "_shared_paper_size_5x7": {
+    "locator": {
+      "str_id": "c5X7In13X18Cm"
+    }
+  },
+  "_shared_driver_license": {
+    "locator": {
+      "str_id": "cDriverLicense"
+    }
+  },
+  "_shared_business_card": {
+    "locator": {
+      "str_id": "cBusinessCard"
+    }
+  },
+  "_shared_paper_size_a4_btn": {
+    "locator": {
+      "str_id": "cISO_A4",
+      "check is it correct str id or not": "if it is wrong it will work with name for now",
+      "name": "paper-option A4"
+    }
+  },
+  "_shared_paper_size_3_5x5_btn": {
+    "locator": {
+      "str_id": "c3Dot5X5In9X13Cm"
+    }
+  },
+  "_shared_paper_size_custom_size_option": {
+    "locator": {
+      "str_id": "cCustomSize"
+    }
+  },
+  "_shared_original_size": {
+    "locator": {
+      "name": "Original Size"
+    }
+  },
+  "_shared_fit_to_page": {
+    "locator": {
+      "name": "Fit to Page"
+    }
+  },
+  "_shared_fill_page": {
+    "locator": {
+      "name": "Fill Page"
+    }
+  },
+  "chane_copies_val": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='2']"
+    }
+  },
+  "chane_copies_val_2": {
+    "locator": {
+      "xpath": "///XCUIElementTypeApplication[@name='HP Smart AH']/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeStaticText"
+    }
+  },
+  "_shared_dynamic_text": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[contains(@name, '{}')]"
+    }
+  },
+  "_shared_dynamic_button": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='{}']"
+    }
+  },
+  "_shared_dynamic_other": {
+    "locator": {
+      "xpath": "//XCUIElementTypeOther[@name='{}']"
+    }
+  },
+  "_shared_dynamic_navigation_bar": {
+    "locator": {
+      "xpath": "//XCUIElementTypeNavigationBar[@name='{}']"
+    }
+  },
+  "_shared_dynamic_cell_name_txt": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell[@name='{}']"
+    }
+  },
+  "_shared_no": {
+    "locator": {
+      "str_id": "cNo"
+    }
+  },
+  "_shared_yes": {
+    "locator": {
+      "str_id": "cYes"
+    }
+  },
+  "_shared_done": {
+    "locator": {
+      "str_id": "cDone"
+    }
+  },
+  "_shared_cancel": {
+    "locator": {
+      "name": "Cancel",
+      "str_id": "cCancel"
+    }
+  },
+  "_shared_clear_text_btn": {
+    "locator": {
+      "name": "Clear text"
+    }
+  },
+  "_shared_edit": {
+    "locator": {
+      "str_id": "cEdit"
+    }
+  },
+  "bottom_rootbar": {
+    "locator": {
+      "xpath": "//XCUIElementTypeTabBar"
+    }
+  },
+  "home_icon_on_rootbar": {
+    "locator": {
+      "name": ["HomeTab-inactive","Home"],
+      "str_id": "cHome"
+    },
+    "ga": [
+      {
+        "ga_data": {
+          "category": "Home",
+          "action": "Menu-clicked",
+          "label": "Icon-home",
+          "count": 1
+        },
+        "trigger": "click",
+        "type": "event"
+      }
+    ]
+  },
+  "files_and_photos_icon_rootbar": {
+    "locator": {
+      "name": ["FilesAndPhotoTab-inactive","View & Print"],
+      "str_id": "cViewAndPrint",
+      "label": "View & Print"
+    },
+    "ga": [
+      {
+        "ga_data": {
+          "category": "Home",
+          "action": "Menu-clicked",
+          "label": "Icon-files",
+          "count": 1
+        },
+        "trigger": "click",
+        "type": "event"
+      }
+    ]
+  },
+  "scan_icon_on_rootbar": {
+    "locator": {
+      "name": ["ScanTab-inactive","Scan"],
+      "str_id": "cScan"
+    },
+    "ga": [
+      {
+        "ga_data": {
+          "category": "Home",
+          "action": "Menu-clicked",
+          "label": "Icon-scan",
+          "count": 1
+        },
+        "trigger": "click",
+        "type": "event"
+      }
+    ]
+  },
+  "settings_icon_on_rootbar": {
+    "locator": {
+      "name": ["SettingsTab-inactive","Settings"],
+      "xpath": "//XCUIElementTypeButton[@name='Settings']"
+    },
+    "ga": [
+      {
+        "ga_data": {
+          "category": "Home",
+          "action": "Menu-clicked",
+          "label": "Icon-app-setting",
+          "count": 1
+        },
+        "trigger": "click",
+        "type": "event"
+      }
+    ]
+  },
+  "_shared_close": {
+    "locator": {
+      "str_id": "cClose",
+      "name": "Close",
+      "xpath":"//XCUIElementTypeButton[@name='Close']"
+    }
+  },
+  "_shared_feedback_pop_up_title": {
+    "locator": {
+      "str_id": "cFeedbackSectionTitle"
+    }
+  },
+  "_Shared_no_thanks_btn": {
+    "locator": {
+      "name": ["No Thanks","No thanks"]
+    }
+  },
+  "printer_name_title": {
+    "locator": {
+      "name": "Printer Name"
+    }
+  },
+  "printer_name": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name = 'Printer Name' and contains(@label, '{}')]"
+    }
+  },
+  "_shared_str_ok": {
+    "locator": {
+      "str_id": "cOk",
+      "name": "OK"
+    }
+  },
+  "_shared_retry_btn": {
+    "locator": {
+      "str_id": "cRetry"
+    }
+  },
+  "alert_close_btn": {
+    "locator": {
+      "name": "Close"
+    }
+  },
+  "_shared_print": {
+    "locator": {
+      "str_id": "cPrint"
+    }
+  },
+  "_shared_allow_while_using_app": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Allow While Using App']"
+    }
+  },
+  "_shared_allow_once": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Allow Once']"
+    }
+  },
+  "_shared_dont_allow": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='Don\u2019t Allow']"
+    }
+  },
+  "_shared_continue_btn": {
+    "locator": {
+      "name": "Continue"
+    }
+  },
+  "cell_selected_value_txt": {
+    "locator": {
+      "xpath": "//XCUIElementTypeCell/XCUIElementTypeStaticText[contains(@name,'{}')]/following-sibling::XCUIElementTypeStaticText"
+    }
+  },
+  "bluetooth_alert":{
+    "locator":{
+      "xpath":"//XCUIElementTypeAlert[contains(@name, \"Bluetooth\")]"
+    }
+  },
+  "bluetooth_alert_text":{
+    "locator":{
+      "xpath": "//XCUIElementTypeStaticText[contains(@value, \"HP Smart uses Bluetooth to set up and connect to your printer. If you don't allow Bluetooth use, we might not be able to set up your printer\")]"
+    }
+  },
+  "_shared_visible_dynamic_text": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='{}' and @visible='true']"
+    }
+  },
+  "_shared_try_again": {
+    "locator": {
+      "str_id": "cTryAgain"
+    }
+  },
+  "_shared_str_no_internet": {
+    "locator": {
+      "str_id": "cNoInternetConnection"
+    }
+  },
+  "_shared_str_check_internet": {
+    "locator": {
+      "str_id": "cCheckYourInternetConnection"
+    }
+  },
+  "view_and_print_txt": {
+    "locator": {
+      "name": "View & Print",
+      "str_id": "cViewAndPrint"
+    }
+  },
+  "_shared_help_center": {
+    "locator":{
+        "str_id":"cHelpCenter"
+    }
+  },
+  "_shared_scrollview": {
+    "locator":{
+        "xpath":"//XCUIElementTypeScrollView"
+    }
+  },
+  "_shared_account":{
+    "locator":{
+      "str_id":"cAccount"
+    }
+  },
+  "_shared_create_account":{
+    "locator":{
+      "str_id":"cCreateAccount",
+      "name": "Create Account"
+    }
+  },
+  "_shared_no_search_results": {
+    "locator": {
+        "str_id": "cNoSearchResults"
+    }
+  },
+  "allow_btn":{
+      "locator":{
+          "name":"Allow"
+      }
+  },
+  "notifications_alert":{
+      "locator":{
+          "xpath": "//XCUIElementTypeAlert[contains(@name, 'Would Like to Send You Notifications')]",
+          "name":"“HP Smart AH” Would Like to Send You Notifications"
+      }
+  },
+  "do_not_allow_access_btn":{
+      "locator":{
+          "name":"Don't Allow"
+      }
+  },
+  "_shared_sign_in":{
+    "locator":{
+      "str_id":"cSignIn",
+      "name": "Sign In"
+    }
+  },
+  "adjust_boundaries_title": {
+        "locator": {
+            "str_id": "cDetectEdges",
+            "name": "Detect Edges"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/capture/adjust-boundaries",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+  "next_btn": {
+        "locator": {
+            "str_id": "cNext",
+            "name": [
+              "Next",
+              "next"
+            ]
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "category": "Capture",
+                    "action": "User-change",
+                    "label": "No-change",
+                    "count": 1
+                },
+                "trigger": "click",
+                "type": "event"
+            }
+        ]
+    },
+  "adjust_scan_coach_mark": {
+    "locator": {
+      "name": "Adjust scan settings and auto enhancements."
+    }
+  },
+  "scan_setting_gear": {
+    "locator": {
+        "name": "adv scan gear"
+    }
+  },
+  "capture_preference": {
+      "locator": {
+          "str_id": "cPreferences"
+      }
+  },
+  "auto_enhancements": {
+      "locator": {
+          "str_id": "cAutoEnhancements"
+      }
+  },
+  "auto_heal": {
+      "locator": {
+          "str_id": "cAutoHeal"
+      }
+  },
+  "auto_orientation": {
+      "locator": {
+          "str_id": "cAutoOrientation"
+      }
+  },
+  "document_mode": {
+      "locator": {
+          "str_id": "cDocumentPreset"
+      }
+  },
+  "photo_mode": {
+      "locator": {
+          "str_id": "cPhotoPreset"
+      }
+  },
+  "book_mode": {
+      "locator": {
+          "str_id": "cBookPreset"
+      }
+  },
+  "multi_item_mode": {
+      "locator": {
+          "str_id": "cMultiItemPreset"
+      }
+  },
+  "batch_mode": {
+      "locator": {
+          "str_id": "cBatchPreset"
+      }
+  },
+  "on_my_iphone":{
+    "locator":{
+        "name": "On My iPhone"
+    }
+  },
+  "logs_option":{
+    "locator":{
+      "name": "Logs"
+    }
+  },
+  "folder_name":{
+    "locator":{
+      "name": "Folder name"
+    }
+  }
+}

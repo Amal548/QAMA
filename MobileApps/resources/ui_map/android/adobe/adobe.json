@@ -1,0 +1,61 @@
+{
+  "welcome_screen_exit_button":{
+    "locator": {"id": "com.adobe.reader:id/optional_signing_cross_button"}
+  },
+  "home_screen": {
+    "locator": {"text": "Home"}
+  },
+  "select_local_files": {
+    "locator": {"accessibility id": "com.adobe.reader:id/smallLabel"}
+  },
+  "search": {
+    "locator": {"id": "com.adobe.reader:id/bottombaritem_search"}
+  },
+  "search_text_field": {
+    "locator": {"id": "com.adobe.reader:id/search_src_text"}
+  },
+  "open_file": {
+    "locator": {"id": "com.adobe.reader:id/fileName"}
+  },
+  "select_trap_door_share_option": {
+    "locator": {"id": "com.adobe.reader:id/classic_viewer_share_file"}
+  },
+  "share_copy_button": {
+    "locator": {"id": "com.adobe.reader:id/share_copy_button"}
+  },
+  "trap_door_lv": {
+    "locator": {"xpath": "//android.widget.ScrollView"}
+  },
+  "more_options_lv": {
+    "locator": {"class name": "android.widget.ListView"}
+  },
+  "3dot_button": {
+    "locator": {"id": "com.adobe.reader:id/context_board",
+                 "xpath": "//android.widget.ImageView[4]"}
+  },
+  "place_holder_text": {
+    "locator": {"text": "{}"}
+  },
+  "edit_button":{
+    "locator":{"id":"com.adobe.reader:id/viewer_fab"}
+  },
+  "3dot_menu_sv": {
+    "locator": {"id": "com.adobe.reader:id/design_bottom_sheet"}
+  },
+  "menu_option_list": {
+    "locator": {"id": "com.adobe.reader:id/bottom_sheet_main_container"}
+  },
+  "print_text": {
+    "locator": {"xpath": "//android.widget.TextView[@text='{}']"}
+  },
+  "cancel_search_btn": {
+    "locator": {"xpath": "//android.widget.ImageButton"}
+  },
+  "overlay_ui": {
+    "locator": {"id": "com.adobe.reader:id/close_card_button"}
+  },
+  "user_data_usage_continue_button": {
+    "locator": {"id": "com.adobe.reader:id/user_data_usage_notice_continue_button"}
+  }
+}
+

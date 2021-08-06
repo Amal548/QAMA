@@ -1,0 +1,121 @@
+{
+	"en-us": {
+			"street": "16399 W Bernardo Dr",
+			"city": "San Diego",
+			"state": "California",
+			"zipcode": "92127",
+			"phone": "5555555555"
+	},
+
+	"en-uk": {
+			"street": "49 waldegrave Park",
+			"city": "Twickenham",
+            "state": "London",
+			"zipcode": "TW2 7BA",
+			"phone": "09876543213"
+	},
+	"fr-fr": {
+			"street": "Escallier G, 3éme étage 1",
+			"street2": "rue Victor Cousin",
+			"ville": "paris",
+			"zipcode": "12345",
+			"phone": "0142764040"
+		
+	},
+	"de-de": {
+			"street": "Schickadstrasse 32",
+			"city": "Böblingen",
+			"zipcode": "71034",
+			"phone": "06929993434"
+		
+	},
+	"es-es": {
+			"street": "Calle José Echegaray 18",
+			"city": "Las Rozas",
+			"state": "Madrid",
+			"zipcode": "28232",
+			"phone": "913754769",
+            "NIF": "12345678E"
+		
+	},
+	"en-ca": {
+			"street": "5150 Spectrum Way",
+			"city": "Mississagua",
+			"state": "Ontario",
+			"zipcode": "L4w 5G1",
+			"phone": "18884474636"
+		
+	},
+	"fr-ca": {
+			"street": "5150 Spectrum Way",
+			"city": "Mississagua",
+			"state": "Ontario",
+			"zipcode": "L4w 5G1",
+			"phone": "18884474636"
+		
+	},
+	"it-it": {
+			"street": "Via Donat Cattin 5",
+			"city": "Cernusco sul Naviglio",
+			"State": "Milan",
+			"zipcode": "20063",
+			"phone": "393357634407"
+		
+	},
+	"de-au": {
+			"street": "Technologiestraße 5",
+			"city": "Wien",
+			"zipcode": "1120",
+			"phone": "431811180"
+		
+	},
+	"en-ie": {
+			"street": "Liffey Park Technoloy Campus",
+			"street2": "Building 8, Barnhall RD",
+			"city": "Liexlip, Co",
+			"state": "Kildare",
+			"zipcode": "W23 Y972",
+			"phone": "35316150000"
+		
+	},
+	"nl-nl": {
+			"street": "Spurkterweg 81",
+			"city": "Venray",
+			"zipcode": "5804 AP",
+			"phone": "+31 (0) 62186 3711"
+		
+	},
+	"nl-be": {
+			"street": "Hermeslaan 1A",
+			"street2": "HERMES PLAZA",
+			"city": "Diegem",
+			"zipcode": "1831",
+			"phone": "32475730297"
+		
+	},
+	"fr-be": {
+			"street": "Hermeslaan 1A ",
+			"street2": "HERMES PLAZA",
+			"city": "Diegem",
+			"zipcode": "1831",
+			"phone": "32475730297"
+		
+	},
+	"pt-pt": {
+			"street": "Quinta da Fonte",
+			"city": "Paco de Arcos",
+			"zipcode": "2774-528",
+			"phone": "351-2106-007-00"
+		
+	},
+	"fr-lu": {
+			"street": "Hermeslaan 1A, Floor B1",
+			"city": "Diegem",
+			"zipcode": "1831",
+			"phone": "32 2 620 1600"
+		
+	}
+
+
+}
+

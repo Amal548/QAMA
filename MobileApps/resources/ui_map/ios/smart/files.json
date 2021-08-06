@@ -1,0 +1,604 @@
+{
+    "files_title": {
+        "locator": {
+            "name": "All Files & Photos",
+            "str_id": "cAllFilesAndPhotos"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "hp_smart_files_btn": {
+        "locator": {
+            "str_id": "cMyFiles"
+        }
+    },
+    "delete_btn": {
+        "locator": {
+            "name": "Delete"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/my-files/delete-file",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "edit_btn": {
+        "locator": {
+            "name": "Edit"
+        }
+    },
+    "remove_btn": {
+        "locator": {
+            "name": "Remove"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/edit",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "done_btn": {
+        "locator": {
+            "name": "Done"
+        }
+    },
+    "all_files_image_button": {
+        "locator": {
+            "name": "All Files"
+        }
+    },
+    "hp_smart_ah_recent_title": {
+        "locator": {
+            "name": ["HP Smart AH Recents", "HP Smart AH"]
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/all-files",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "back_btn": {
+        "locator": {
+            "name": "Navigate Back"
+        }
+    },
+    "search_cancel_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeButton[@name = 'Cancel']"
+        }
+    },
+    "folder_name_tf": {
+        "locator": {
+            "name": "File Name Text Field"
+        }
+    },
+    "create_folder_create_btn": {
+        "locator": {
+            "name": "Rename"
+        }
+    },
+    "select_files_select_all_btn": {
+        "locator": {
+            "str_id": "cSelectAll"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/my-files/select-files",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "delete_popup_msg": {
+        "locator": {
+            "name": "Are you sure you want to delete this item?",
+            "str_id": "cAreYouSureDelete"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/my-files/delete",
+                    "count": 1
+                },
+                "trigger": "click",
+                "type": "screen"
+            }
+        ]
+    },
+    "delete_multi_popup_msg": {
+        "locator": {
+            "name": "Are you sure you want to delete these item?",
+            "str_id": "cAreYouSureDeleteItems"
+        }
+    },
+    "choose_dest_txt": {
+        "locator": {
+            "str_id": "cChooseADestinationPrompt"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/my-files/move",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "rename_btn": {
+        "locator": {
+            "str_id": "cRename"
+        }
+    },
+    "rename_folder_title": {
+        "locator": {
+            "str_id": "cRenameFolder"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/my-files/rename",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "hp_smart_files_image_button": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name ='HP Smart Files']"
+        }
+    },
+    "hp_smart_files_title": {
+        "locator": {
+            "name": "HP Smart Files"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/my-files",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "hp_smart_files_more_button": {
+        "locator": {
+            "name": "More"
+        }
+    },
+    "hp_smart_files_create_folder_image": {
+        "locator": {
+            "name": "Create Folder"
+        }
+    },
+    "hp_smart_files_select_image": {
+        "locator": {
+            "name": "Select"
+        }
+    },
+    "doc_folder_firstfolder": {
+        "locator": {
+            "name": "TestDir(0)"
+        }
+    },
+    "search_box": {
+        "locator": {
+            "xpath": "//XCUIElementTypeSearchField"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/my-files/search",
+                    "count": 1
+                },
+                "trigger": "click",
+                "type": "screen"
+            }
+        ]
+    },
+    "show_options_menu": {
+        "locator": {
+            "name": "File Menu Checkmark_0",
+            "xpath": "//XCUIElementTypeButton[@name='File Menu Checkmark_0']"
+        }
+    },
+    "select_move_folder_option": {
+        "locator": {
+            "name": "Action Button 2"
+        }
+    },
+    "select_rename_folder_option": {
+        "locator": {
+            "name": "Action Button 3"
+        }
+    },
+    "select_delete_folder_option": {
+        "locator": {
+            "name": "Action Button 1"
+        }
+    },
+    "move_bottom_navigation": {
+        "locator": {
+            "name": "Move"
+        }
+    },
+    "clear_text": {
+        "locator": {
+            "name": "Clear text"
+        }
+    },
+    "files_empty_screen": {
+        "locator": {
+            "name": "No Files Available"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/my-files/empty",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "radio_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeImage[@name='Ctrl_Selection_Empty']",
+            "name": "Ctrl_Selection_Empty"
+        }
+    },
+    "more_options_button": {
+        "locator": {
+            "name": "Action List Table View"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/my-files/options",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "create_folder_title": {
+        "locator": {
+            "name": "Create Folder"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/my-files/create-folder",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "menu_door_popup": {
+        "locator": {
+            "name": "Action Controller Popup"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/documents/my-files/menu",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "drop_box": {
+        "locator": {
+            "name": "Dropbox"
+        }
+    },
+    "google_drive": {
+        "locator": {
+            "name": "Google Drive"
+        }
+    },
+    "google_photos": {
+        "locator": {
+            "name": "Google Photos"
+        }
+    },
+    "box": {
+        "locator": {
+            "name": "Box"
+        }
+    },
+    "ever_note": {
+        "locator": {
+            "name": "Evernote"
+        }
+    },
+    "face_book": {
+        "locator": {
+            "name": "Facebook"
+        }
+    },
+    "instagram_btn": {
+        "locator": {
+            "name": "Instagram"
+        }
+    },
+    "other_btn": {
+        "locator": {
+            "name": "Other"
+        }
+    },
+    "learn_more_link": {
+        "locator": {
+            "name": "Learn More"
+        }
+    },
+    "file_and_photos_option": {
+        "locator": {
+            "name": "FilesAndPhotoTab-inactive"
+        }
+    },
+    "recent_btn": {
+        "locator": {
+            "name": "Recents"
+        }
+    },
+    "browse_btn": {
+        "locator": {
+            "name": "Browse"
+        }
+    },
+    "no_recent_files": {
+        "locator": {
+            "name": "No Recents"
+        }
+    },
+    "sort_by_name_optn": {
+        "locator": {
+            "name": "Sort by Name"
+        }
+    },
+    "file_cancel_btn": {
+        "locator": {
+            "xpath": "//XCUIElementTypeOther/XCUIElementTypeButton[@name = 'Cancel']"
+        }
+    },
+    "create_folder": {
+        "locator": {
+            "name": "Create Folder"
+        }
+    },
+    "folder_list": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCell[contains(@name,'My Files Document')]/XCUIElementTypeStaticText"
+        }
+    },
+    "files_list": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCollectionView[@type='XCUIElementTypeCollectionView']/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther"
+        }
+    },
+    "file_name": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='{}']"
+        }
+    },
+    "file_size": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[contains(@name, 'MB') and ../XCUIElementTypeStaticText[@name='{}']]"
+        }
+    },
+    "files_my_photos": {
+        "locator": {
+            "name": "My Photos"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/photos",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "select_files_title": {
+        "locator": {
+            "name": "Select Files"
+        }
+    },
+    "dest_folder_list": {
+        "locator": {
+            "xpath": "//XCUIElementTypeTable[@name='DocumentsTableView']/XCUIElementTypeCell/XCUIElementTypeStaticText"
+        }
+    },
+    "see_all_btn": {
+        "locator": {
+            "name": "See All"
+        }
+    },
+    "select_btn": {
+        "locator": {
+            "name": "Select"
+        }
+    },
+    "recent_back_btn": {
+        "locator": {
+            "name": "HP Smart AH Recents"
+        }
+    },
+    "icloud_drive_title": {
+        "locator": {
+            "name": "iCloud Drive"
+        }
+    },
+    "locations_title": {
+        "locator": {
+            "name": "Locations"
+        }
+    },
+    "favorites_folder_title": {
+        "locator": {
+            "name": "Favorites"
+        }
+    },
+    "tags_folder_title": {
+        "locator": {
+            "name": "Tags"
+        }
+    },
+    "test_file": {
+        "locator": {
+            "name": "Test file"
+        }
+    },
+    "icloud_btn": {
+        "locator": {
+            "name": "iCloud Drive"
+        }
+    },
+    "locations_back_btn": {
+        "locator": {
+            "name": "Locations"
+        }
+    },
+    "locations_google_drive": {
+        "locator": {
+            "name": "Drive"
+        }
+    },
+    "locations_drop_box_btn": {
+        "locator": {
+            "name": "Drop-Personal"
+        }
+    },
+    "icloud_folder_list": {
+        "locator": {
+            "xpath": "//XCUIElementTypeCollectionView[@name='File View']/XCUIElementTypeOther"
+        }
+    },
+    "recently_deleted_btn": {
+        "locator": {
+            "name": "Recently Deleted"
+        }
+    },
+    "show_more_item_arrow": {
+        "locator": {
+            "name": "Show more items"
+        }
+    },
+    "recover_btn": {
+        "locator": {
+            "name": "Recover"
+        }
+    },
+    "facebook_access_popup_txt":{
+        "locator": {
+            "name": "“HP Smart” Wants to Use “facebook.com” to Sign In"
+        }
+
+    },
+    "continue_btn": {
+        "locator": {
+            "name": "Continue"
+        }
+    },
+    "fb_delete_popup": {
+        "locator": {
+            "name": "Remove Facebook Account"
+        },
+        "ga": [
+            {
+                "ga_data": {
+                    "screen": "/photos/remove/Facebook",
+                    "count": 1
+                },
+                "trigger": "wait_v",
+                "type": "screen"
+            }
+        ]
+    },
+    "view_and_print_text": {
+        "locator": {
+            "str_id": "cViewAndPrint"
+        }
+    },
+    "files_and_photos_icon_rootbar": {
+        "locator": {
+            "name":"FilesAndPhotoTab-inactive"
+        }
+    },
+    "next_btn": {
+        "locator":{
+            "str_id":"cNext"
+        }
+
+    },
+    "sort_by_date": {
+        "locator": {
+            "name": "Sort by Date"
+        }
+    },
+    "menu_options_cancel_btn":{
+        "locator":{
+            "xpath": "//XCUIElementTypeOther[@name='Action Controller Popup']//XCUIElementTypeButton[@name='Cancel']"
+        }
+    },
+    "rename_popup_cancel_btn":{
+        "locator":{
+            "xpath": "//XCUIElementTypeButton[@name='Cancel' and ../XCUIElementTypeButton[@name='Rename']]"
+        }
+    },
+    "delete_popup_cancel_btn":{
+        "locator":{
+            "xpath": "//XCUIElementTypeButton[@name='Cancel' and ../XCUIElementTypeButton[@name='Action Button 1']]"
+        }
+    },
+    "save_to_iphone":{
+        "locator":{
+            "name": "Save to My iPhone"
+        }
+    },
+    "on_my_iphone":{
+        "locator":{
+            "name": "On My iPhone"
+        }
+    }
+}
