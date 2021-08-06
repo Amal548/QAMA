@@ -1,0 +1,106 @@
+{
+    "language_config_dropbox":{
+        "locator": {"xpath": "//select[@name='languageConfig']"}
+    },
+    "country_config_dropbox":{
+        "locator": {"xpath": "//select[@name='countryConfig']"}
+    },
+    "insert_ink_dropbox":{
+        "locator": {"xpath": "//select[@name='insertInk']"}
+    },    
+    "load_main_tray_dropbox":{
+        "locator": {"xpath": "//select[@name='loadMainTray']"}
+    },
+    "load_photo_tray_dropbox":{
+        "locator": {"xpath": "//select[@name='loadPhotoTray']"}
+    },
+    "calibration_dropbox":{
+        "locator": {"xpath": "//select[@name='calibration']"}
+    },
+    "semi_calibration_print_dropbox":{
+        "locator": {"xpath": "//select[@name='calibrationPrint']"}
+    },
+
+    "semi_calibration_scan_dropbox":{
+        "locator": {"xpath": "//select[@name='calibrationScan']"}
+    },
+    "get_oobe_status_btn":{
+        "locator": {"id": "oobe-status-button"}
+    },
+    "get_product_status_btn":{
+        "locator": {"id": "product-status-button"}
+    },
+    "get_supply_info_btn":{
+        "_comment": "Big button inside the supplies info tab",
+        "locator": {"id": "supplies-info-button"}
+    },
+    "actions_tab":{
+        "locator": {"id": "dynamicActions"}
+    },
+    "actions_select":{
+        "locator": {"css selector": "#dynamicActions div.select-multiple-container select"}
+    },
+    "actions_send_btn":{
+        "locator": {"css selector": "#dynamicActions button.action-button"}
+    },
+    "supplies_info_tab":{
+        "locator": {"id": "SuppliesInfo"}
+    },
+    "printer_country_language_tab":{
+        "locator": {"id": "AdditionalActions"}
+    },
+    "skip_tab":{
+        "locator": {"id": "etc"}
+    },
+    "remove_wrap_dropbox":{
+        "locator": {"xpath": "//select[@name='removeWrap']"}
+    },
+    "ledm_status_alert_select":{
+        "locator": {"css selector": "div.action-container.oobe-ledm-status select"}
+    },
+    "payload_div":{
+        "locator": {
+            "css selector": "pre#console>div"
+        }
+    },
+    "payload_title_txt":{
+        "locator":{
+            "css selector": "h4"
+        }
+    },
+    "payload_collapse_div":{
+        "locator":{
+            "css selector": "div"
+        }
+    },
+    "payload_content_pre":{
+        "locator": {
+            "css selector": "div#{} pre"
+        }
+    },
+    "login_tab":{
+        "locator": {
+            "id": "login"
+        }
+    },
+    "authz_access_token_inb":{
+        "locator": {
+            "css selector": "input[name='accessToken']"
+        }
+    },
+    "hpid_token_inb":{
+        "locator": {
+            "css selector": "input[name='idToken']"
+        }
+    },
+    "login_btn": {
+        "locator": {
+            "css selector": "button[ng-click='signInUser()']"
+        }
+    },
+    "enable_ws_btn":{
+        "locator": {
+            "css selector": "button[ng-click='enableWSAction()']"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{    
+    "activity_center_print":{
+    	"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXButton[@AXIdentifier='Print']",
+    	                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[0]/AXPopover[0]/AXButton[@AXIdentifier='Print']"]}
+    },
+    
+    "activity_center_smart_tasks":{
+    	"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXButton[@AXIdentifier='SmartTask']",
+    	                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[0]/AXPopover[0]/AXButton[@AXIdentifier='SmartTask']"]}
+    },
+    
+    "activity_center_mobile_fax":{
+    	"locator": {"xpath": ["/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXButton[@AXIdentifier='Fax']",
+    	                      "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[0]/AXPopover[0]/AXButton[@AXIdentifier='Fax']"]}
+    },
+    
+    "activity_center_supplies":{
+    	"locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXButton[@AXIdentifier='Supplies']"}
+    },
+    
+    "activity_center_account":{
+    	"locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXToolbar[0]/AXButton[1]/AXPopover[0]/AXButton[@AXIdentifier='Account']"}
+    }
+    
+    
+}

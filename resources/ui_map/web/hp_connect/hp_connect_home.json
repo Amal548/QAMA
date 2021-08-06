@@ -1,0 +1,80 @@
+{
+    "sign_in_link":{
+            "locator": {"id": "sign-in-link"}
+    },
+    "my_printer_link":{
+            "locator": {"id": "GNB-My-Printers-Link"}
+    },
+    "account_home":{
+        "locator": {"css selector": "[data-testid='portal-top-menu']"}
+        },
+    "privacy_popup_accept_btn":{
+            "locator": {"id": "onetrust-accept-btn-handler"}
+    },
+    "sign_up_btn":{
+            "locator": {"id": "create-account-button"}
+    },
+    "menu_toggle_btn":{
+            "locator": {"css selector": "button[aria-label='Toggle Menu']"}
+    },
+    "account_hp_plus_member":{
+        "locator": {"css selector": "div[data-testid='account-status-content']"}
+    },
+    "account_summary_title":{
+        "locator": {"css selector": "div[data-testid='account-dashboard']"}
+    },
+    "close_btn":{
+        "locator": {"css selector": "button[data-testid='home-close-button']"}
+    },
+    "help_support_link":{
+        "locator": {"css selector": "a[href='https://support.hp.com']"}
+    },
+    "end_user_license_agreement_link":{
+        "locator": {"css selector": "a[href='https://www.hp.com/go/sweula']"}
+    },
+    "hp_privacy_link":{
+        "locator": {"css selector": "a[href='https://hp.com/privacy']"}
+    },
+    "hp_smart_terms_of_use_link":{
+        "locator": {"css selector": "a[href='https://www.hpsmart.com/tou']"}
+    },
+    "account_dashboard_btn":{
+        "locator": {"css selector": "li[data-testid='home-menu']"}
+    },
+    "hp_instant_ink_btn":{
+        "locator": {"css selector": "li[data-testid='print-plans-menu']"}
+    },
+    "printers_btn":{
+        "locator": {"css selector": "li[data-testid='my-printers-menu']"}
+    },
+    "users_btn":{
+        "locator": {"css selector": "li[data-testid='manage-users-menu']"}
+    },
+    "features_btn":{
+        "locator": {"css selector": "li[data-testid='services-menu']"}
+    },
+    "account_btn":{
+        "locator": {"css selector": "li[data-testid='my-account-menu']"}
+    },
+    "help_center_btn":{
+        "locator": {"xpath": "//div[@class = 'vn-side-menu__item-col-label' and contains(text(),'Help Center')]"}
+    },
+    "account_profile_title":{
+        "locator": {"css selector": "h4[data-testid='user-profile-header']"}
+    },
+    "profile_form":{
+        "locator": {"id": "profile-form"}
+    },
+    "chat_with_virtual_agent":{
+        "locator": {"css selector": "li[data-testid='portal-side-menu-va-button']"}
+    },
+    "va_start_chat_btn":{
+        "locator": {"css selector": "a.button[href*='virtualagent']"}
+    },
+    "va_cancel_btn":{
+        "locator": {"css selector": "Button[aria-label='Cancel']"}
+    },
+    "va_icon":{
+        "locator":{"css selector": "img[alt='virtual agent']"}
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "facebook_txt":{
+      "locator": {"str_id": "facebook_title"}
+    },
+    "google_photos_txt": {
+      "locator": {"str_id": "google_photos"}
+    },
+    "album_list":{
+      "locator": {"id": "album_recycler_view"}
+    },
+    "photo_thumbnail": {
+      "locator": {"id": "photo_thumbnail"}
+    },
+    "next_btn":{
+      "locator": {"id": "menu_next"}
+    },
+    "selected_num_txt": {
+      "locator": {"id": "action_bar_title"}
+    },
+    "exit_icon_btn": {
+      "locator": {"id": "exit_button"}
+    },
+    "over_10_photos_exit_icon_btn": {
+      "_comment": "it uses the same exit icon element, but different on GA screen name",
+      "locator": {"id": "action_mode_close_button"}
+    },
+    "fb_pwd_tf":{
+      "locator": {  "class name": "android.widget.EditText",
+                    "name": "Password"}
+    },
+    "fb_login_title":{
+      "locator": {"text": "Log in With Facebook",
+                  "xpath":  "//android.view.View[@content-desc = 'Log in With Facebook']"}
+    },
+    "fb_confirmation_continue_btn":{
+      "locator": {"text": "Continue as QA",
+                  "xpath": "//android.widget.Button[@content-desc = 'Continue as QA']"}
+    },
+    "log_into_another_account_btn":{
+      "locator": {"text": "Log Into Account Account"}
+    },
+    "fb_account_name":{
+      "locator": {"text": "{}"}
+    },
+    "fb_sv":{
+      "locator": {"id": "album_recycler_view"}
+    },
+    "fb_login_username_tf": {
+      "locator": {"xpath": "//android.widget.EditText[@resource-id='m_login_email' or @content-desc='Username']"}
+    },
+    "fb_login_password_tf": {
+      "locator": {"xpath": "//android.widget.EditText[@resource-id='m_login_password' or @content-desc='Password']"}
+    },
+    "fb_login_btn": {
+      "locator": {"xpath": ["//android.view.View[@resource-id='login_password_step_element']/android.widget.Button", "//*[@content-desc='Log In']"]}
+    },
+    "fb_login_continue_btn": {
+      "locator": {"text": "Continue",
+                  "xpath": "//android.widget.Button[@index='0']"}
+    },
+    "album_name":{
+      "locator": {"id": "album_name",
+                  "text": "{}"}
+    },
+    "google_photos_choose_account_popup": {
+      "locator": {"id": ["com.google.android.gms:id/account_picker", "com.google.android.gms:id/account_picker_container"]}
+    },
+    "google_photos_choose_acc_txt": {
+      "locator": {"text":  "{}"}
+    },
+    "google_photos_access_allow_btn": {
+      "locator": {"id":  "com.google.android.gms:id/accept_button", "xpath": "//android.view.View[@resource-id='submit_approve_access']/android.widget.Button[@text='Allow']"}
+    }
+}

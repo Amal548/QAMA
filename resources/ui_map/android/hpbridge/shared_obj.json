@@ -1,0 +1,44 @@
+{
+  "close_pa_btn":{
+      "description":"the close button to quit the public account",
+      "locator":{
+         "xpath":"//android.widget.ImageView[@content-desc='返回']"
+      }
+   },
+  "mp_loading_icon":{
+      "description":"the loading icon when launch the applet",
+      "locator":{
+         "xpath":"//android.widget.ProgressBar"
+      }
+   },
+  "top_arrow_back_btn": {
+    "description": "The back button on top right of the screen",
+    "locator": {
+      "id": "com.tencent.mm:id/q0"
+    }
+  },
+  "close_mp_btn": {
+    "description": "mini program close icon on top right of the screen",
+    "locator": {
+      "xpath": "//android.widget.ImageButton[@content-desc='关闭']"
+    }
+  },
+  "more_option_3dot_menu": {
+    "description": "The 3 dots menu on top right of the screen",
+    "locator": {
+      "xpath": "//android.widget.ImageButton[@content-desc='更多']"
+    }
+  },
+  "back_home_page": {
+    "description": "Back to home option on float screen",
+    "locator": {
+      "text": "回到首页"
+    }
+  },
+  "wechat_home_btn": {
+    "description": "Back to home option on float screen",
+    "locator": {
+      "xpath": "//android.widget.TextView[@text='微信']"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "privacy_title":{
+        "locator":{"css selector": "h1.privacy-heading"}
+    },
+    "continue_btn":{
+        "locator":{"css selector": "button[ng-click='nextStep()']"}
+    },
+    "learn_more_link":{
+        "locator":{
+            "xpath": "//XCUIElementTypeLink[@name='Learn more']",
+            "css selector": "a[href='https://hpsmart.com/plain/services-data-collection-notice/20200701']"
+        }
+    },
+    "your_privacy_title":{
+        "locator":{"css selector": "h3#onetrust-policy-title"}
+    },
+    "accept_btn":{
+        "locator":{
+            "xpath": "//XCUIElementTypeButton[@name='I ACCEPT']",
+            "css selector": "button#onetrust-accept-btn-handler"}
+    },
+    "hp_print_account_data_usage_notice": {
+        "locator": {
+            "xpath": "//XCUIElementTypeStaticText[@name='HP Print Account Data Usage Notice']"
+        }
+    }
+}

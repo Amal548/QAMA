@@ -1,0 +1,9 @@
+[
+  {"_comment": "create a printer_info.json with following format for printer discovery"},
+  {"ip address":  "",
+                   "bonjour name":  "it is for lasertjet printer format",
+                   "serial number":  "",
+                   "host name":  ""},
+  {"serial number":  ""}
+
+]

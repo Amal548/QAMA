@@ -1,0 +1,95 @@
+{
+  "search_btn": {
+    "locator": {"id": "com.hp.android.printservice:id/menu_search"}
+  },
+  "search_tf": {
+    "locator": {"id": "com.hp.android.printservice:id/search_src_text"}
+  },
+  "select_printer_txt": {
+    "locator": {"str_id": "title_activity_printer_picker"}
+  },
+  "no_printer_found_try_again_btn":{
+    "locator": {"id": "android:id/button1"}
+  },
+  "printer_list_scroll_view": {
+    "locator": {"id": "android:id/content"}
+  },
+  "printer_name": {
+    "locator": {"xpath": "//android.widget.TextView[@text=\"{}\"]"}
+  },
+  "printer_list_refresh":{
+    "locator": {"id": "com.hp.android.printservice:id/menu_refresh"}
+  },
+  "3dot_btn": {
+    "locator": {"accessibility_id": "More options"}
+  },
+  "print_btn": {
+    "locator": {"id": "com.hp.android.printservice:id/button_print"}
+  },
+  "print_preview_scroll_view": {
+    "locator": {"class_name": "android.widget.ScrollView"}
+  },
+  "copies_increment_btn": {
+    "locator": {"id": "com.hp.android.printservice:id/button_copies_increment"}
+  },
+  "copies_decrement_btn": {
+    "locator": {"id": "com.hp.android.printservice:id/button_copies_decrement"}
+  },
+  "num_of_copies_txt": {
+    "locator": {"id": "com.hp.android.printservice:id/num_copies"}
+  },
+  "color_list_btn": {
+    "locator": {"id": "com.hp.android.printservice:id/color_mode_spinner"}
+  },
+  "paper_size_list_btn": {
+    "locator": {"id": "com.hp.android.printservice:id/paper_size_spinner"}
+  },
+  "orientation_list_btn": {
+    "locator": {"id": "com.hp.android.printservice:id/orientation_spinner"}
+  },
+  "pages_range_button": {
+    "locator": {"id": "com.hp.android.printservice:id/page_range_editText"}
+  },
+  "more_option_btn": {
+    "locator": {"id": "com.hp.android.printservice:id/more_print_options"}
+  },
+  "trapdoor_hpps_txt": {
+    "locator": {"str_id": "app_name"}
+  },
+  "color_option_black_and_white": {
+    "locator": {"str_id": "color_mode__monochrome"}
+  },
+  "color_option_color":{
+    "locator": {"str_id": "color_mode__color"}
+  },
+  "orientation_portrait":{
+    "locator": {"str_id": "orientation__portrait"}
+  },
+  "orientation_landscape": {
+    "locator": {"str_id": "orientation__landscape"}
+  },
+  "paper_size_letter": {
+    "locator": {"str_id": "paper_size_letter"}
+  },
+  "paper_size_4x6": {
+    "locator": {"str_id": "paper_size_4x6"}
+  },
+  "remote_printer_model": {
+    "locator": {"str_id": "android:id/text1"}
+  },
+  "remote_printer_subtitle": {
+    "locator": {"str_id": "android:id/text2"}
+  },
+  "double_sided_list_btn": {
+    "locator": {"id": "com.hp.android.printservice:id/two_sided_spinner"}
+  }, 
+  "double_sided_none": {
+    "locator": {"str_id": "duplex_option_none"}
+  }, 
+  "double_sided_long_edge":{
+    "locator": {"str_id": "duplex_option_long_edge"}
+  },
+  "double_sided_short_edge":{
+    "locator": {"str_id": "duplex_option_short_edge"}
+  }
+}

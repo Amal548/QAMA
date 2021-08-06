@@ -1,0 +1,23 @@
+{
+    "continue_btn":{
+        "locator":{"css selector":"button#consent-continue-button"}
+    },
+    "app_analytics_toggle":{
+        "locator":{"css selector":"span#app-analytics-toggle"}
+    },
+    "personalized_suggestions_toggle":{
+        "locator":{"css selector":"span#personalized-suggestions-toggle"}
+    },
+    "advertising_toggle":{
+        "locator":{"css selector":"span#advertising-toggle"}
+    },
+    "back_button":{
+        "locator":{"css selector": "button#consent-back-button"}
+    },
+    "manage_your_hp_smart_privacy_preference": {
+        "locator": {"css selector": ["h4#title-text", "h4#settings-container-title"]}
+    },
+    "privacy_consents_items": {
+        "locator": {"css selector": "div#privacy-consents-items"}
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "baidu_netdisk_print":{
+      "description":"baidu netdisk print field",
+      "locator":{
+         "xpath":"//android.view.View[@text='百度网盘打印']"
+      }
+   },
+  "item_spec":{
+      "description":"using the folder name to locate the folder",
+      "locator":{
+         "xpath":"//android.view.View[@text='{}']/.."
+      }
+   },
+  "file_checkbox":{
+      "description":"using name to locate the file and the file checkbox",
+      "locator":{
+         "xpath":"//android.view.View/android.widget.CheckBox"
+      }
+   },
+  "confirm_button":{
+      "description":"click confirm button after selected a file",
+      "locator":{
+         "xpath":"//android.widget.Button[@text='确定 ']"
+      }
+   }
+}

@@ -1,0 +1,67 @@
+{
+  "menu_search":{
+    "locator": {"id":"com.google.android.apps.docs.editors.sheets:id/action_search"}
+  },
+  "search_tf":{
+    "locator": {"id": "com.google.android.apps.docs.editors.sheets:id/search_query_edittext"}
+  },
+
+  "welcome_screen": {
+    "locator": {"id": "com.google.android.apps.docs.editors.sheets:id/skip"}
+  },
+
+  "3dot_button":{
+    "locator": {"id": "com.google.android.apps.docs.editors.sheets:id/more_actions_button"}
+  },
+  "3dot_menu_sv": {
+    "locator": {"id": "com.google.android.apps.docs.editors.sheets:id/design_bottom_sheet"}
+  },
+  "go_back":{
+    "locator": {"xpath": "//android.widget.ImageButton"}
+  },
+  "scroll_view":{
+    "locator": {"id": "com.google.android.apps.docs.editors.sheets:id/menu_recycler_view"}
+  },
+  "list_cell":{
+    "locator": {"xpath": "//android.support.v7.widget.LinearLayoutCompat"}
+  },
+  "menu_list":{
+    "locator": {"id":"com.google.android.apps.docs.editors.sheets:id/recycler"}
+  },
+  "menu_option_name": {
+    "locator": {"id": "com.google.android.apps.docs.editors.sheets:id/label"}
+  },
+  "progress_bar": {
+    "locator": {"id": "com.google.android.apps.docs.editors.docs:id/progress_bar"}
+  },
+  "prepare_file":{
+    "locator": {"id": "android:id/progress"}
+  },
+  "print_text": {
+    "locator": {"xpath": "//android.widget.TextView[@text='{}']"},
+    "languages": {
+      "he": "הדפס",
+      "en": "Print",
+      "en-rCA": "Print",
+      "en-rUS": "Print",
+      "es": "Impresión",
+      "fi": "Tulosta",
+      "fr": "Impression",
+      "ja": "印刷",
+      "hu": "Nyomtatás",
+      "it": "Stampare",
+      "ko": "인쇄",
+      "nb": "Printing",
+      "nl": "Afdrukken",
+      "pl": "Wydrukować",
+      "pt": "Impressão",
+      "ru": "Распечатать",
+      "sv": "Skriva ut",
+      "tr": "baskı",
+      "zh-Hans": "打印",
+      "zh-Hant": "打印",
+      "zh-rCN": "打印",
+      "zh-rTW": "打印"
+    }
+  }
+}

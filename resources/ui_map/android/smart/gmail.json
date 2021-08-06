@@ -1,0 +1,33 @@
+{
+    "send_btn":{
+      "locator": {"id": "com.google.android.gm:id/send"}
+    },
+    "from_picker":{
+      "locator": {"id": "com.google.android.gm:id/from_picker",
+        "xpath": "//android.widget.Spinner[1]"}
+
+    },
+    "from_tf":{
+      "locator": {"text": "{}",
+                  "id": ["com.google.android.gm:id/spinner_account_address", "com.google.android.gm:id/from_account_name"]}
+    },
+    "to_tf":{
+      "_comment": "xpath is for Android 11",
+      "locator": {"id": "com.google.android.gm:id/to",
+                  "xpath": "//android.view.ViewGroup[@resource-id='com.google.android.gm:id/peoplekit_autocomplete_chip_group']/android.widget.EditText"}
+
+    },
+    "subject_tf":{
+      "locator":{"id": "com.google.android.gm:id/subject"}
+
+    },
+    "compose_email_tf":{
+      "locator": {"xpath": "//*[@id='com.google.android.gm:id/body_wrapper']//android.view.View"}
+    },
+    "popup_ok_btn": {
+      "locator": {"id": "andoird:id/button1",
+        "name": "OK",
+        "xpath": "//android.widget.Button"}
+
+    }
+}

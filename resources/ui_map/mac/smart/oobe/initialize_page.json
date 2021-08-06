@@ -1,0 +1,9 @@
+{
+    "starting_up_contents":{
+    "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXStaticText[@AXIdentifier='_NS:11']"}
+	},
+    
+    "busy_indicator":{
+    "locator": {"xpath": "/AXApplication[@AXTitle='HP Smart']/AXWindow[@AXIdentifier='_NS:12' and @AXSubrole='AXStandardWindow']/AXBusyIndicator[@AXIdentifier='_NS:35']"}
+	}
+}

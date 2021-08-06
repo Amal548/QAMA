@@ -1,0 +1,24 @@
+{
+    "claim_code_direction":{
+        "locator": {"css selector": "div#claimCodeDirections"}
+      },
+    "settings_btn":{
+            "locator": {"css selector": "div[class*='UserProfile__Container']"}
+    },
+    "sign_out_btn":{
+            "locator": {"css selector": ["a#gnb-settingsDropDown-signout",
+                                          "li[data-value='Sign Out']"]}
+    },
+    "personalize_email_address_close_btn": {
+      "locator": {"xpath": "//a[contains(@class, 'modalWindow--close close-button')]"}
+    },
+    "remove_printer_link": {
+            "locator": {"id": "remove-printer-link"} 
+    },
+    "remove_printer_modal_remove_btn":{
+            "locator": {"id": "remove-printer-modal-remove-btn"}
+    },
+    "claim_code_txt_box":{
+            "locator": {"id": "claim-code-input"}
+    }
+}

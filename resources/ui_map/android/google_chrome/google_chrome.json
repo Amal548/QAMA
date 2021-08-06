@@ -1,0 +1,125 @@
+{
+  "welcome_screen_accept_btn":{
+    "locator": {"id": "com.android.chrome:id/terms_accept"}
+  },
+
+  "ok_got_it_btn":
+  {
+    "locator": {"id": "com.android.chrome:id/positive_button"}
+  },
+
+  "home_icon_btn":{
+    "locator":{"id":"com.android.chrome:id/home_button"}
+  },
+  "web_page_search_box":
+  {
+    "locator": {"id": "com.android.chrome:id/search_box_text"}
+  },
+
+  "search_box_for_url":{
+    "locator":{"id":"com.android.chrome:id/url_bar"}
+  },
+  "3_dot_menu_btn":{
+    "locator":{"id":"com.android.chrome:id/menu_button"}
+  },
+  "3_dot_menu_tray":{
+    "locator":{"id":"com.android.chrome:id/app_menu_list"}
+  },
+  "share_button":{
+    "locator":{"accessibility id": "Share…"}
+  },
+  "system_trap_door_type_sv":{
+    "locator":{"id":"android:id/resolver_list"}
+  },
+  "print_text": {
+    "locator": {"xpath": "//android.widget.TextView[@text='{}']"}
+    },
+  "place_holder_text": {
+    "locator": {"text": "{}"}
+  },
+  "search_result": {
+    "locator": {
+      "xpath": "//android.widget.FrameLayout[@resource-id='com.android.chrome:id/omnibox_results_container']//android.widget.LinearLayout[1]"
+    }
+  },
+  "settings_item": {
+    "locator": {
+      "text": "Settings"
+    }
+  },
+  "privacy_item": {
+    "locator": {
+      "str_id": "prefs_privacy"
+    }
+  },
+  "clear_browsing_data": {
+    "locator": {
+      "str_id": "clear_browsing_data_title"
+    }
+  },
+
+  "basic_tab": {
+    "locator": {
+      "str_id": "clear_browsing_data_basic_tab_title"
+    }
+  },
+
+  "time_range": {
+    "locator": {
+      "xpath": "//android.widget.Spinner[@resource-id = 'com.android.chrome:id/spinner']"
+    }
+  },
+
+  "all_time_text": {
+    "locator": {
+      "str_id": "clear_browsing_data_tab_period_everything"
+    }
+  },
+
+  "clear_browsing_history_title": {
+    "locator": {
+      "str_id": "clear_history_title"
+    }
+  },
+
+  "clear_cookies_title": {
+    "locator": {
+       "str_id": "clear_cookies_and_site_data_title"
+    }
+  },
+
+  "clear_cache_title": {
+    "locator": {
+       "str_id": "clear_cache_title"
+    }
+  },
+
+  "browsing_history_check_box": {
+    "locator": {
+      "xpath": "//android.widget.CheckBox[../../*[android.widget.TextView[@text='{}']]]"
+    }
+  },
+
+  "cookies_check_box": {
+    "locator": {
+       "xpath": "//android.widget.CheckBox[../../*[android.widget.TextView[@text='{}']]]"
+    }
+  },
+
+  "cached_images_check_box": {
+    "locator": {
+       "xpath": "//android.widget.CheckBox[../../*[android.widget.TextView[@text='{}']]]"
+    }
+  },
+
+  "clear_btn": {
+    "locator": {
+      "xpath": "//android.widget.Button[@resource-id = 'com.android.chrome:id/clear_button']"
+    }
+  },
+  "webview_close_btn": {
+    "locator": {"id": "com.android.chrome:id/close_button",
+                "xpath": "//android.widget.ImageButton[@class = 'android.widget.ImageButton']"}
+  }
+
+}

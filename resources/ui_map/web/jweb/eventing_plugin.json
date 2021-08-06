@@ -1,0 +1,77 @@
+{
+  "eventing_dispatch_close_item" : {
+    "locator": {
+      "css selector": "#sendEvent > button.vn-panel__header.vn-panel__collapsible-header"
+    }
+  },
+  "eventing_dispatch_open_item" : {
+    "locator": {
+      "css selector": "#sendEvent > button.vn-panel__header.vn-panel__collapsible-header.vn-panel__collapsible-header--collapsed"
+    }
+  },
+  "multiple_event_result_text" : {
+    "locator": {
+      "css selector": "#addListenerEvents"
+    }
+  },
+  "add_listener_test_result_text" : {
+    "locator": {
+      "css selector": "#addListenerResult"
+    }
+  },
+  "add_listener_test_result_txt" : {
+    "locator": {
+      "css selector": "#eventDataField"
+    }
+  },
+  "add_listener_pop_up_close_btn": {
+    "locator": {
+      "css selector": "button[aria-label='close']"
+    }
+  },
+  "pop_up_toast_text": {
+    "locator": {
+      "css selector": "div[class*='ToastNotification'] div span"
+    }
+  },
+  "eventing_add_listener_btn" : {
+    "locator": {
+      "css selector": "#addListenerButton"
+    }
+  }, 
+  "eventing_native_element_listener_field" : {
+    "locator": {
+      "css selector": "#eventingAddListenerTextBox"
+    }
+  },
+  "eventing_test_button": {
+    "locator": {
+      "css selector": "#sendEventTestButton"
+    }
+  },
+  "eventing_name_field": {
+    "locator": {
+      "css selector": "#nameField"
+    }
+  },
+  "eventing_data_field": {
+    "locator": {
+      "css selector": "#dataField"
+    }
+  },
+  "eventing_test_result_txt": {
+    "locator": {
+      "css selector": "#dispatchEventResult"
+    }
+  },
+  "eventing_send_jarvis_test_btn": {
+    "locator": {
+      "css selector": "#sendJarvisEventTestButton"
+    }
+  },
+  "eventing_jarvis_options_test_result": {
+    "locator": {
+      "css selector": "#dispatchEventResult"
+    }
+  }
+}

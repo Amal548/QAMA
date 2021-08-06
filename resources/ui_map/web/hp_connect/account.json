@@ -1,0 +1,56 @@
+{
+    "account_btn":{
+        "locator": {"css selector": "li[data-testid='my-account-menu']"}
+    },
+    "billing_btn":{
+        "locator": {"css selector": "li[data-testid='billing-submenu']"}
+    },
+    "shipping_btn":{
+        "locator": {"css selector": "li[data-testid='shipping-submenu']"}
+    },
+    "account_profile_btn":{
+        "locator": {"css selector": "a[href*='account-details/profile']"}
+    },
+    "view_notifications_btn":{
+        "locator": {"css selector": "a[href*='account-details/view-notifications']"}
+    },
+    "notification_settings_btn":{
+        "locator": {"css selector": "a[href*='account-details/notification-settings']"}
+    },
+    "privacy_settings_btn":{
+        "locator": {"css selector": "a[href*='account-details/privacy-settings']"}
+    },
+    "account_profile_title":{
+        "locator": {"css selector": "h4[data-testid='user-profile-header']"}
+    },
+    "view_notifications_title":{
+        "locator": {"css selector": "div[data-testid='view-notifications']"}
+    },
+    "view_notifications_container":{
+        "locator": {"css selector": "[data-testid='notifications-container']"}
+    },
+    "notification_settings_title":{
+        "locator": {"css selector": "div[data-testid='notification-settings']"}
+    },
+    "notification_settings_container":{
+        "locator": {"css selector": "[data-testid='notifications-settings-container']"}
+    },
+    "privacy_settings_title":{
+        "locator": {"css selector": "div[data-testid='privacy-settings']"}
+    },
+    "privacy_settings_container":{
+         "locator": {"css selector": "[data-testid='privacy-settings-container']"}
+    },
+    "billing_title":{
+        "locator": {"css selector": "div[data-testid='billing']"}
+    },
+    "billing_container": {
+        "locator": {"id": "credit-card-information"}
+    },
+    "shipping_title":{
+        "locator": {"css selector": "div[data-testid='shipping']"}
+    },
+    "shipping_container": {
+        "locator": {"id": "shipping-information-page"}
+    }
+}

@@ -1,0 +1,215 @@
+{
+  "title": {
+    "locator": {"str_id":  "landing_page_title_preview"}
+  },
+  "nav_btns_layout":{
+      "locator": {"class name": "androidx.appcompat.widget.LinearLayoutCompat"}
+  },
+  "edit_btn": {
+    "locator": {"str_id": "edit"}
+  },
+  "delete_btn": {
+    "locator": {"str_id": "delete"}
+  },
+  "replace_btn": {
+    "locator": {"str_id": "replace"}
+  },
+  "more_opt_btn": {
+    "locator": {"class name": "android.widget.ImageView"}
+  },
+  "opt_print_help":{
+    "locator": {"str_id": "print_help",
+                 "id": "title"}
+  },
+  "preview_files_sv": {
+    "locator": {"id":  "image_recycler_view"}
+  },
+  "img_number_txt":{
+    "locator": {"id": "image_number"}
+  },
+  "add_btn": {
+    "locator": {"id": "add_page_chip"}
+  },
+  "bottom_nav_sv": {
+    "locator": {"id":  "landingPageBottomLayout"}
+  },
+  "print_btn": {
+    "locator": {"str_id":  "print"}
+  },
+  "share_btn": {
+    "locator": {"str_id":  "share"}
+  },
+  "smart_task_btn": {
+    "locator": {"str_id":  "shortcuts_title_plural"}
+  },
+  "save_btn": {
+    "locator": {"str_id":  "save"}
+  },
+  "fax_btn": {
+    "locator": {"str_id":  "fax"}
+  },
+  "next_btn": {
+    "locator": {"id":  "nextbutton"}
+  },
+  "share_gmail_btn":{
+    "locator": {"str_id": "gmail"}
+  },
+  "share_gdrive_btn":{
+    "_comment": "Load Google Drive string table from resources/test_data/apk_files/gdrive.apk",
+    "locator":{"text": "{}"}
+  },
+  "print_help_title":{
+    "locator": {"id": "printer_setup_help_title"}
+  },
+  "print_help_ok_btn":{
+    "locator": {"id": "printersetup_help_ok_button"}
+  },
+  "are_you_sure_popup_title":{
+    "locator": {"str_id": "m_permission_required_title_new"}
+  },
+  "are_you_sure_popup_cancel_btn":{
+    "locator": {"id": "android:id/button2"}
+  },
+  "are_you_sure_popup_leave_btn":{
+    "locator": {"id": "android:id/button1"}
+  },
+  "reduce_size_popup_title":{
+    "locator": {"id": "fileSizeReductionTitle",
+                "str_id": "file_size_reduction_title"}
+  },
+  "reduce_size_popup_small_btn":{
+    "locator": {"id": "buttonSmallSize"}
+  },
+  "reduce_size_popup_medium_btn":{
+    "locator": {"id": "buttonMediumSize"}
+  },
+  "reduce_size_popup_actual_size_btn":{
+    "locator": {"id": "buttonActualSize"}
+  },
+  "reduce_size_popup_cb":{
+    "locator": {"id": "checkBoxDontShowMeAgain"}
+  },
+  "share_option_title": {
+    "locator": {"str_id":  "share_options_page_title"}
+  },
+  "save_option_title": {
+    "locator": {"str_id":  "save_options_page_title"}
+  },
+  "option_screen_file_name_tf": {
+    "locator": {"id":  "fileNameEditText"}
+  },
+  "option_screen_pdf_btn": {
+    "locator": {"str_id":  "share_options_file_type_title_basic_pdf"}
+  },
+  "option_screen_jpg_btn": {
+    "locator": {"str_id":  "share_options_file_type_title_jpeg"}
+  },
+  "option_screen_file_type_spinner_btn": {
+    "locator": {"id":  "fileTypeSpinner"}
+  },
+  "option_screen_file_type_title": {
+    "locator": {"id":  "fileTypeTitle"}
+  },
+  "option_screen_action_btn": {
+    "_comment": "to verify correctly, using nav_share_btn or nav_share_btn to get string ",
+    "locator": {"id":  "actionButton",
+                "text": "{}"}
+  },
+  "option_screen_saved_file_message_popup": {
+    "locator": {"id":  "android:id/message"}
+  },
+  "option_screen_saved_file_message_popup_ok_btn": {
+    "locator": {"id": "android:id/button1"}
+  },
+  "softfax_limit_msg": {
+    "_comment": "string of message is customized number in string id, so it cannot be used by str id directly",
+    "locator": {"text": "{}"}
+  },
+  "softfax_size_limit_txt": {
+    "_commnt": "this element is has dynamic value in string, so use it with softfax_limit_msg",
+    "locator": {"str_id": "softfax_file_size_limit"}
+  },
+  "softfax_page_limit_txt": {
+    "locator": {"str_id": "softfax_page_count_limit"}
+  },
+  "reorder_btn": {
+    "locator": {"id": "reorder_page_btn"}
+  },
+  "file_size_spinner": {
+    "locator": {"id": "fileSizeSpinner"}
+  },
+  "file_size_list": {
+    "_comment": "for verification, using file_size_actual_size or file_size_medium or file_size_small to get string ",
+    "locator": {"partial_text": "{}",
+                "id": "android:id/text1"}
+  },
+  "file_size_small": {
+    "locator": {"str_id": "file_size_small"}
+  },
+  "file_size_medium": {
+    "locator": {"str_id": "file_size_medium"}
+  },
+  "file_size_actual_size": {
+    "locator": {"str_id": "file_size_actual"}
+  },
+  "document_size": {
+    "locator": {"id": "pageSizeHeaderTextView"}
+  },
+  "document_size_spinner": {
+    "locator": {"id": "pageSizeSpinner"}
+  },
+  "print_format": {
+    "locator": {"str_id": "print_format"}
+  },
+  "print_plugin_cb": {
+    "locator": {"id": "printersetup_hp_printservice_plugin_checkBox"}
+  },
+  "printing_settings_cb": {
+    "locator": {"id": "printersetup_printing_settings_checkBox"}
+  },
+  "printer_select_cb": {
+    "locator": {"id": "printersetup_printerselection_checkBox"}
+  },
+  "open_print_settings": {
+    "locator": {"str_id":  "dialog_help_on_printing_hp_Serviceplugin_steps_2_link"}
+  },
+  "open_google_play": {
+    "locator": {"str_id":  "dialog_help_on_printing_hp_Serviceplugin_steps_1_link"}
+  },
+  "page_options_btn": {
+    "locator": {"id": "pageOptionsButton"}
+  },
+  "option_icon": {
+    "locator": {"id": "icon"}
+  },
+  "print_as_jpg": {
+    "locator": {"id": "radioButtonImage"}
+  },
+  "print_as_pdf": {
+    "locator": {"id": "radioButtonDocument"}
+  },
+  "print_size_txt":{
+    "locator":{"str_id": "print_size"}
+  },
+  "print_size_4x6_two_sided_btn":{
+    "locator":{"str_id": "imperial_4x6_duplex"}
+  },
+  "print_size_4x6_standard_btn":{
+    "locator":{"str_id": "imperial_4x6_standard"}
+  },
+  "print_size_5x7_btn":{
+    "locator":{"str_id": "imperial_5x7"}
+  },
+  "print_size_5x5_square_btn":{
+    "locator":{"str_id": "imperial_5x5_square"}
+  },
+  "print_size_4x12_panoramic_btn":{
+    "locator":{"str_id": "imperial_4x12_panoramic"}
+  },
+  "print_size_8_5x11_letter_btn":{
+    "locator":{"str_id": "imperial_8_5x11_letter"}
+  },
+  "print_size_a4_btn":{
+    "locator":{"str_id": "imperial_A4"}
+  }
+}

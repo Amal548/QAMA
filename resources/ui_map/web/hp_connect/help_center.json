@@ -1,0 +1,131 @@
+{
+    "about_hp_smart_link": {
+        "locator": {"css selector": "a[href*='about-hp-smart']"}
+    },
+    "hp_plus_link":{
+        "locator": {"css selector": "a[href*='hp-plus']"}
+    },
+    "printer_connection_information_link":{
+        "locator": {"css selector": "a[href*='printer-and-connection-information']"}
+    },
+    "print_scan_share_link":{
+        "locator": {"css selector": "a[href*='printing-and-scanning']"}
+    },
+    "additional_help_and_support_link":{
+        "locator": {"css selector": "a[href*='additional-help-and-support']"}
+    },
+    "help_center_container":{
+        "locator": {"css selector": "div[data-testid='help-center-container']"}
+    },
+    "getting_to_know_hp_smart_link":{
+        "locator": {"css selector": "a[href*='getting-to-know-hp-smart']"}
+    },
+    "starting_off_link":{
+        "locator": {"css selector": "a[href*='starting-off']"}
+    },
+    "sharing_files_link":{
+        "locator": {"css selector": "a[href*='sharing-files']"}
+    },
+    "getting_to_know_hp_smart_title": {
+        "locator": {"css selector": "div[data-testid='getting-to-know-hp-smart']"}
+    },
+    "starting_off_title": {
+        "locator": {"css selector": "div[data-testid='starting-off']"}
+    },
+    "sharing_files_title": {
+       "locator": {"css selector": "div[data-testid='sharing-files']"}
+    },
+    "what_is_hp_plus_link":{
+        "locator": {"css selector": "a[href*='whatishpplus']"}
+    },
+    "hp_smart_security_link":{
+        "locator": {"css selector": "a[href*='hpsmartsecurity']"}
+    },
+    "print_anywhere_link":{
+        "locator": {"css selector": "a[href*='printanywhere']"}
+    },
+    "what_is_hp_plus_title":{
+        "locator": {"css selector": "div[data-testid='what-is-hp+?']"}
+    },
+    "hp_smart_security_title":{
+        "locator": {"css selector": "div[data-testid='hp-smart-security']"}
+    },
+    "print_anywhere_title":{
+        "locator": {"css selector": "div[data-testid='print-anywhere']"}
+    },
+    "printing_link":{
+        "locator": {"css selector": "a[href*='printing-and-scanning/printing']"}
+    },
+    "scanning_link":{
+        "locator": {"css selector": "a[href*='printing-and-scanning/scanning']"}
+    },
+    "fax_link":{
+        "locator": {"css selector": "a[href*='printing-and-scanning/fax']"}
+    },
+    "view_print_link":{
+        "locator": {"css selector": "a[href*='preview-and-edit']"}
+    },
+    "hp_instant_ink_link":{
+        "locator": {"css selector": "a[href*='printing-and-scanning/hp-instant-ink']"}
+    },
+    "shortcuts_link":{
+        "locator": {"css selector": "a[href*='printing-and-scanning/shortcuts']"}
+    },
+    "printing_title":{
+        "locator": {"css selector": "div[data-testid='printing']"}
+    },
+    "scanning_title":{
+        "locator": {"css selector": "div[data-testid='scanning']"}
+    },
+    "fax_title":{
+        "locator": {"css selector": "div[data-testid='fax']"}
+    },
+    "view_print_title":{
+        "locator": {"css selector": "div[data-testid='view-&-print']"}
+    },
+    "hp_instant_ink_title":{
+        "locator": {"css selector": "div[data-testid='hp-instant-ink']"}
+    },
+    "shortcuts_title": {
+        "locator": {"css selector": "div[data-testid='shortcuts']"}
+    },
+    "print_anywhere_online_support_link":{
+        "locator": {"css selector": "a[href='https://www.hp.com/go/printanywheresupport']"}
+    },
+    "shortcuts_online_support_link":{
+        "locator": {"css selector": "a[href='https://www.hp.com/go/SmartTasksSupport']"}
+    },
+    "hp_mobile_printing_link":{
+        "locator": {"css selector": "a[href='https://www.hp.com/go/MobilePrinting']"}
+    },
+    "go_to_hp_support_link":{
+        "locator": {"css selector": "a[href='https://support.hp.com/us-en/document/c03561640?openCLC=true']"}
+    },
+    "printer_support_link":{
+        "locator": {"css selector": "a[href='https://support.hp.com/us-en/document/c03561640?openCLC=true']"}
+    },
+    "finding_your_printer_link":{
+        "locator": {"css selector": "a[href*='finding-your-printer']"}
+    },
+    "connecting_to_your_printer_link":{
+        "locator": {"css selector": "a[href*='connecting-to-your-printer']"}
+    },
+    "viewing_printer_information_link":{
+        "locator": {"css selector": "a[href*='viewing-printer-information']"}
+    },
+    "print_service_plugin_link":{
+        "locator": {"css selector": "a[href*='print-service-plugin']"}
+    },
+    "finding_your_printer_title":{
+        "locator": {"css selector": "div[data-testid='finding-your-printer']"}
+    },
+    "connecting_to_your_printer_title":{
+        "locator": {"css selector": "div[data-testid='connecting-to-your-printer']"}
+    },
+    "viewing_printer_information_title":{
+        "locator": {"css selector": "div[data-testid='viewing-printer-information']"}
+    },
+    "print_service_plugin_title":{
+        "locator": {"css selector": "div[data-testid='print-service-plugin']"}
+    }
+}

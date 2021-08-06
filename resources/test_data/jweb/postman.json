@@ -1,0 +1,91 @@
+{
+  "name": "[oauth2.authorization_code] Authorization Code Flow",
+  "request": {
+    "auth": {
+      "type": "noauth"
+    },
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{stratus.authorization_endpoint}}?response_type=code&client_id={{stratus.authcodeflow.clientId}}&redirect_uri={{stratus.redirect_uri}}&scope=openid+email+profile&prompt=consent&state={{$guid}}",
+      "host": [
+        "{{stratus.authorization_endpoint}}"
+      ],
+      "query": [
+        {
+          "key": "response_type",
+          "value": "code"
+        },
+        {
+          "key": "client_id",
+          "value": "{{stratus.authcodeflow.clientId}}"
+        },
+        {
+          "key": "redirect_uri",
+          "value": "{{stratus.redirect_uri}}"
+        },
+        {
+          "key": "scope",
+          "value": "openid+email+profile"
+        },
+        {
+          "key": "prompt",
+          "value": "consent"
+        },
+        {
+          "key": "state",
+          "value": "{{$guid}}"
+        }
+      ]
+    }
+  },
+  "name": "[oauth2.authorization_code] Get Token",
+  "request": {
+    "auth": {
+      "type": "basic",
+      "basic": [
+        {
+          "key": "password",
+          "value": "{{stratus.authcodeflow.clientSecret}}",
+          "type": "string"
+        },
+        {
+          "key": "username",
+          "value": "{{stratus.authcodeflow.clientId}}",
+          "type": "string"
+        }
+      ]
+    },
+    "method": "POST",
+    "header": [
+      {
+        "key": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "body": {
+      "mode": "raw",
+      "raw": ""
+    },
+    "url": {
+      "raw": "{{stratus.token_endpoint}}?grant_type=authorization_code&code=Am46lardthENF1D9EpHX1Z&redirect_uri={{stratus.redirect_uri}}",
+      "host": [
+        "{{stratus.token_endpoint}}"
+      ],
+      "query": [
+        {
+          "key": "grant_type",
+          "value": "authorization_code"
+        },
+        {
+          "key": "code",
+          "value": "Am46lardthENF1D9EpHX1Z"
+        },
+        {
+          "key": "redirect_uri",
+          "value": "{{stratus.redirect_uri}}"
+        }
+      ]
+    }
+  }
+}

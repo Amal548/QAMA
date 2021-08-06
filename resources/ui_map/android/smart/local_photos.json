@@ -1,0 +1,18 @@
+{
+  "photo_album_title":{
+    "locator": {"id": "com.google.android.apps.photos:id/title",
+                "text": "{}"}
+  },
+  "photos_lv":{
+    "locator": {"class name": "android.support.v7.widget.RecyclerView"}
+  },
+  "photo_thumbnail":{
+    "locator": {"class name": ["android.view.ViewGroup", "android.view.View"]}
+  },
+  "select_photo_title":{
+    "locator": {"id": "com.google.android.apps.photos:id/toolbar"}
+  },
+  "close_btn": {
+    "locator": {"id": "com.google.android.apps.photos:id/action_mode_close_button"}
+  }
+}

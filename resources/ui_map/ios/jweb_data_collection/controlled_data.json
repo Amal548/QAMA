@@ -1,0 +1,142 @@
+{
+  "controlled_data_refresh_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='refresh']"
+    }
+  },
+  "controlled_data_warning_btn": {
+    "locator": {
+      "xpath": "//XCUIElementTypeButton[@name='warning']"
+    }
+  },
+  "printer_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Printer']/following::XCUIElementTypeStaticText[2]"
+    }
+  },
+  "application_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='Application']/following::XCUIElementTypeStaticText[2]"
+    }
+  },
+  "associated_device_product_number": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='associatedDeviceProductNumber']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "associated_device_uuid": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='associatedDeviceUuid']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "associated_stratus_user_uuid": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='associatedStratusUserId']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "app_caid": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='appCaid']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "app_name": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='appName']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "app_package_deployed_uuid": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='appPackageDeployedUuid']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "app_package_id": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='appPackageId']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "app_version": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='appVersion']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "behavior_click": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='behaviorClick']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "os_architecture": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='osArchitecture']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "os_country_region": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='osCountryRegion']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "os_language": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='osLanguage']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "os_name": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='osName']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "os_platform": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='osPlatform']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "os_screen_resolution": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='osScreenResolution']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "os_version": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='osVersion']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "sys_architecture": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='sysArchitecture']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "sys_battery_enabled": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='sysBatteryEnabled']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "sys_category": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='sysCategory']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "sys_manufacturer": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='sysManufacturer']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "sys_model_name": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='sysModelName']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "sys_sku": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='sysSku']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "sys_touch_enabled": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='sysTouchEnabled']/following::XCUIElementTypeStaticText[1]"
+    }
+  },
+  "sysUuid": {
+    "locator": {
+      "xpath": "//XCUIElementTypeStaticText[@name='sysUuid']/following::XCUIElementTypeStaticText[1]"
+    }
+  }
+}

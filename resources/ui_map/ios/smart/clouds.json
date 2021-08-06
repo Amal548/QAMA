@@ -1,0 +1,97 @@
+{
+    "back_btn":{
+        "locator":{
+            "name":"Navigate Back"
+        }
+    },
+    "add_account_title":{
+        "locator":{
+            "name":"Add Account"
+        }
+    },
+    "cancel_btn":{
+        "locator":{
+            "name":"Cancel"
+        }
+    },
+    "box_btn":{
+        "locator":{
+            "name":"Box"
+        }
+    },
+    "dropbox_btn":{
+        "locator":{
+            "name":"Dropbox"
+        }
+    },
+    "evernote_btn":{
+        "locator":{
+            "str_id":"cEvernote"
+        }
+    },
+    "facebook_btn":{
+        "locator":{
+            "name":"Facebook"
+        }
+    },
+    "google_drive_btn":{
+        "locator":{
+            "str_id":"cGoogleDrive"
+        }
+    },
+    "other_btn":{
+        "locator":{
+            "name":"Other"
+        }
+    },
+    "new_account_title":{
+        "locator":{
+            "name":"New Account"
+        }
+    },
+    "evernote_login_page_title":{
+        "locator":{
+            "name":"Sign in to authorize HP All-in-One Printer Remote"
+        }
+    },
+    "email_tv":{
+        "locator":{
+            "xpath":"//XCUIElementTypeTextField"
+        }
+    },
+    "continue_btn":{
+        "locator":{
+            "name":"Continue"
+        }
+    },
+    "password_tv":{
+        "locator":{
+            "xpath":"//XCUIElementTypeSecureTextField"
+        }
+    },
+    "signin_btn":{
+        "locator":{
+            "name":"Sign in"
+        }
+    },
+    "authorized_btn":{
+        "locator":{
+            "name":"Authorize"
+        }
+    },
+    "reauthorize_btn":{
+        "locator":{
+            "name":"Re-authorize"
+        }
+    },
+    "evernote_album_header_title":{
+        "locator":{
+            "xpath":"Evernote"
+        }
+    },
+    "evernote_authorize_page_header_title":{
+        "locator":{
+            "name":"Authorize HP All-in-One Printer Remote to access your account"
+        }
+    }
+}

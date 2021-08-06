@@ -1,0 +1,200 @@
+{
+  "smart_tasks_title": {
+      "locator": { "str_id": "shortcuts_title_plural"}
+    },
+  "smart_task_title": {
+    "locator": {"str_id": "shortcuts_title_singular"}
+  },
+  "animation_view": {
+    "locator": {"id":  "animation_view"}
+  },
+  "get_started_btn": {
+    "locator": {"str_id":  "shortcut_welcomescreen_fragment_btn_text"}
+  },
+  "smart_task_welcome_title":{
+    "locator": {"str_id": "shortcut_welcomescreen_fragment_title_text"}
+  },
+  "skip_btn": {
+    "locator": {"id": "action_skip"}
+  },
+  "smart_task_sigin_btn": {
+    "locator": {"id": "shortcut_signin_link"}
+  },
+  "create_smart_task_btn": {
+    "locator": {"id": "createShortcut_create"}
+  },
+  "add_smart_task_btn": {
+    "locator": {"id":  "fab"}
+  },
+  "no_smart_tasks_msg": {
+    "locator": {"id": "createShortcut_title1"}
+  },
+  "smart_tasks_learn_more_btn": {
+    "locator": {"id":  "createShortcut_whats_new"}
+  },
+  "smart_task_name_edit": {
+    "locator": {"id": "shortcutNameEditText"}
+  },
+  "smart_tasks_list_lv": {
+    "locator": {"id": "shortcuts_list"}
+  },
+  "smart_tasks_options_icon": {
+    "locator": {"xpath":  ["//android.widget.TextView[@resource-id='com.hp.printercontrol.debug:id/shortcutsOptions' and ../android.widget.TextView[@text='{}']]",
+                           "//android.widget.TextView[@resource-id='com.hp.printercontrol:id/shortcutsOptions' and ../android.widget.TextView[@text='{}']]"]}
+  },
+  "options_icon": {
+    "locator": {"id": "shortcutsOptions"}
+  },
+  "email_address_hint": {
+    "locator": {"str_id": "email_address_hint"}
+  },
+  "print_item": {
+    "locator": {"str_id": "print"}
+  },
+  "email_item": {
+    "locator": {"str_id": "email"}
+  },
+  "save_item": {
+    "locator": {"xpath": ["//android.widget.TextView[@resource-id = 'com.hp.printercontrol.debug:id/adapter_item_tv_item' and @text='Save']",
+                          "//android.widget.TextView[@resource-id = 'com.hp.printercontrol:id/adapter_item_tv_item' and @text='Save']"]}
+  },
+  "not_added": {
+    "locator": {"str_id": "not_added"}
+  },
+  "on_off_btn": {
+    "locator": {"id": "createShortcutSwitch"}
+  },
+  "save_btn": {
+    "locator": {"id": "saveMenuTextView"}
+  },
+  "save_to_dropbox": {
+    "locator": {"str_id": "dropbox"}
+  },
+   "save_to_ggdrive": {
+    "locator": {"str_id": "google_drive"}
+  },
+  "cloud_acc_switch": {
+    "locator": {"xpath": ["//android.widget.Switch[@resource-id= 'com.hp.printercontrol.debug:id/repo_switch' and ../android.widget.TextView[@text='{}']]",
+                          "//android.widget.Switch[@resource-id= 'com.hp.printercontrol:id/repo_switch' and ../android.widget.TextView[@text='{}']]"]}
+  },
+  "cloud_acc_title": {
+    "locator": {"id": "repo_name",
+                 "text": "{}"}
+  },
+  "smart_tasks_header": {
+    "locator": {"id": "shortcuts_header",
+                "text": "{}"}
+  },
+  "start_this_smart_task_btn": {
+    "locator": {"id": "android:id/button1"}
+  },
+  "back_to_smart_tasks_btn": {
+    "locator": {"id": "android:id/button2"}
+  },
+  "home_btn": {
+    "locator": {"id": "android:id/button3"}
+  },
+  "smart_task_photos": {
+    "locator": {"id": "start_shortcut_photos_flow"}
+  },
+  "smart_task_files": {
+    "locator": {"id": "start_shortcut_files_flow"}
+  },
+  "smart_task_scanner": {
+    "locator": {"id": "start_shortcut_scanner_flow"}
+  },
+  "smart_task_camera": {
+    "locator": {"id": "start_shortcut_camera_flow"}
+  },
+  "start_btn": {
+    "locator": {"str_id": "start_smart_tasks"}
+  },
+  "start_btn_from_preview": {
+    "locator": {"xpath": ["//android.widget.Button[@resource-id= 'com.hp.printercontrol.debug:id/startShortcutButton' and ../android.widget.TextView[@text='{}']]",
+                          "//android.widget.Button[@resource-id= 'com.hp.printercontrol:id/startShortcutButton' and ../android.widget.TextView[@text='{}']]"]}
+  },
+  "smart_task_created_title": {
+    "locator": {"id":  "titleTextView"}
+  },
+  "ok_btn": {
+    "locator": {"str_id": "ok"}
+  },
+  "delete_btn": {
+    "locator": {"str_id": "delete",
+                "xpath": ["//android.widget.TextView[@resource-id = 'com.hp.printercontrol.debug:id/title' and @text='Delete']",
+                          "//android.widget.TextView[@resource-id = 'com.hp.printercontrol:id/title' and @text='Delete']"]}
+  },
+  "delete_smart_task_popup_delete": {
+    "locator": {"xpath": "//android.widget.Button[@resource-id ='android:id/button1' and @text='DELETE']"}
+  },
+   "delete_smart_task_popup_cancel": {
+    "locator": {"xpath": "//android.widget.Button[@resource-id ='android:id/button2' and @text='CANCEL']"}
+  },
+  "are_you_sure_popup": {
+    "locator": {"str_id": "back_button_are_you_sure"}
+  },
+  "smart_task_name_missing_msg": {
+    "locator": {"str_id": "shortcut_name_missing"}
+  },
+  "smart_task_name_exist_msg": {
+    "locator": {"str_id": "shortcut_name_exists_msg"}
+  },
+  "two_sided_btn": {
+    "locator": {"str_id": "shortcut_print_two_sided"}
+  },
+  "two_side_off": {
+    "locator": {"str_id": "shortcut_print_two_sided_option1"}
+  },
+  "short_edge": {
+    "locator": {"str_id":  "shortcut_print_two_sided_option2"}
+  },
+  "long_edge": {
+    "locator": {"str_id":  "shortcut_print_two_sided_option3"}
+  },
+  "smart_task_saved_title": {
+    "locator": {"str_id": "shortcut_saved_dlg_title"}
+  },
+  "smart_task_saved_icon": {
+    "locator": {"id": "shortcut_saved_dlg_title_icon"}
+  },
+  "copies_btn": {
+    "locator": {"str_id": "roam_print_option_copies"}
+  },
+  "copies_spinner": {
+    "locator": {"id": "android:id/numberpicker_input",
+                "text": "{}"}
+  },
+  "color_btn": {
+    "locator": {"str_id@android.widget.TextView": "color"}
+  },
+  "smart_task_print_black_btn": {
+    "locator": {"str_id":  "shortcut_print_color_black"}
+  },
+  "smart_task_print_color_btn": {
+    "locator": {"str_id@android.widget.RadioButton": "color"}
+  },
+  "empty_email_msg": {
+    "locator": {"str_id": "no_email_entered_error_msg"}
+  },
+  "invalid_email_msg": {
+    "locator": {"str_id": "invalid_email_error_msg"}
+  },
+  "smart_task_complete_title": {
+    "locator": {"str_id": "upload_shortcut_complete_title"}
+  },
+  "smart_task_home_btn": {
+    "locator": {"id": "android:id/button1"}
+  },
+  "edit_btn": {
+    "locator": {"str_id": "edit"}
+  },
+  "welcome_smart_task_title": {
+    "locator": {"str_id": "welcome_smart_task_text"}
+  },
+  "custom_smart_tasks_message": {
+    "locator": {"str_id": "smart_task_action_sheet_common_content"}
+  },
+  "loading_message": {
+    "locator": {"id": "message"}
+  }
+}
